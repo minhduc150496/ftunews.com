@@ -368,7 +368,7 @@ Class TP_Admin {
                 if ( isset($poll_content['question']) ):
                     $new_options['question'] = $poll_content['question'];
                 endif;
-
+                /**/
 
                 // Choices
                 if ( !empty($poll_content['choices']) && is_array($poll_content['choices']) ):

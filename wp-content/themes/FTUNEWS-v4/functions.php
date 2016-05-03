@@ -250,7 +250,7 @@ function the_single_more($post)
             </div>
             <div class="col-md-12 col-xs-7 text">
                 <h4>
-                    <b><a href="<?php echo get_permalink($post->ID) ?>"><?php echo $post->post_name ?></a></b>
+                    <b><a href="<?php echo get_permalink($post->ID) ?>"><?php echo $post->post_title ?></a></b>
                 </h4>
             </div>
         </div>

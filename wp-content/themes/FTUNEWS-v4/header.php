@@ -157,7 +157,7 @@ foreach ($cats as $cat) {
                                                  style="background-image: url(<?php echo get_thumbnail_photo_url($p->ID)?>)">
                                             </div>
                                         </div>
-                                        <h5 class="three-dots title"><?php echo $p->post_name ?></h5>
+                                        <h5 class="three-dots title"><?php echo $p->post_title ?></h5>
                                     </a>
                                     <?php endforeach; ?>
                                 </div>
