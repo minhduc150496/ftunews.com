@@ -8,23 +8,23 @@
 get_header();
 
 if (have_posts()) : while (have_posts()): the_post();
-
-    /* PREPARATIONS */
-    /* get category */
-    $cats = get_the_category(get_the_ID());
-    $catName = '';
-    $catUrl = '';
-    if (!empty($cats)) {
-        $cat = $cats[count($cats) - 1];
-        $catName = $cat->cat_name;
-        $catUrl = get_category_link($cat->cat_ID);
-    }
-
+    $catUrl = get_last_category_url(get_the_ID());
+    $catName = get_last_category_name(get_the_ID());
     ?>
 
     <!-- BODY -->
     <div class="main">
         <?php
+
+        /* except poll */
+        $s = get_permalink();
+        $p = '/poll/';
+        $is_poll = strpos($s,$p);
+
+        if ($is_poll):
+            the_content(); // for poll
+        else:
+
         /* write banner */
         $thumb_url = get_thumbnail_photo_url(get_the_ID());
         if ($thumb_url):
@@ -94,7 +94,7 @@ if (have_posts()) : while (have_posts()): the_post();
         </div>
         <!-- /Post -->
 
-
+        <?php endif;?>
     </div>
     <!-- /BODY -->
 

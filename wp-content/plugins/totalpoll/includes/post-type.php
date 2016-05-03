@@ -37,7 +37,7 @@ function tp_register_post_type()
         'show_in_menu' => true,
         'query_var' => true,
         'rewrite' => array( 'slug' => 'poll' ),
-        'capability_type' => 'post',
+        'capability_type' => 'page',
         'has_archive' => true,
         'menu_position' => 2,
         'hierarchical' => false,

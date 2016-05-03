@@ -186,6 +186,7 @@ Class TP_Template {
      */
     public function get_css()
     {
+        return;
         global $poll;
         // Replace dot notation
         $css = tp_minify_css($this->get_part('style.css'));
