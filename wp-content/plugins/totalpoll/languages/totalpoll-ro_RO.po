@@ -1,0 +1,1391 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: TotalPoll\n"
+"POT-Creation-Date: 2015-01-25 09:56+0400\n"
+"PO-Revision-Date: 2015-01-25 09:57+0400\n"
+"Last-Translator: \n"
+"Language-Team: WPStore <translate@wpsto.re>\n"
+"Language: ro_RO\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.5\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=3; plural=(n==1?0:(((n%100>19)||((n%100==0)&&(n!=0)))?"
+"2:1));\n"
+"X-Poedit-KeywordsList: _e;__;_n:1,2\n"
+"X-Poedit-SearchPath-0: ../includes\n"
+"X-Poedit-SearchPath-1: ../assets\n"
+"X-Poedit-SearchPath-2: ../templates\n"
+
+#: ../includes/admin/addons.php:4
+msgid "Install Addons"
+msgstr "Instalează addon-uri"
+
+#: ../includes/admin/addons.php:7 ../includes/admin/templates.php:6
+msgid "Changes has been saved."
+msgstr "Modificările au fost salvate."
+
+#: ../includes/admin/addons.php:10
+msgid "Install an addon in .zip format"
+msgstr "Instalează un addon în format zip"
+
+#: ../includes/admin/addons.php:11
+msgid ""
+"If you have an addon in a .zip format, you may install it by uploading it "
+"here."
+msgstr ""
+"Dacă ai un addon într-un format .zip, îl poți instala încărcându-l aici."
+
+#: ../includes/admin/addons.php:15
+msgid "Addon zip file"
+msgstr "Fișierul addon în format zip"
+
+#: ../includes/admin/addons.php:17 ../includes/admin/templates.php:17
+msgid "Install Now"
+msgstr "Instalează acum"
+
+#: ../includes/admin/addons.php:22
+msgid "Available Addons"
+msgstr "Addon-uri disponibile"
+
+#: ../includes/admin/addons.php:23
+msgid "Available installed addons"
+msgstr "Addon-uri instalate disponibile"
+
+#: ../includes/admin/addons.php:31
+msgid "Status"
+msgstr "Statut"
+
+#: ../includes/admin/addons.php:32 ../includes/admin/templates.php:31
+msgid "Name"
+msgstr "Nume"
+
+#: ../includes/admin/addons.php:33 ../includes/admin/templates.php:32
+msgid "Description"
+msgstr "Descriere"
+
+#: ../includes/admin/addons.php:34 ../includes/admin/templates.php:33
+msgid "Author"
+msgstr "Autor"
+
+#: ../includes/admin/addons.php:35 ../includes/admin/templates.php:34
+msgid "Version"
+msgstr "Versiune"
+
+#: ../includes/admin/addons.php:36
+msgid "Compatiblity"
+msgstr "Compatibilitate"
+
+#: ../includes/admin/addons.php:46
+msgid "Active"
+msgstr "Activ"
+
+#: ../includes/admin/addons.php:46
+msgid "Inactive"
+msgstr "Inactiv"
+
+#: ../includes/admin/addons.php:69
+msgid "Compatible"
+msgstr "Compatibil"
+
+#: ../includes/admin/addons.php:69
+msgid "Incompatible"
+msgstr "Incompatibil"
+
+#: ../includes/admin/addons.php:75
+msgid "Nothing. Seriously."
+msgstr "Nimic. Serios."
+
+#: ../includes/admin/addons.php:81
+msgid "Activate"
+msgstr "Activează"
+
+#: ../includes/admin/addons.php:83
+msgid "Deactivate"
+msgstr "Dezactivează"
+
+#: ../includes/admin/addons.php:85 ../includes/admin/templates.php:74
+msgid "Are you sure?"
+msgstr "Ești sigur?"
+
+#: ../includes/admin/addons.php:85 ../includes/admin/editor/design.php:47
+#: ../includes/admin/templates.php:74
+msgid "Delete"
+msgstr "Șterge"
+
+#: ../includes/admin/editor/choices.php:5 ../templates/opinion/settings.php:48
+msgid "Choices"
+msgstr "Opțiuni"
+
+#: ../includes/admin/editor/choices.php:9
+msgid "Override votes"
+msgstr "Suprascrie voturi"
+
+#: ../includes/admin/editor/choices.php:12
+#: ../includes/admin/editor/choices.php:28
+#: ../includes/admin/editor/choices.php:29
+#: ../includes/admin/editor/footer.php:9
+#: ../includes/admin/editor/footer.php:10
+msgid "Text"
+msgstr "Text"
+
+#: ../includes/admin/editor/choices.php:13
+msgid "Link"
+msgstr "Link"
+
+#: ../includes/admin/editor/choices.php:14
+#: ../includes/admin/editor/choices.php:60
+#: ../includes/admin/editor/choices.php:61
+#: ../includes/admin/editor/footer.php:43
+#: ../includes/admin/editor/footer.php:44
+msgid "Image"
+msgstr "Imagine"
+
+#: ../includes/admin/editor/choices.php:15
+msgid "Video"
+msgstr "Video"
+
+#: ../includes/admin/editor/choices.php:16
+msgid "HTML"
+msgstr "HTML"
+
+#: ../includes/admin/editor/choices.php:26
+#: ../includes/admin/editor/choices.php:27
+#: ../includes/admin/editor/choices.php:41
+#: ../includes/admin/editor/choices.php:42
+#: ../includes/admin/editor/choices.php:58
+#: ../includes/admin/editor/choices.php:59
+#: ../includes/admin/editor/choices.php:78
+#: ../includes/admin/editor/choices.php:79
+#: ../includes/admin/editor/choices.php:98
+#: ../includes/admin/editor/choices.php:99
+#: ../includes/admin/editor/choices.php:114
+#: ../includes/admin/editor/choices.php:115
+#: ../includes/admin/editor/footer.php:7 ../includes/admin/editor/footer.php:8
+#: ../includes/admin/editor/footer.php:23
+#: ../includes/admin/editor/footer.php:24
+#: ../includes/admin/editor/footer.php:41
+#: ../includes/admin/editor/footer.php:42
+#: ../includes/admin/editor/footer.php:62
+#: ../includes/admin/editor/footer.php:63
+#: ../includes/admin/editor/footer.php:83
+#: ../includes/admin/editor/footer.php:84
+msgid "Votes"
+msgstr "Voturi"
+
+#: ../includes/admin/editor/choices.php:43
+#: ../includes/admin/editor/choices.php:44
+#: ../includes/admin/editor/footer.php:25
+#: ../includes/admin/editor/footer.php:26
+msgid "URL"
+msgstr "URL"
+
+#: ../includes/admin/editor/choices.php:45
+#: ../includes/admin/editor/choices.php:46
+#: ../includes/admin/editor/choices.php:64
+#: ../includes/admin/editor/choices.php:65
+#: ../includes/admin/editor/choices.php:84
+#: ../includes/admin/editor/choices.php:85
+#: ../includes/admin/editor/footer.php:27
+#: ../includes/admin/editor/footer.php:28
+#: ../includes/admin/editor/footer.php:47
+#: ../includes/admin/editor/footer.php:48
+#: ../includes/admin/editor/footer.php:68
+#: ../includes/admin/editor/footer.php:69
+msgid "Label"
+msgstr "Etichetă"
+
+#: ../includes/admin/editor/choices.php:62
+#: ../includes/admin/editor/footer.php:45
+msgid "Full"
+msgstr "Complet"
+
+#: ../includes/admin/editor/choices.php:63
+#: ../includes/admin/editor/footer.php:46
+msgid "Full Size URL"
+msgstr "URL complet"
+
+#: ../includes/admin/editor/choices.php:69
+#: ../includes/admin/editor/choices.php:89
+#: ../includes/admin/editor/footer.php:51
+#: ../includes/admin/editor/footer.php:72
+msgid "upload"
+msgstr "încarcă"
+
+#: ../includes/admin/editor/choices.php:80
+#: ../includes/admin/editor/choices.php:81
+#: ../includes/admin/editor/footer.php:64
+#: ../includes/admin/editor/footer.php:65
+msgid "Thumbnail"
+msgstr "Miniatură"
+
+#: ../includes/admin/editor/choices.php:82
+#: ../includes/admin/editor/footer.php:66
+msgid "Embed"
+msgstr "Inserează"
+
+#: ../includes/admin/editor/choices.php:83
+#: ../includes/admin/editor/footer.php:67
+msgid "Video embed code"
+msgstr "Inserează codul video"
+
+#: ../includes/admin/editor/choices.php:100
+#: ../includes/admin/editor/footer.php:85
+msgid "Code"
+msgstr "Cod"
+
+#: ../includes/admin/editor/choices.php:101
+#: ../includes/admin/editor/footer.php:86
+msgid "HTML Code"
+msgstr "Codul HTML"
+
+#: ../includes/admin/editor/design.php:5
+msgid "Design"
+msgstr "Design"
+
+#: ../includes/admin/editor/design.php:23
+msgid "Presets"
+msgstr "Presetări"
+
+#: ../includes/admin/editor/design.php:40
+msgid "Save as"
+msgstr "Salvează ca"
+
+#: ../includes/admin/editor/design.php:45
+msgid "Reset"
+msgstr "Resetează"
+
+#: ../includes/admin/editor/design.php:55
+msgid "Preview Background"
+msgstr "Previzulare fond"
+
+#: ../includes/admin/editor/design.php:60
+msgid "Preview Container Background"
+msgstr "Previzulare container fond"
+
+#: ../includes/admin/editor/incompatible.php:2
+#, php-format
+msgid ""
+"This poll isn't compatible with your current version of TotalPoll. Please <a "
+"href=\"%s\">upgrade your polls</a>."
+msgstr ""
+"Acest sondaj nu este compatibil cu versiunea curentă de TotalPoll. Te rog să "
+"<a href=\"\"%s\"\">faci upgrade la sondajele tale</a>."
+
+#: ../includes/admin/editor/limitations.php:5
+msgid "Limitations"
+msgstr "Limitări"
+
+#: ../includes/admin/editor/limitations.php:9
+msgid "Prevent re-vote using"
+msgstr "Împiedică revotarea folosind"
+
+#: ../includes/admin/editor/limitations.php:12
+msgid "Sessions"
+msgstr "Sesiuni"
+
+#: ../includes/admin/editor/limitations.php:15
+msgid "Cookies"
+msgstr "Cookie-uri"
+
+#: ../includes/admin/editor/limitations.php:18
+msgid "IP"
+msgstr "IP"
+
+#: ../includes/admin/editor/limitations.php:21
+msgid "IP Range (IPv4 only)"
+msgstr "Gama de IP (numai IPv4 )"
+
+#: ../includes/admin/editor/limitations.php:27
+msgid "Cookies timeout (minutes)"
+msgstr "Timeout cookie-uri (minute)"
+
+#: ../includes/admin/editor/limitations.php:34
+msgid "IP timeout (minutes)"
+msgstr "IP timeout (minute)"
+
+#: ../includes/admin/editor/limitations.php:41
+msgid "IP range width (1 to 10)"
+msgstr "Lățimea gamei de IP-uri (1 la 10)"
+
+#: ../includes/admin/editor/limitations.php:45
+msgid "IP range limits (votes per range)"
+msgstr "Limitele gamei de IP-uri (voturi pe gamă)"
+
+#: ../includes/admin/editor/limitations.php:55
+msgid "User must vote to see results"
+msgstr "Utilizatorul trebuie să voteze pentru a vedea rezultatele"
+
+#: ../includes/admin/editor/limitations.php:63
+msgid "User can give multiple answers"
+msgstr "Utilizatorul poate da răspunsuri multiple"
+
+#: ../includes/admin/editor/limitations.php:71
+msgid "Close poll when votes quota exceed"
+msgstr "Închide sondajul atunci când depăşeşte cota de voturi"
+
+#: ../includes/admin/editor/limitations.php:77
+msgid "Votes quota"
+msgstr "Cota de voturi"
+
+#: ../includes/admin/editor/limitations.php:86
+msgid "Date limited"
+msgstr "Data limită"
+
+#: ../includes/admin/editor/limitations.php:92
+msgid "Start date"
+msgstr "Data de început"
+
+#: ../includes/admin/editor/limitations.php:96
+msgid "End date"
+msgstr "Data încheierii"
+
+#: ../includes/admin/editor/logs.php:5
+msgid "Logs"
+msgstr "Jurnale"
+
+#: ../includes/admin/editor/logs.php:10
+msgid "Save logs"
+msgstr "Salvează jurnalele"
+
+#: ../includes/admin/editor/logs.php:17
+msgid "Download logs"
+msgstr "Jurnale descărcări"
+
+#: ../includes/admin/editor/logs.php:18
+msgid "Download old logs (deprecated)"
+msgstr "Jurnale vechi descărcări (perimat)"
+
+#: ../includes/admin/editor/logs.php:19
+msgid "Reset logs"
+msgstr "Resetează jurnale"
+
+#: ../includes/admin/editor/misc.php:5
+msgid "Misc"
+msgstr "Diverse"
+
+#: ../includes/admin/editor/misc.php:10
+msgid "Order results by votes"
+msgstr "Ordonează rezultatele după voturi"
+
+#: ../includes/admin/editor/misc.php:15
+msgid "Ascending"
+msgstr "Crescător"
+
+#: ../includes/admin/editor/misc.php:18
+msgid "Descending"
+msgstr "Descrescător"
+
+#: ../includes/admin/editor/misc.php:26
+msgid "Shuffle choices order"
+msgstr "Ordine aleatorie a alegerilor"
+
+#: ../includes/admin/editor/misc.php:32
+msgid "Results are shown as"
+msgstr "Rezultatele sunt prezentate ca"
+
+#: ../includes/admin/editor/misc.php:36
+msgid "Number"
+msgstr "Număr"
+
+#: ../includes/admin/editor/misc.php:39
+msgid "Percentage"
+msgstr "Procentaj"
+
+#: ../includes/admin/editor/misc.php:42
+msgid "Both"
+msgstr "Ambele"
+
+#: ../includes/admin/editor/misc.php:45
+msgid "Nothing"
+msgstr "Nimic"
+
+#: ../includes/admin/editor/preview.php:60
+msgid "Please wait."
+msgstr "Te rog așteaptă."
+
+#: ../includes/admin/editor/preview.php:73
+msgid "To preview this poll, please save it."
+msgstr "Pentru a previzualiza acest sondaj, te rog salvează-l."
+
+#: ../includes/admin/editor/question.php:5
+#: ../includes/admin/editor/question.php:8
+#: ../includes/admin/editor/sharing.php:26
+msgid "Question"
+msgstr "Întrebare"
+
+#: ../includes/admin/editor/reset.php:2
+msgid "Logs has been reset!"
+msgstr "Jurnalele au fost resetate!"
+
+#: ../includes/admin/editor/sharing.php:5
+msgid "Sharing"
+msgstr "Partajare"
+
+#: ../includes/admin/editor/sharing.php:10
+msgid "Show share icons"
+msgstr "Arată pictograme partajare"
+
+#: ../includes/admin/editor/sharing.php:19
+msgid "Variable"
+msgstr "Variabilă"
+
+#: ../includes/admin/editor/sharing.php:20
+msgid "Value"
+msgstr "Valoare"
+
+#: ../includes/admin/editor/sharing.php:30
+msgid "Current link"
+msgstr "Link-ul curent"
+
+#: ../includes/admin/editor/sharing.php:38
+msgid "Twitter expression"
+msgstr "Twitter"
+
+#: ../includes/admin/editor/sharing.php:45
+msgid "Facebook expression"
+msgstr "Facebook"
+
+#: ../includes/admin/editor/sharing.php:52
+msgid "Google+ expression"
+msgstr "Google+"
+
+#: ../includes/admin/editor/shortcode.php:5
+msgid "Shortcode"
+msgstr "Shortcode"
+
+#: ../includes/admin/store.php:9 ../includes/class-admin.php:143
+msgid "Templates"
+msgstr "Șabloane"
+
+#: ../includes/admin/store.php:10
+msgid "Available templates"
+msgstr "Șabloane disponibile"
+
+#: ../includes/admin/templates.php:3
+msgid "Install Templates"
+msgstr "Instalează șabloane"
+
+#: ../includes/admin/templates.php:10
+msgid "Install a template in .zip format"
+msgstr "Instalează un şablon în format .zip"
+
+#: ../includes/admin/templates.php:11
+msgid ""
+"If you have a template in a .zip format, you may install it by uploading it "
+"here."
+msgstr "Dacă ai un șablon în format .zip, îl poți instala încărcându-l aici."
+
+#: ../includes/admin/templates.php:15
+msgid "Template zip file"
+msgstr "Fișierul șablon în format zip"
+
+#: ../includes/admin/templates.php:22
+msgid "Available Templates"
+msgstr "Șabloane disponibile"
+
+#: ../includes/admin/templates.php:23
+msgid "Available installed templates"
+msgstr "Șabloane disponibile instalate"
+
+#: ../includes/admin/templates.php:48
+msgid "Unknown"
+msgstr "Necunoscut"
+
+#: ../includes/admin/tools.php:6 ../includes/class-admin.php:147
+msgid "TotalPoll Tools"
+msgstr "Instrumente ToatalPoll"
+
+#: ../includes/admin/tools.php:10
+msgid "Backup current polls."
+msgstr "Fă backup la sondajele actuale."
+
+#: ../includes/admin/tools.php:13
+msgid "Download backup"
+msgstr "Descarcă backup-ul"
+
+#: ../includes/admin/tools.php:25
+msgid "Check all"
+msgstr "Selectează toate"
+
+#: ../includes/admin/tools.php:43
+msgid "Upgrade"
+msgstr "Upgradează"
+
+#: ../includes/admin/tools.php:49
+msgid "All polls are compatible with the current version!"
+msgstr "Toate sondajele sunt compatibile cu versiunea curentă!"
+
+#: ../includes/admin/tools.php:52
+msgid "Browse polls"
+msgstr "Răsfoiește sondajele"
+
+#: ../includes/admin/update-notification.php:3
+msgid "There is an new update for TotalPoll plugin."
+msgstr "Există un nou update pentru pluginul TotalPoll."
+
+#: ../includes/admin/update-notification.php:4
+msgid "Check it out!"
+msgstr "Verifică-l!"
+
+#: ../includes/admin/update-notification.php:6
+msgid "Dismiss"
+msgstr "Respinge"
+
+#: ../includes/class-addons.php:145
+msgid "Upload Addon"
+msgstr "Încarcă Addon"
+
+#: ../includes/class-addons.php:150
+#, php-format
+msgid "Installing Addon from uploaded file: %s"
+msgstr "Instalează Addon din fișierul încărcat: %s"
+
+#: ../includes/class-addons.php:219 ../includes/class-template.php:622
+msgid "Could not access filesystem."
+msgstr "Nu poate fi accesat sistemul de fişiere."
+
+#: ../includes/class-addons.php:222 ../includes/class-template.php:625
+msgid "Filesystem error."
+msgstr "Eroare de sistem de fişiere."
+
+#: ../includes/class-addons.php:227
+msgid "Unable to locate TotalPoll addons directory."
+msgstr "Imposibilitatea de a localiza directorul TotalPoll."
+
+#: ../includes/class-addons.php:238
+#, php-format
+msgid "Could not fully remove the addon %s."
+msgstr "Nu s-a putut șterge complet addon-ul %s."
+
+#: ../includes/class-admin.php:141
+msgid "Addons Manager"
+msgstr "Manager addon-uri."
+
+#: ../includes/class-admin.php:141
+msgid "Addons"
+msgstr "Addon-uri"
+
+#: ../includes/class-admin.php:143
+msgid "Templates Manager"
+msgstr "Manager de șabloane"
+
+#: ../includes/class-admin.php:145
+msgid "Templates & Addons Store"
+msgstr "Magazinul de șabloane și Addon-uri"
+
+#: ../includes/class-admin.php:145
+msgid "Store"
+msgstr "Magazin"
+
+#: ../includes/class-admin.php:147
+msgid "Tools"
+msgstr "Unelte"
+
+#: ../includes/class-admin.php:149
+msgid "About TotalPoll"
+msgstr "Despre TotalPoll"
+
+#: ../includes/class-admin.php:149
+msgid "About"
+msgstr "Despre"
+
+#: ../includes/class-installer-skin.php:23
+msgid "Return to Templates"
+msgstr "Înapoi la șabloane"
+
+#: ../includes/class-installer-skin.php:25
+msgid "Return to Addons"
+msgstr "Înapoi la Addon-uri"
+
+#: ../includes/class-installer.php:51 ../includes/class-installer.php:62
+msgid "Install package not available."
+msgstr "Pachetul de instalare nu este disponibil."
+
+#: ../includes/class-installer.php:52 ../includes/class-installer.php:63
+msgid "Unpacking the package&#8230;"
+msgstr "Dezarhivare pachet&#8230;"
+
+#: ../includes/class-installer.php:53
+msgid "Installing the template&#8230;"
+msgstr "Instalare șablon&#8230;"
+
+#: ../includes/class-installer.php:54
+msgid "The template contains no files."
+msgstr "Șablonul nu conţine niciun fișier."
+
+#: ../includes/class-installer.php:55
+msgid "Template install failed."
+msgstr "Instalarea șablonului a eșuat."
+
+#: ../includes/class-installer.php:56
+msgid "Template installed successfully."
+msgstr "Şablon instalat cu succes."
+
+#. translators: 1: template name, 2: version
+#: ../includes/class-installer.php:58
+#, php-format
+msgid "Successfully installed the template <strong>%1$s %2$s</strong>."
+msgstr "A fost instalat cu succes șablonul <strong>%1$s %2$s</strong>."
+
+#. translators: 1: template name, 2: version
+#: ../includes/class-installer.php:60 ../includes/class-installer.php:71
+#, php-format
+msgid "Preparing to install <strong>%1$s %2$s</strong>&#8230;"
+msgstr "Se pregătește instalarea <strong>%1$s %2$s</strong>&#8230;"
+
+#: ../includes/class-installer.php:64
+msgid "Installing the addon&#8230;"
+msgstr "Se instalează addon-ul&#8230;"
+
+#: ../includes/class-installer.php:65
+msgid "The addon contains no files."
+msgstr "Addon-ul nu conţine niciun fișier."
+
+#: ../includes/class-installer.php:66
+msgid "Addon install failed."
+msgstr "Instalarea addon-ului a eșuat."
+
+#: ../includes/class-installer.php:67
+msgid "Addon installed successfully."
+msgstr "Addon instalat cu succes."
+
+#. translators: 1: template name, 2: version
+#: ../includes/class-installer.php:69
+#, php-format
+msgid "Successfully installed the addon <strong>%1$s %2$s</strong>."
+msgstr "A fost instalat cu succes addon-ul <strong>%1$ s %2$ s</strong>."
+
+#: ../includes/class-installer.php:141
+msgid "The template is missing the <code>style.css</code> stylesheet."
+msgstr "Șablonului îi lipsește fișierul <code>style.css</code."
+
+#: ../includes/class-installer.php:147
+msgid ""
+"The <code>style.css</code> stylesheet doesn't contain a valid template "
+"header."
+msgstr ""
+"Foaia de stil<code>style.css</code> nu conţine un antet şablon valabil."
+
+#: ../includes/class-installer.php:152
+msgid ""
+"The template is missing the <code>vote.php</code> or <code>results.php</"
+"code> file."
+msgstr ""
+"Șablonului îi lipsește fișierul <code>vote.php</code> sau <code>results.php</"
+"code>."
+
+#: ../includes/class-installer.php:159
+msgid "The addon is missing the <code>addon.php</code> essential file."
+msgstr "Acestui addon îi lipseşte <code>addon.php</code> un fișier esențial."
+
+#: ../includes/class-installer.php:165
+msgid "The <code>addon.php</code> file doesn't contain a valid addon header."
+msgstr "Fişierul <code>addon.php</code> nu conţine un antet valabil addon."
+
+#: ../includes/class-installer.php:169
+msgid ""
+"The <code>addon.php</code> file doesn't contain a minimum required version."
+msgstr "Fişierul <code>addon.php</code> nu conţine o versiune minimă necesară."
+
+#: ../includes/class-installer.php:173
+#, php-format
+msgid "This addon require TotalPoll version %s or higher"
+msgstr "Acest addon necesită TotalPoll cu versiunea %s sau mai mare"
+
+#: ../includes/class-logs.php:141
+msgid "\"Date\";\"Time\";\"Status\";\"Choice\";\"IP\";\"User Agent\";\"Extra\""
+msgstr ""
+"\"Data\";\"Timp\";\"Statut\";\"Opțiune\";\"IP\";\"User Agent\";\"Extra\""
+
+#: ../includes/class-poll-editor.php:130 ../includes/class-poll-editor.php:220
+#: ../includes/class-poll-editor.php:302
+msgid "Choice sample"
+msgstr "Examplu opțiune"
+
+#: ../includes/class-poll-editor.php:219
+msgid "A question"
+msgstr "O întrebare"
+
+#: ../includes/class-request.php:60
+msgid "You cannot preview this poll. Login first."
+msgstr "Nu poți vizualiza acest sondaj. Trebuie să te logezi."
+
+#: ../includes/class-request.php:101
+msgid "Accepted"
+msgstr "Acceptat"
+
+#: ../includes/class-request.php:103 ../includes/class-request.php:108
+msgid "Denied"
+msgstr "Refuzat"
+
+#: ../includes/class-template.php:559
+msgid "Upload Template"
+msgstr "Încarcă șablon"
+
+#: ../includes/class-template.php:563
+#, php-format
+msgid "Installing Template from uploaded file: %s"
+msgstr "Instalarea şablon din fișierul încărcat: %s"
+
+#: ../includes/class-template.php:630
+msgid "Unable to locate TotalPoll templates directory."
+msgstr "E imposibil de localizat directorul de șabloane TotalPoll."
+
+#: ../includes/class-template.php:637
+#, php-format
+msgid "Could not fully remove the template %s."
+msgstr "Nu a putut fi eliminat complet şablonul %s."
+
+#: ../includes/class-widget.php:24
+msgid "Poll - TotalPoll"
+msgstr "Sondaj - TotalPoll"
+
+#: ../includes/class-widget.php:25
+msgid "Poll widget"
+msgstr "Modul Sondaje"
+
+#: ../includes/class-widget.php:119 ../includes/class-widget.php:139
+#: ../includes/post-type.php:19
+msgid "Poll"
+msgstr "Sondaj"
+
+#: ../includes/class-widget.php:134
+msgid "Title:"
+msgstr "Titlu:"
+
+#: ../includes/post-type.php:18 ../includes/post-type.php:30
+msgid "Polls"
+msgstr "Sondaje"
+
+#: ../includes/post-type.php:20
+msgid "Add New"
+msgstr "Adaugă unul nou"
+
+#: ../includes/post-type.php:21
+msgid "Add New Poll"
+msgstr "Adaugă sondaj nou"
+
+#: ../includes/post-type.php:22
+msgid "Edit Poll"
+msgstr "Editează sondaj"
+
+#: ../includes/post-type.php:23
+msgid "New Poll"
+msgstr "Sondaj nou"
+
+#: ../includes/post-type.php:24
+msgid "All Polls"
+msgstr "Toate sondajele"
+
+#: ../includes/post-type.php:25
+msgid "View Poll"
+msgstr "Vezi sondaj"
+
+#: ../includes/post-type.php:26
+msgid "Search Polls"
+msgstr "Caută sondaje"
+
+#: ../includes/post-type.php:27
+msgid "No polls found"
+msgstr "Nu au fost găsite sondaje"
+
+#: ../includes/post-type.php:28
+msgid "No polls found in Trash"
+msgstr "Nu au fost găsite sondaje în coșul de gunoi"
+
+#: ../includes/post-type.php:73
+#, php-format
+msgid "Poll updated. <a href=\"%s\">View poll</a>"
+msgstr "Sondaj actualizat. <a href=\"\"%s\">Vezi Sondaj</a>"
+
+#: ../includes/post-type.php:74
+msgid "Custom field updated."
+msgstr "Câmp personalizat actualizat."
+
+#: ../includes/post-type.php:75
+msgid "Custom field deleted."
+msgstr "Câmp personalizat șters."
+
+#: ../includes/post-type.php:76
+msgid "Poll updated."
+msgstr "Sondaj actualizat."
+
+#: ../includes/post-type.php:77
+#, php-format
+msgid "Poll restored to revision from %s"
+msgstr "Sondaj de opinie restabilit la revizia din %s"
+
+#: ../includes/post-type.php:78
+#, php-format
+msgid "Poll published. <a href=\"%s\">View poll</a>"
+msgstr "Sondaj publicat. <a href=\"%s\">Vezi sondaj</a>"
+
+#: ../includes/post-type.php:79
+msgid "Poll saved."
+msgstr "Sondaj salvat."
+
+#: ../includes/post-type.php:80
+#, php-format
+msgid "Poll submitted. <a target=\"_blank\" href=\"%s\">Preview poll</a>"
+msgstr ""
+"Sondaj transmis. <a target=\"\"_blank\"\" href=\"\"%s\"\">Previzualizare "
+"sondaj</a>"
+
+#: ../includes/post-type.php:81
+#, php-format
+msgid ""
+"Poll scheduled for: <strong>%1$s</strong>. <a target=\"_blank\" href=\"%2$s"
+"\">Preview poll</a>"
+msgstr ""
+"Sondaj programat pentru: <strong>%1$ s</strong>. <a target=\"\"_blank\"\" "
+"href=\"\"%2$s\"\">Previzualizare sondaj</a>"
+
+#: ../includes/post-type.php:81
+msgid "M j, Y @ G:i"
+msgstr "M j, Y @ G:i"
+
+#: ../includes/post-type.php:82
+#, php-format
+msgid "Poll draft updated. <a target=\"_blank\" href=\"%s\">Preview poll</a>"
+msgstr ""
+"Ciorna sondajului actualizată. <a target=\"_blank\" href=\"%s"
+"\">Previzualizare sondaj</a> "
+
+#: ../templates/chartify/header.php:3 ../templates/default/header.php:3
+#: ../templates/facebook-like/header.php:3 ../templates/opinion/header.php:3
+#: ../templates/photo-contest/header.php:3 ../templates/plaintext/header.php:3
+#: ../templates/this-or-that/header.php:3
+#: ../templates/video-contest/header.php:3
+msgid "Closed due to the exceeded votes quota"
+msgstr "Închis din cauza depășirii cotei de voturi"
+
+#: ../templates/chartify/header.php:7 ../templates/default/header.php:7
+#: ../templates/facebook-like/header.php:7 ../templates/opinion/header.php:7
+#: ../templates/photo-contest/header.php:7 ../templates/plaintext/header.php:7
+#: ../templates/this-or-that/header.php:7
+#: ../templates/video-contest/header.php:7
+msgid "This poll isn't started yet."
+msgstr "Acest sondaj nu a fost încă început."
+
+#: ../templates/chartify/header.php:11 ../templates/default/header.php:11
+#: ../templates/facebook-like/header.php:11 ../templates/opinion/header.php:11
+#: ../templates/photo-contest/header.php:11
+#: ../templates/plaintext/header.php:11
+#: ../templates/this-or-that/header.php:11
+#: ../templates/video-contest/header.php:11
+msgid "This poll has been closed."
+msgstr "Acest sondaj a fost închis."
+
+#: ../templates/chartify/results.php:21 ../templates/default/results.php:47
+#: ../templates/facebook-like/results.php:36
+#: ../templates/opinion/results.php:56
+#: ../templates/photo-contest/results.php:49
+#: ../templates/plaintext/results.php:46
+#: ../templates/this-or-that/results.php:40
+#: ../templates/video-contest/results.php:54
+msgid "Back"
+msgstr "Înapoi"
+
+#: ../templates/chartify/results.php:37 ../templates/chartify/vote.php:39
+#: ../templates/default/vote.php:39 ../templates/facebook-like/vote.php:29
+#: ../templates/opinion/vote.php:37 ../templates/photo-contest/vote.php:36
+#: ../templates/plaintext/vote.php:39 ../templates/this-or-that/vote.php:37
+#: ../templates/video-contest/vote.php:43
+#, fuzzy
+msgid "Vote"
+msgid_plural "Votes"
+msgstr[0] "Votează"
+msgstr[1] "Votează"
+
+#: ../templates/chartify/settings.php:7 ../templates/default/settings.php:9
+#: ../templates/facebook-like/settings.php:9
+#: ../templates/opinion/settings.php:8
+#: ../templates/photo-contest/settings.php:9
+#: ../templates/plaintext/settings.php:9
+#: ../templates/this-or-that/settings.php:8
+#: ../templates/video-contest/settings.php:6
+msgid "General settings"
+msgstr "Setări generale"
+
+#: ../templates/chartify/settings.php:11 ../templates/default/settings.php:13
+#: ../templates/plaintext/settings.php:13
+#, fuzzy
+msgid "Choices per row"
+msgstr "Examplu opțiune"
+
+#: ../templates/chartify/settings.php:16 ../templates/default/settings.php:18
+#: ../templates/this-or-that/settings.php:12
+msgid "Container border"
+msgstr "Conturul "
+
+#: ../templates/chartify/settings.php:21 ../templates/default/settings.php:23
+#: ../templates/this-or-that/settings.php:17
+msgid "Container background"
+msgstr "Fundalul containerului"
+
+#: ../templates/chartify/settings.php:26 ../templates/default/settings.php:28
+#: ../templates/facebook-like/settings.php:18
+#: ../templates/opinion/settings.php:22
+#: ../templates/photo-contest/settings.php:23
+#: ../templates/this-or-that/settings.php:27
+#: ../templates/video-contest/settings.php:20
+msgid "Warning messages background"
+msgstr "Fundalul mesajelor de atenționare"
+
+#: ../templates/chartify/settings.php:31 ../templates/default/settings.php:33
+#: ../templates/facebook-like/settings.php:23
+#: ../templates/opinion/settings.php:27
+#: ../templates/photo-contest/settings.php:28
+#: ../templates/this-or-that/settings.php:32
+#: ../templates/video-contest/settings.php:25
+msgid "Warning messages border"
+msgstr "Conturul mesajelor de atenționare"
+
+#: ../templates/chartify/settings.php:36 ../templates/default/settings.php:38
+#: ../templates/facebook-like/settings.php:28
+#: ../templates/opinion/settings.php:32
+#: ../templates/photo-contest/settings.php:33
+#: ../templates/plaintext/settings.php:18
+#: ../templates/this-or-that/settings.php:37
+#: ../templates/video-contest/settings.php:30
+msgid "Warning messages text color"
+msgstr "Culoarea textului mesajelor de atenționare"
+
+#: ../templates/chartify/settings.php:41 ../templates/default/settings.php:43
+msgid "Question background"
+msgstr "Fundalul întrebării"
+
+#: ../templates/chartify/settings.php:46 ../templates/default/settings.php:48
+#: ../templates/facebook-like/settings.php:13
+#: ../templates/opinion/settings.php:12
+#: ../templates/photo-contest/settings.php:18
+#: ../templates/plaintext/settings.php:23
+#: ../templates/this-or-that/settings.php:22
+#: ../templates/video-contest/settings.php:15
+msgid "Question color"
+msgstr "Culoarea întrebării"
+
+#: ../templates/chartify/settings.php:51 ../templates/default/settings.php:53
+#: ../templates/plaintext/settings.php:28
+#: ../templates/this-or-that/settings.php:58
+msgid "Choice color"
+msgstr "Culoarea opțiunii"
+
+#: ../templates/chartify/settings.php:56 ../templates/default/settings.php:58
+msgid "Checkbox background"
+msgstr "Selectare fundal"
+
+#: ../templates/chartify/settings.php:61 ../templates/default/settings.php:63
+#: ../templates/facebook-like/settings.php:33
+#: ../templates/opinion/settings.php:17
+#: ../templates/photo-contest/settings.php:38
+#: ../templates/plaintext/settings.php:33
+#: ../templates/video-contest/settings.php:35
+msgid "Animation duration (ms)"
+msgstr "Durata animație (ms)"
+
+#: ../templates/chartify/settings.php:66 ../templates/default/settings.php:68
+#: ../templates/facebook-like/settings.php:38
+#: ../templates/opinion/settings.php:37
+#: ../templates/photo-contest/settings.php:43
+#: ../templates/plaintext/settings.php:38
+#: ../templates/this-or-that/settings.php:42
+#: ../templates/video-contest/settings.php:40
+msgid "Border radius (px)"
+msgstr "Raza conturului (px)"
+
+#: ../templates/chartify/settings.php:72 ../templates/default/settings.php:74
+#: ../templates/facebook-like/settings.php:44
+#: ../templates/opinion/settings.php:63
+#: ../templates/photo-contest/settings.php:76
+#: ../templates/plaintext/settings.php:44
+#: ../templates/this-or-that/settings.php:48
+#: ../templates/video-contest/settings.php:73
+msgid "Buttons"
+msgstr "Butoane"
+
+#: ../templates/chartify/settings.php:76 ../templates/default/settings.php:78
+#: ../templates/default/settings.php:119
+#: ../templates/facebook-like/settings.php:48
+#: ../templates/facebook-like/settings.php:89
+#: ../templates/opinion/settings.php:57 ../templates/opinion/settings.php:67
+#: ../templates/photo-contest/settings.php:53
+#: ../templates/photo-contest/settings.php:80
+#: ../templates/photo-contest/settings.php:121
+#: ../templates/plaintext/settings.php:48
+#: ../templates/plaintext/settings.php:89
+#: ../templates/this-or-that/settings.php:64
+#: ../templates/video-contest/settings.php:50
+#: ../templates/video-contest/settings.php:77
+#: ../templates/video-contest/settings.php:118
+msgid "Background"
+msgstr "Fundal"
+
+#: ../templates/chartify/settings.php:82 ../templates/default/settings.php:84
+#: ../templates/facebook-like/settings.php:54
+#: ../templates/opinion/settings.php:73
+#: ../templates/photo-contest/settings.php:86
+#: ../templates/plaintext/settings.php:54
+#: ../templates/this-or-that/settings.php:70
+#: ../templates/video-contest/settings.php:83
+msgid "Primary background"
+msgstr "Fundal principal"
+
+#: ../templates/chartify/settings.php:88 ../templates/default/settings.php:90
+#: ../templates/facebook-like/settings.php:60
+#: ../templates/opinion/settings.php:79
+#: ../templates/photo-contest/settings.php:92
+#: ../templates/plaintext/settings.php:60
+#: ../templates/this-or-that/settings.php:76
+#: ../templates/video-contest/settings.php:89
+msgid "Default color"
+msgstr "Culoare implicită"
+
+#: ../templates/chartify/settings.php:94 ../templates/default/settings.php:96
+#: ../templates/facebook-like/settings.php:66
+#: ../templates/opinion/settings.php:85
+#: ../templates/photo-contest/settings.php:98
+#: ../templates/plaintext/settings.php:66
+#: ../templates/this-or-that/settings.php:82
+#: ../templates/video-contest/settings.php:95
+msgid "Primary color"
+msgstr "Culoare principală"
+
+#: ../templates/chartify/settings.php:100
+#: ../templates/chartify/settings.php:106
+#: ../templates/default/settings.php:102 ../templates/default/settings.php:108
+#: ../templates/facebook-like/settings.php:72
+#: ../templates/facebook-like/settings.php:78
+#: ../templates/facebook-like/settings.php:104
+#: ../templates/opinion/settings.php:91 ../templates/opinion/settings.php:97
+#: ../templates/photo-contest/settings.php:59
+#: ../templates/photo-contest/settings.php:104
+#: ../templates/photo-contest/settings.php:110
+#: ../templates/plaintext/settings.php:72
+#: ../templates/plaintext/settings.php:78
+#: ../templates/this-or-that/settings.php:88
+#: ../templates/this-or-that/settings.php:94
+#: ../templates/video-contest/settings.php:56
+#: ../templates/video-contest/settings.php:101
+#: ../templates/video-contest/settings.php:107
+msgid "Border color"
+msgstr "Culoare contur"
+
+#: ../templates/chartify/settings.php:113
+msgid "Charts"
+msgstr "Diagrame"
+
+#: ../templates/chartify/settings.php:117
+msgid "Chart Type"
+msgstr "Tipul de diagramă"
+
+#: ../templates/chartify/settings.php:122
+msgid "Pie"
+msgstr "Circulară"
+
+#: ../templates/chartify/settings.php:126
+msgid "Doughnut"
+msgstr "Inelară"
+
+#: ../templates/chartify/settings.php:130
+msgid "Polar Area"
+msgstr "Polară"
+
+#: ../templates/chartify/settings.php:136
+#, fuzzy
+msgid "Canvas Max Size (px)"
+msgstr "Înălțime spațiu (px)"
+
+#: ../templates/chartify/settings.php:141
+msgid "Chart Animation"
+msgstr "Animaţie diagramă"
+
+#: ../templates/chartify/settings.php:146
+msgid "Enabled"
+msgstr "Activat"
+
+#: ../templates/chartify/settings.php:150
+msgid "Disabled"
+msgstr "Dezactivat"
+
+#: ../templates/chartify/settings.php:156
+msgid "Animation Easing"
+msgstr "Animaţie"
+
+#: ../templates/chartify/settings.php:161
+msgid "linear"
+msgstr "liniară"
+
+#: ../templates/chartify/settings.php:164
+msgid "swing"
+msgstr "balans"
+
+#: ../templates/chartify/settings.php:167
+msgid "easeOutQuad"
+msgstr "easeOutQuad"
+
+#: ../templates/chartify/settings.php:170
+msgid "easeOutCubic"
+msgstr "easeOutCubic"
+
+#: ../templates/chartify/settings.php:173
+msgid "easeOutQuart"
+msgstr "easeOutQuart"
+
+#: ../templates/chartify/settings.php:176
+msgid "easeOutQuint"
+msgstr "easeOutQuint"
+
+#: ../templates/chartify/settings.php:179
+msgid "easeOutExpo"
+msgstr "easeOutExpo"
+
+#: ../templates/chartify/settings.php:182
+msgid "easeOutSine"
+msgstr "easeOutSine"
+
+#: ../templates/chartify/settings.php:185
+msgid "easeOutCirc"
+msgstr "easeOutCirc"
+
+#: ../templates/chartify/settings.php:188
+msgid "easeOutElastic"
+msgstr "easeOutElastic"
+
+#: ../templates/chartify/settings.php:191
+msgid "easeOutBack"
+msgstr "easeOutBack"
+
+#: ../templates/chartify/settings.php:194
+msgid "easeOutBounce"
+msgstr "easeOutBounce"
+
+#: ../templates/chartify/settings.php:200
+msgid "Legend Map"
+msgstr "Legendă"
+
+#: ../templates/chartify/settings.php:205
+msgid "Labels On Tooltip"
+msgstr "Etichetele pe Tooltip"
+
+#: ../templates/chartify/settings.php:209
+msgid "Below"
+msgstr "Sub"
+
+#: ../templates/chartify/settings.php:213
+msgid "Float"
+msgstr "Flotant"
+
+#: ../templates/chartify/settings.php:219
+msgid "Map Backround"
+msgstr "Fundal hartă"
+
+#: ../templates/chartify/settings.php:221
+msgid "Hover"
+msgstr "Peste (hoover)"
+
+#: ../templates/chartify/settings.php:225
+msgid "Map Hover Border"
+msgstr "Conturul trecerii peste hartă"
+
+#: ../templates/chartify/settings.php:230
+msgid "Tooltip Fill Color"
+msgstr ""
+
+#: ../templates/chartify/settings.php:235
+msgid "Tooltip Font Color"
+msgstr ""
+
+#: ../templates/chartify/settings.php:241
+msgid "Chart Colors"
+msgstr "Culori diagrame"
+
+#: ../templates/chartify/settings.php:245
+#, php-format
+msgid "Color for choice #%s"
+msgstr "Culoare pentru alegere #%s"
+
+#: ../templates/chartify/settings.php:246
+#, php-format
+msgid "Highlight color for choice #%s"
+msgstr "Culoarea de evidenţiere pentru alegere #%s"
+
+#: ../templates/chartify/settings.php:252
+#: ../templates/default/settings.php:135
+#: ../templates/facebook-like/settings.php:111
+#: ../templates/opinion/settings.php:153
+#: ../templates/photo-contest/settings.php:133
+#: ../templates/plaintext/settings.php:105
+#: ../templates/this-or-that/settings.php:101
+#: ../templates/video-contest/settings.php:130
+msgid "Typography"
+msgstr "Tipografie"
+
+#: ../templates/chartify/settings.php:256
+#: ../templates/default/settings.php:139
+#: ../templates/facebook-like/settings.php:115
+#: ../templates/opinion/settings.php:157
+#: ../templates/photo-contest/settings.php:137
+#: ../templates/plaintext/settings.php:109
+#: ../templates/this-or-that/settings.php:105
+#: ../templates/video-contest/settings.php:134
+msgid "Line height"
+msgstr "Înălţime linie"
+
+#: ../templates/chartify/settings.php:261
+#: ../templates/default/settings.php:144
+#: ../templates/facebook-like/settings.php:120
+#: ../templates/opinion/settings.php:162
+#: ../templates/photo-contest/settings.php:142
+#: ../templates/plaintext/settings.php:114
+#: ../templates/this-or-that/settings.php:110
+#: ../templates/video-contest/settings.php:139
+msgid "Font Family"
+msgstr "Familie font"
+
+#: ../templates/chartify/settings.php:266
+#: ../templates/default/settings.php:149
+#: ../templates/facebook-like/settings.php:125
+#: ../templates/opinion/settings.php:167
+#: ../templates/photo-contest/settings.php:147
+#: ../templates/plaintext/settings.php:119
+#: ../templates/this-or-that/settings.php:115
+#: ../templates/video-contest/settings.php:144
+msgid "Font Size"
+msgstr "Marime text"
+
+#: ../templates/chartify/vote.php:35 ../templates/default/vote.php:35
+#: ../templates/facebook-like/vote.php:25 ../templates/opinion/vote.php:33
+#: ../templates/photo-contest/vote.php:32 ../templates/plaintext/vote.php:35
+#: ../templates/this-or-that/vote.php:33
+#: ../templates/video-contest/vote.php:39
+msgid "Vote to see results"
+msgstr "Votează pentru a vedea rezultatele"
+
+#: ../templates/chartify/vote.php:37 ../templates/default/vote.php:37
+#: ../templates/facebook-like/vote.php:27 ../templates/opinion/vote.php:35
+#: ../templates/photo-contest/vote.php:34 ../templates/plaintext/vote.php:37
+#: ../templates/this-or-that/vote.php:35
+#: ../templates/video-contest/vote.php:41
+msgid "Results"
+msgstr "<b>Rezultate:</b>"
+
+#: ../templates/default/results.php:24 ../templates/default/results.php:28
+#: ../templates/facebook-like/results.php:14
+#: ../templates/facebook-like/results.php:18
+#: ../templates/opinion/results.php:21 ../templates/opinion/results.php:25
+#: ../templates/photo-contest/results.php:21
+#: ../templates/photo-contest/results.php:25
+#: ../templates/plaintext/results.php:23 ../templates/plaintext/results.php:27
+#: ../templates/this-or-that/results.php:21
+#: ../templates/this-or-that/results.php:25
+#: ../templates/video-contest/results.php:27
+#: ../templates/video-contest/results.php:31
+#, php-format
+msgid "%s Vote"
+msgid_plural "%s Votes"
+msgstr[0] "%s vot"
+msgstr[1] "%s voturi"
+msgstr[2] "%s voturi"
+msgstr[3] "%s voturi"
+msgstr[4] "%s voturi"
+
+#: ../templates/default/settings.php:115
+#: ../templates/facebook-like/settings.php:85
+#: ../templates/opinion/settings.php:128
+#: ../templates/photo-contest/settings.php:117
+#: ../templates/plaintext/settings.php:85
+#: ../templates/video-contest/settings.php:114
+msgid "Votes bar"
+msgstr "Bară de voturi"
+
+#: ../templates/default/settings.php:125
+#: ../templates/facebook-like/settings.php:94
+#: ../templates/photo-contest/settings.php:126
+#: ../templates/plaintext/settings.php:95
+#: ../templates/video-contest/settings.php:123
+msgid "Bar color"
+msgstr "Bara de culori"
+
+#: ../templates/facebook-like/settings.php:99
+#: ../templates/photo-contest/settings.php:70
+#: ../templates/video-contest/settings.php:67
+#, fuzzy
+msgid "Text color"
+msgstr "Culoare implicită"
+
+#: ../templates/opinion/settings.php:42
+msgid "Maximum width"
+msgstr ""
+
+#: ../templates/opinion/settings.php:52
+msgid "Color"
+msgstr ""
+
+#: ../templates/opinion/settings.php:103
+#, fuzzy
+msgid "First button background"
+msgstr "Fundalul întrebării"
+
+#: ../templates/opinion/settings.php:109
+#, fuzzy
+msgid "Seconf button background"
+msgstr "Fundalul întrebării"
+
+#: ../templates/opinion/settings.php:115
+#, fuzzy
+msgid "First button color"
+msgstr "Culoarea întrebării"
+
+#: ../templates/opinion/settings.php:121
+#, fuzzy
+msgid "Second button color"
+msgstr "Culoarea întrebării"
+
+#: ../templates/opinion/settings.php:132
+#, fuzzy
+msgid "First bar color"
+msgstr "Bara de culori"
+
+#: ../templates/opinion/settings.php:137
+#, fuzzy
+msgid "Second bar color"
+msgstr "Culoare contur"
+
+#: ../templates/opinion/settings.php:142
+#, fuzzy
+msgid "First text color"
+msgstr "Culoarea textului mesajelor de atenționare"
+
+#: ../templates/opinion/settings.php:147
+#, fuzzy
+msgid "Second text color"
+msgstr "Culoare contur"
+
+#: ../templates/photo-contest/settings.php:13
+#: ../templates/video-contest/settings.php:10
+msgid "Boxes per row"
+msgstr ""
+
+#: ../templates/photo-contest/settings.php:49
+#: ../templates/video-contest/settings.php:46
+#, fuzzy
+msgid "Choice boxes"
+msgstr "Opțiuni"
+
+#: ../templates/photo-contest/settings.php:65
+#: ../templates/video-contest/settings.php:62
+msgid "Image border width (px)"
+msgstr ""
+
+#: ../templates/this-or-that/results.php:32
+#: ../templates/this-or-that/vote.php:26
+msgid "OR"
+msgstr ""
+
+#: ../templates/this-or-that/settings.php:52
+#, fuzzy
+msgid "Choice background"
+msgstr "Fundalul containerului"

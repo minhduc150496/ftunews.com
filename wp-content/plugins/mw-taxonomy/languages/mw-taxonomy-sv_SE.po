@@ -1,0 +1,292 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: MW Taxonomy\n"
+"POT-Creation-Date: 2016-04-13 13:27+0200\n"
+"PO-Revision-Date: 2016-04-13 14:41+0200\n"
+"Last-Translator: Mats Westholm <mw@webtiger.se>\n"
+"Language-Team: \n"
+"Language: sv_SE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7\n"
+"X-Poedit-Basepath: ../includes\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: controller\n"
+"X-Poedit-SearchPath-2: model\n"
+"X-Poedit-SearchPath-3: view\n"
+
+#: class-mw-taxonomy-admin.php:50 controller/class-mw-taxonomy-admin.php:50
+msgid "Custom Taxonomy Page"
+msgstr "Sida för anpassad taxonomi"
+
+#: class-mw-taxonomy-admin.php:59 class-mw-taxonomy-admin.php:79
+#: controller/class-mw-taxonomy-admin.php:59
+#: controller/class-mw-taxonomy-admin.php:79
+msgid "Create New Custom Taxonomy"
+msgstr "Skapa ny anpassad taxonomi"
+
+#: class-mw-taxonomy-admin.php:61 class-mw-taxonomy-admin.php:81
+#: controller/class-mw-taxonomy-admin.php:61
+#: controller/class-mw-taxonomy-admin.php:81
+msgid "Save"
+msgstr "Spara"
+
+#: class-mw-taxonomy-admin.php:75 class-mw-taxonomy-admin.php:125
+#: controller/class-mw-taxonomy-admin.php:75
+#: controller/class-mw-taxonomy-admin.php:125
+msgid "Error"
+msgstr "Fel"
+
+#: class-mw-taxonomy-admin.php:91 controller/class-mw-taxonomy-admin.php:91
+#: model/class-mw-taxonomy-widget.php:128
+msgid "Custom Taxonomy"
+msgstr "Anpassad taxonomi"
+
+#: class-mw-taxonomy-admin.php:105 class-mw-taxonomy-admin.php:118
+#: controller/class-mw-taxonomy-admin.php:105
+#: controller/class-mw-taxonomy-admin.php:118
+msgid "Edit Taxonomy"
+msgstr "Ändra taxonomi"
+
+#: class-mw-taxonomy-admin.php:107 class-mw-taxonomy-admin.php:120
+#: controller/class-mw-taxonomy-admin.php:107
+#: controller/class-mw-taxonomy-admin.php:120
+msgid "Update Taxonomy"
+msgstr "Uppdatera taxonomi"
+
+#: class-mw-taxonomy-admin.php:140 controller/class-mw-taxonomy-admin.php:140
+msgid "Delete Taxonomy"
+msgstr "Radera taxonomi"
+
+#: class-mw-taxonomy-admin.php:141 controller/class-mw-taxonomy-admin.php:141
+msgid "You are about to delete this Taxonomy"
+msgstr "Du är på väg att radera denna taxonomi"
+
+#: class-mw-taxonomy-admin.php:150 controller/class-mw-taxonomy-admin.php:150
+#, php-format
+msgid "Taxonomy %s was deleted"
+msgstr "Taxonomi %s raderades"
+
+#: class-mw-taxonomy-admin.php:192 controller/class-mw-taxonomy-admin.php:192
+msgid "Custom Taxonomy Management"
+msgstr "Hantering av anpassad taxonomi"
+
+#: class-mw-taxonomy-admin.php:193 controller/class-mw-taxonomy-admin.php:193
+msgid "Taxonomy"
+msgstr "Taxonomi"
+
+#: class-mw-taxonomy-admin.php:238 controller/class-mw-taxonomy-admin.php:238
+#, php-format
+msgid "Taxonomy %s %s"
+msgstr "Taxonomi %s %s"
+
+#: class-mw-taxonomy-admin.php:241 controller/class-mw-taxonomy-admin.php:241
+#, php-format
+msgid "Taxonomy %s was not %s"
+msgstr "Taxonomi %s blev inte %s"
+
+#: controller/class-mw-taxonomy-user-input.php:39
+msgid "No name is set"
+msgstr "Inget namn är satt"
+
+#: controller/class-mw-taxonomy-user-input.php:47
+msgid "No singular name is set"
+msgstr "Singulärt namn är inte satt"
+
+#: controller/class-mw-taxonomy-user-input.php:65
+msgid "No post type set"
+msgstr "Posttyp är inte satt"
+
+#: controller/class-mw-taxonomy-user-input.php:73
+msgid "Hierarchical value not set"
+msgstr "Hierarkiskt värde är inte satt"
+
+#: model/class-mw-taxonomy-list-table.php:109
+msgid "Name Plural"
+msgstr "Pluralnamn"
+
+#: model/class-mw-taxonomy-list-table.php:110
+msgid "Name Singular"
+msgstr "Singularnamn"
+
+#: model/class-mw-taxonomy-list-table.php:111
+msgid "Post Type"
+msgstr "Posttyp"
+
+#: model/class-mw-taxonomy-list-table.php:112
+#: view/class-mw-taxonomy-view.php:144 view/class-mw-taxonomy-view.php:201
+msgid "Hierarchical"
+msgstr "Hierarkisk"
+
+#: model/class-mw-taxonomy-list-table.php:113
+msgid "Slug"
+msgstr "Kortnamn"
+
+#: model/class-mw-taxonomy-register.php:42
+#: model/class-mw-taxonomy-register.php:52
+msgid "All"
+msgstr "Alla"
+
+#: model/class-mw-taxonomy-register.php:43
+msgid "Edit"
+msgstr "Editera"
+
+#: model/class-mw-taxonomy-register.php:44
+msgid "View"
+msgstr "Vy"
+
+#: model/class-mw-taxonomy-register.php:45
+msgid "Update"
+msgstr "Uppdatera"
+
+#: model/class-mw-taxonomy-register.php:46 view/class-mw-taxonomy-view.php:14
+msgid "Add New"
+msgstr "Lägg till ny"
+
+#: model/class-mw-taxonomy-register.php:47
+#, php-format
+msgid "New %s Name"
+msgstr "Ny %s namn"
+
+#: model/class-mw-taxonomy-register.php:48
+msgid "Search"
+msgstr "Sök"
+
+#: model/class-mw-taxonomy-register.php:49
+msgid "Popular"
+msgstr "Populär"
+
+#: model/class-mw-taxonomy-register.php:50
+msgid "list navigation"
+msgstr "listnavigation"
+
+#: model/class-mw-taxonomy-register.php:51
+msgid "list"
+msgstr "lista"
+
+#: model/class-mw-taxonomy-register.php:54
+#: model/class-mw-taxonomy-register.php:55
+msgid "Parent"
+msgstr "Förälder"
+
+#: model/class-mw-taxonomy-register.php:58
+#, php-format
+msgid "Separate %s with commas"
+msgstr "Separera %s med komma"
+
+#: model/class-mw-taxonomy-register.php:59
+msgid "Choose from the most used"
+msgstr "Välj från de mest använda"
+
+#: model/class-mw-taxonomy-register.php:60
+#, php-format
+msgid "No %s found"
+msgstr "Inga %s funna"
+
+#: model/class-mw-taxonomy-widget.php:8
+msgid "A list or dropdown of a selected custom taxonomy."
+msgstr "En lista eller dropwown av en vald anpassad taxonomi"
+
+#: model/class-mw-taxonomy-widget.php:56
+#, php-format
+msgid "Select %s"
+msgstr "Välj %s"
+
+#: model/class-mw-taxonomy-widget.php:153
+msgid "Title:"
+msgstr "Titel:"
+
+#: model/class-mw-taxonomy-widget.php:159
+msgid "Display as dropdown"
+msgstr "Visa som dropdown"
+
+#: model/class-mw-taxonomy-widget.php:162
+msgid "Show post counts"
+msgstr "Visa antal poster"
+
+#: view/class-mw-taxonomy-view.php:20
+msgid "Start page"
+msgstr "Startsida"
+
+#: view/class-mw-taxonomy-view.php:42
+msgid "Please fill in the form"
+msgstr "Var vänlig fyll i formuläret"
+
+#: view/class-mw-taxonomy-view.php:51 view/class-mw-taxonomy-view.php:183
+msgid "Taxonomy Name (plural)"
+msgstr "Taxonomins namn (plural)"
+
+#: view/class-mw-taxonomy-view.php:52
+msgid ""
+"The name in plural as it will appear on the site and admin area. Ex "
+"Categories, Tags"
+msgstr ""
+"Namnet i plural som det ska synas på webbplatsen och i adminområdet. T ex "
+"Kategorier, Etiketter"
+
+#: view/class-mw-taxonomy-view.php:59 view/class-mw-taxonomy-view.php:187
+msgid "Taxonomy Name (singular)"
+msgstr "Taxonomins namn (singular)"
+
+#: view/class-mw-taxonomy-view.php:61
+msgid ""
+"The name in singular as it will appear on the site and admin area. Ex "
+"Category, Tag"
+msgstr ""
+"Namnet i singular som det ska synas på webbplatsen och i adminområdet. T "
+"ex Kategori, Etikett"
+
+#: view/class-mw-taxonomy-view.php:76
+msgid "Select Post Types"
+msgstr "Välj posttyp"
+
+#: view/class-mw-taxonomy-view.php:78
+msgid "Select the post types where this taxonomy will be used."
+msgstr "Välj de posttyper där denna taxonomi kommer att användas."
+
+#: view/class-mw-taxonomy-view.php:81
+msgid "Default"
+msgstr "Standard"
+
+#: view/class-mw-taxonomy-view.php:116
+msgid "Custom"
+msgstr "Anpassad"
+
+#: view/class-mw-taxonomy-view.php:146
+msgid "Whether one can be parent to another."
+msgstr "Om en ska vara överordnad en annan."
+
+#: view/class-mw-taxonomy-view.php:147
+msgid "Categories are hierarchical and tags are not."
+msgstr "Kategorier är hierarkiska och etiketter är inte."
+
+#: view/class-mw-taxonomy-view.php:151
+msgid "Yes"
+msgstr "Ja"
+
+#: view/class-mw-taxonomy-view.php:153
+msgid "No"
+msgstr "Ingen"
+
+#: view/class-mw-taxonomy-view.php:165
+msgid "You have no Custom Taxonomy yet"
+msgstr "Du har ingen anpassad taxonomi än"
+
+#: view/class-mw-taxonomy-view.php:169
+msgid "Create one now"
+msgstr "Skapa en nu"
+
+#: view/class-mw-taxonomy-view.php:192
+msgid "Description"
+msgstr "Beskrivning"
+
+#: view/class-mw-taxonomy-view.php:197
+msgid "Post type"
+msgstr "Posttyp"
+
+#: view/class-mw-taxonomy-view.php:205
+msgid "Really Delete"
+msgstr "Verkligen radera"

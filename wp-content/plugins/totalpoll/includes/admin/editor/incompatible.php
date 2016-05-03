@@ -1,0 +1,2 @@
+<?php if ( !defined('ABSPATH') ) exit; // Shhh ?>
+<div class="update-nag"><?php printf( __('This poll isn\'t compatible with your current version of TotalPoll. Please <a href="%s">upgrade your polls</a>.', TP_TD), admin_url('edit.php?post_type=poll&page=tp-tools')); ?></div>

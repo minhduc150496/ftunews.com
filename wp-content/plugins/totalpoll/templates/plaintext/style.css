@@ -1,0 +1,191 @@
+/*
+    Template Name: Plain text
+    Description: Plain text template for TotalPoll
+    Version: 1.0
+    Author: WPStore
+    Author URI: http://wpsto.re/
+    Template URI: http://totalpoll.com/store/templates/plaintext
+*/
+
+/* Box sizing */
+* {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    
+    line-height: {{typography.lineHeight}};
+    font-family: {{typography.fontFamily}};
+    font-size: {{typography.fontSize}};
+}
+/* Reset */
+div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,audio,canvas,details,figcaption,figure,footer,header,hgroup,mark,menu,meter,nav,output,progress,section,summary,time,video{border:0;outline:0;vertical-align:baseline;background-color:transparent;margin:0;padding:0;}body{line-height:1;}article,aside,dialog,figure,footer,header,hgroup,nav,section,blockquote{display:block;}ul, ol{list-style:none;}blockquote,q{quotes:none;}blockquote:before,blockquote:after,q:before,q:after{content:none;}ins{text-decoration:underline;}del{text-decoration:line-through;}mark{background:none;}abbr[title],dfn[title]{border-bottom:1px dotted #000;cursor:help;}table{border-collapse:collapse;border-spacing:0;}hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0;}input[type=submit],input[type=button],button{margin:0;padding:0;}input,select,a img{vertical-align:middle;}li {list-style: none inside}ul:before,li:before,ul:after,li:after{display: none;content: ""}
+
+/**
+ * Question
+ */
+.tp-question{
+    padding: 1em 0;
+}
+
+/**
+ * Choices & Results
+ */
+.tp-choices, .tp-results {
+    margin-bottom: 1em;
+    overflow: hidden;
+}
+
+.tp-choices, .tp-choices li, .tp-results, .tp-results li {
+    color: {{general.choiceColor}};
+}
+
+<?php if( ( $columns = tp_preset_options('general', 'choicesPerRow') ) != '1' ): ?>
+.tp-choices li, .tp-results li {
+    display: inline-block;
+    vertical-align: top;
+    width: <?php echo (100 / $columns); ?>%;
+}
+<?php endif; ?>
+
+.tp-choices li label {
+    display: table;
+    cursor: pointer;
+}
+
+.tp-choices li label > div {
+    display: table-cell;
+    padding: 0.25em 0.75em 0.25em 0;
+}
+
+.tp-choices li label .input input {
+    vertical-align: -2px;
+    margin: 0;
+}
+
+.tp-choices li label .choice-content {
+    vertical-align: top;
+    width: 100%;
+}
+
+.tp-results li {
+    padding: 0;
+}
+
+.tp-results li label {
+    display: block;
+    width: 100%;
+}
+
+.tp-results li .votes-bar {
+    position: relative;
+    height: 0.5em;
+    margin: 0.75em 1em 0.75em 0;
+    background: {{votesbar.background}};
+}
+
+.tp-results li .votes-bar .current-score {
+    position: absolute;
+    <?php if ( is_rtl() ): ?>
+        right: 0;
+    <?php else: ?>
+        left: 0;
+    <?php endif; ?>
+    top: 0;
+    height: 100%;
+    width: 0%;
+
+    background: {{votesbar.color}};
+
+    background: {{votesbar.color}};
+    background: -moz-linear-gradient(left,  {{votesbar.color:start}} 0%, {{votesbar.color:end}} 100%);
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%,{{votesbar.color:start}}), color-stop(100%,{{votesbar.color:end}}));
+    background: -webkit-linear-gradient(left,  {{votesbar.color:start}} 0%,{{votesbar.color:end}} 100%);
+    background: -o-linear-gradient(left,  {{votesbar.color:start}} 0%,{{votesbar.color:end}} 100%);
+    background: -ms-linear-gradient(left,  {{votesbar.color:start}} 0%,{{votesbar.color:end}} 100%);
+    background: linear-gradient(to right,  {{votesbar.color:start}} 0%,{{votesbar.color:end}} 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( color:startstr='{{votesbar.color:start}}', color:endstr='{{votesbar.color:end}}',GradientType=1 );
+}
+
+/**
+ * Buttons
+ */
+.tp-buttons {
+    margin-top: 1em;
+    <?php if ( is_rtl() ): ?>
+        text-align: left;
+    <?php else: ?>
+        text-align: right;
+    <?php endif; ?>
+}
+
+.tp-btn {
+    display: inline-block;
+    padding: 0.5em 1em;
+    color: {{buttons.color}};
+    background: {{buttons.background}};
+    border: 1px solid {{buttons.borderColor}};
+    text-decoration: none;
+    -webkit-border-radius: {{general.borderRadius}}px;
+    -moz-border-radius: {{general.borderRadius}}px;
+    border-radius: {{general.borderRadius}}px;
+}
+.tp-btn:hover, .tp-btn:focus {
+    color: {{buttons.color:hover}};
+    background: {{buttons.background:hover}};
+    border: 1px solid {{buttons.borderColor:hover}};
+}
+
+.tp-btn + .tp-btn {
+    <?php if ( is_rtl() ): ?>
+        margin-right: 1em;
+    <?php else: ?>
+        margin-left: 1em;
+    <?php endif; ?>
+}
+
+.tp-primary-btn {
+    background: {{buttons.primaryBackground}};
+    color: {{buttons.primaryColor}};
+    border: 1px solid {{buttons.primaryBorderColor}};
+}
+.tp-primary-btn:hover, .tp-primary-btn:focus {
+    background: {{buttons.primaryBackground:hover}};
+    color: {{buttons.primaryColor:hover}};;
+    border: 1px solid {{buttons.primaryBorderColor:hover}};
+}
+
+.tp-btn-disabled, .tp-btn:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+/**
+ * Message
+ */
+
+.tp-warning {
+    display: block;
+    padding: 1em 0;
+    color: {{general.warningColor}};
+}
+.tp-warning + .tp-warning ,
+.tp-warning + .tp-question {
+    margin-top: 1em;
+}
+
+/**
+ * Responsive
+ */
+@media screen and (max-width: 768px) {
+    
+    .tp-btn {
+        display: block;
+        width: 100%;
+    }
+    
+    .tp-btn + .tp-btn {
+        margin: 1em 0 0;
+    }
+    
+}

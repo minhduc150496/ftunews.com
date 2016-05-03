@@ -1,0 +1,1126 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: TotalPoll\n"
+"POT-Creation-Date: 2014-12-25 22:35+0100\n"
+"PO-Revision-Date: 2014-12-25 22:37+0100\n"
+"Last-Translator: WPStore <translation@wpsto.re>\n"
+"Language-Team: WPStore <translate@wpsto.re>\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.1\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5);\n"
+"X-Poedit-KeywordsList: _e;__;_n:1,2\n"
+"X-Poedit-SearchPath-0: ../includes\n"
+"X-Poedit-SearchPath-1: ../assets\n"
+"X-Poedit-SearchPath-2: ../templates/default\n"
+"X-Poedit-SearchPath-3: ../templates/chartify\n"
+
+#: ../includes/admin/addons.php:4
+msgid "Install Addons"
+msgstr "تنصيب الملحقات"
+
+#: ../includes/admin/addons.php:7 ../includes/admin/templates.php:6
+msgid "Changes has been saved."
+msgstr "تم حفظ التغييرات."
+
+#: ../includes/admin/addons.php:10
+msgid "Install an addon in .zip format"
+msgstr "تنصيب ملحق من ملف بصيغة .zip"
+
+#: ../includes/admin/addons.php:11
+msgid ""
+"If you have an addon in a .zip format, you may install it by uploading it "
+"here."
+msgstr "إذا كنت تملك ملحق بصيغة .zip، يمكنك تنصيبه عبر رفعه هنا."
+
+#: ../includes/admin/addons.php:15
+msgid "Addon zip file"
+msgstr "ملف zip للملحق"
+
+#: ../includes/admin/addons.php:17 ../includes/admin/templates.php:17
+msgid "Install Now"
+msgstr "تنصيب الآن"
+
+#: ../includes/admin/addons.php:22
+msgid "Available Addons"
+msgstr "الملحقات المتوفرة"
+
+#: ../includes/admin/addons.php:23
+msgid "Available installed addons"
+msgstr "الملحقات المنصّبة"
+
+#: ../includes/admin/addons.php:31
+msgid "Status"
+msgstr "الحالة"
+
+#: ../includes/admin/addons.php:32 ../includes/admin/templates.php:31
+msgid "Name"
+msgstr "الاسم"
+
+#: ../includes/admin/addons.php:33 ../includes/admin/templates.php:32
+msgid "Description"
+msgstr "الوصف"
+
+#: ../includes/admin/addons.php:34 ../includes/admin/templates.php:33
+msgid "Author"
+msgstr "الكاتب"
+
+#: ../includes/admin/addons.php:35 ../includes/admin/templates.php:34
+msgid "Version"
+msgstr "الإصدار"
+
+#: ../includes/admin/addons.php:36
+msgid "Compatiblity"
+msgstr "التوافق"
+
+#: ../includes/admin/addons.php:46
+msgid "Active"
+msgstr "مفعّلة"
+
+#: ../includes/admin/addons.php:46
+msgid "Inactive"
+msgstr "معطّلة"
+
+#: ../includes/admin/addons.php:69
+msgid "Compatible"
+msgstr "متوافق"
+
+#: ../includes/admin/addons.php:69
+msgid "Incompatible"
+msgstr "غير متوافق"
+
+#: ../includes/admin/addons.php:75
+msgid "Nothing. Seriously."
+msgstr "لا شيء. حقا."
+
+#: ../includes/admin/addons.php:81
+msgid "Activate"
+msgstr "تفعيل"
+
+#: ../includes/admin/addons.php:83
+msgid "Deactivate"
+msgstr "تعطيل"
+
+#: ../includes/admin/addons.php:85 ../includes/admin/templates.php:74
+msgid "Are you sure?"
+msgstr "هل أنت متأكد؟"
+
+#: ../includes/admin/addons.php:85 ../includes/admin/editor/design.php:47
+#: ../includes/admin/templates.php:74
+msgid "Delete"
+msgstr "حذف"
+
+#: ../includes/admin/editor/choices.php:5
+msgid "Choices"
+msgstr "الاختيارات"
+
+#: ../includes/admin/editor/choices.php:10
+msgid "Override votes"
+msgstr "تجاوز عدد التصويتات"
+
+#: ../includes/admin/editor/choices.php:14
+#: ../includes/admin/editor/choices.php:30
+#: ../includes/admin/editor/choices.php:31
+#: ../includes/admin/editor/footer.php:9
+#: ../includes/admin/editor/footer.php:10
+msgid "Text"
+msgstr "نص"
+
+#: ../includes/admin/editor/choices.php:15
+msgid "Link"
+msgstr "رابط"
+
+#: ../includes/admin/editor/choices.php:16
+#: ../includes/admin/editor/choices.php:62
+#: ../includes/admin/editor/choices.php:63
+#: ../includes/admin/editor/footer.php:43
+#: ../includes/admin/editor/footer.php:44
+msgid "Image"
+msgstr "صورة"
+
+#: ../includes/admin/editor/choices.php:17
+msgid "Video"
+msgstr "فيديو"
+
+#: ../includes/admin/editor/choices.php:18
+#, fuzzy
+msgid "HTML"
+msgstr "كود HTML"
+
+#: ../includes/admin/editor/choices.php:28
+#: ../includes/admin/editor/choices.php:29
+#: ../includes/admin/editor/choices.php:43
+#: ../includes/admin/editor/choices.php:44
+#: ../includes/admin/editor/choices.php:60
+#: ../includes/admin/editor/choices.php:61
+#: ../includes/admin/editor/choices.php:80
+#: ../includes/admin/editor/choices.php:81
+#: ../includes/admin/editor/choices.php:100
+#: ../includes/admin/editor/choices.php:101
+#: ../includes/admin/editor/choices.php:116
+#: ../includes/admin/editor/choices.php:117
+#: ../includes/admin/editor/footer.php:7 ../includes/admin/editor/footer.php:8
+#: ../includes/admin/editor/footer.php:23
+#: ../includes/admin/editor/footer.php:24
+#: ../includes/admin/editor/footer.php:41
+#: ../includes/admin/editor/footer.php:42
+#: ../includes/admin/editor/footer.php:62
+#: ../includes/admin/editor/footer.php:63
+#: ../includes/admin/editor/footer.php:83
+#: ../includes/admin/editor/footer.php:84
+msgid "Votes"
+msgstr "الأصوات"
+
+#: ../includes/admin/editor/choices.php:45
+#: ../includes/admin/editor/choices.php:46
+#: ../includes/admin/editor/footer.php:25
+#: ../includes/admin/editor/footer.php:26
+msgid "URL"
+msgstr "رابط"
+
+#: ../includes/admin/editor/choices.php:47
+#: ../includes/admin/editor/choices.php:48
+#: ../includes/admin/editor/choices.php:66
+#: ../includes/admin/editor/choices.php:67
+#: ../includes/admin/editor/choices.php:86
+#: ../includes/admin/editor/choices.php:87
+#: ../includes/admin/editor/footer.php:27
+#: ../includes/admin/editor/footer.php:28
+#: ../includes/admin/editor/footer.php:47
+#: ../includes/admin/editor/footer.php:48
+#: ../includes/admin/editor/footer.php:68
+#: ../includes/admin/editor/footer.php:69
+msgid "Label"
+msgstr "التسمية"
+
+#: ../includes/admin/editor/choices.php:64
+#: ../includes/admin/editor/footer.php:45
+msgid "Full"
+msgstr "الحجم الكامل"
+
+#: ../includes/admin/editor/choices.php:65
+#: ../includes/admin/editor/footer.php:46
+msgid "Full Size URL"
+msgstr "رابط الحجم الكامل"
+
+#: ../includes/admin/editor/choices.php:71
+#: ../includes/admin/editor/choices.php:91
+#: ../includes/admin/editor/footer.php:51
+#: ../includes/admin/editor/footer.php:72
+msgid "upload"
+msgstr "رفع"
+
+#: ../includes/admin/editor/choices.php:82
+#: ../includes/admin/editor/choices.php:83
+#: ../includes/admin/editor/footer.php:64
+#: ../includes/admin/editor/footer.php:65
+msgid "Thumbnail"
+msgstr "الصورة البارزة"
+
+#: ../includes/admin/editor/choices.php:84
+#: ../includes/admin/editor/footer.php:66
+msgid "Embed"
+msgstr ""
+
+#: ../includes/admin/editor/choices.php:85
+#: ../includes/admin/editor/footer.php:67
+msgid "Video embed code"
+msgstr "كود تضمين الفيديو"
+
+#: ../includes/admin/editor/choices.php:102
+#: ../includes/admin/editor/footer.php:85
+#, fuzzy
+msgid "Code"
+msgstr "كود HTML"
+
+#: ../includes/admin/editor/choices.php:103
+#: ../includes/admin/editor/footer.php:86
+msgid "HTML Code"
+msgstr "كود HTML"
+
+#: ../includes/admin/editor/design.php:5
+msgid "Design"
+msgstr "التصميم"
+
+#: ../includes/admin/editor/design.php:23
+msgid "Presets"
+msgstr "الإعدادات المسبقة"
+
+#: ../includes/admin/editor/design.php:40
+msgid "Save as"
+msgstr "حفظ بإسم"
+
+#: ../includes/admin/editor/design.php:45
+msgid "Reset"
+msgstr "إعادة تعيين"
+
+#: ../includes/admin/editor/design.php:55
+msgid "Preview Background"
+msgstr "معاينة الخلفية"
+
+#: ../includes/admin/editor/design.php:60
+msgid "Preview Container Background"
+msgstr "معاينة حاوي الخلفية"
+
+#: ../includes/admin/editor/incompatible.php:2
+#, php-format
+msgid ""
+"This poll isn't compatible with your current version of TotalPoll. Please <a "
+"href=\"%s\">upgrade your polls</a>."
+msgstr ""
+"هذا التصويت غير متوافق مع النسخة الحالية من TotalPoll. من فضلك قم <a href="
+"\"%s\">بترقية التصويت</a>."
+
+#: ../includes/admin/editor/limitations.php:5
+msgid "Limitations"
+msgstr "القيود"
+
+#: ../includes/admin/editor/limitations.php:9
+msgid "Prevent re-vote using"
+msgstr "منع إعادة التصويت باستخدام"
+
+#: ../includes/admin/editor/limitations.php:12
+msgid "Sessions"
+msgstr "الجلسات (Sessions)"
+
+#: ../includes/admin/editor/limitations.php:15
+msgid "Cookies"
+msgstr "الكعكات (Cookies)"
+
+#: ../includes/admin/editor/limitations.php:18
+msgid "IP"
+msgstr ""
+
+#: ../includes/admin/editor/limitations.php:21
+msgid "IP Range (IPv4 only)"
+msgstr "نطاق IP (IPv4 فقط)"
+
+#: ../includes/admin/editor/limitations.php:27
+msgid "Cookies timeout (minutes)"
+msgstr "مهلة الكعكات (بالدقائق)"
+
+#: ../includes/admin/editor/limitations.php:34
+msgid "IP timeout (minutes)"
+msgstr "مهلة IP (بالدقائق)"
+
+#: ../includes/admin/editor/limitations.php:41
+msgid "IP range width (1 to 10)"
+msgstr "نطاق عرض IP (1 إلى 10)"
+
+#: ../includes/admin/editor/limitations.php:45
+msgid "IP range limits (votes per range)"
+msgstr "حدود نطاق IP (تصويت لكل نطاق)"
+
+#: ../includes/admin/editor/limitations.php:55
+msgid "User must vote to see results"
+msgstr "على المستخدم أن يقوم بالتصويت ليرى النتائج"
+
+#: ../includes/admin/editor/limitations.php:63
+msgid "User can give multiple answers"
+msgstr "يمكن للمستخدم تحديد أكثر من اختيار"
+
+#: ../includes/admin/editor/limitations.php:71
+msgid "Close poll when votes quota exceed"
+msgstr "إغلاق التصويت عند اكتمال حصة الأصوات"
+
+#: ../includes/admin/editor/limitations.php:77
+msgid "Votes quota"
+msgstr "حصة الأصوات"
+
+#: ../includes/admin/editor/limitations.php:86
+msgid "Date limited"
+msgstr "تحديد الوقت"
+
+#: ../includes/admin/editor/limitations.php:92
+msgid "Start date"
+msgstr "وقت البداية"
+
+#: ../includes/admin/editor/limitations.php:96
+msgid "End date"
+msgstr "وقت النهاية"
+
+#: ../includes/admin/editor/logs.php:5
+msgid "Logs"
+msgstr "السجلات"
+
+#: ../includes/admin/editor/logs.php:10
+msgid "Save logs"
+msgstr "حفظ السجلات"
+
+#: ../includes/admin/editor/logs.php:17
+msgid "Download logs"
+msgstr "تحميل السجلات"
+
+#: ../includes/admin/editor/logs.php:18
+msgid "Download old logs (deprecated)"
+msgstr "تحميل السجلات القديمة (سيتم حذفها قريبا)"
+
+#: ../includes/admin/editor/logs.php:19
+msgid "Reset logs"
+msgstr "إعادة تعيين السجلات"
+
+#: ../includes/admin/editor/misc.php:5
+msgid "Misc"
+msgstr "متفرقات"
+
+#: ../includes/admin/editor/misc.php:10
+msgid "Order results by votes"
+msgstr "ترتيب النائج حسب الأصوات"
+
+#: ../includes/admin/editor/misc.php:15
+msgid "Ascending"
+msgstr "تصاعدي"
+
+#: ../includes/admin/editor/misc.php:18
+msgid "Descending"
+msgstr "تنازلي"
+
+#: ../includes/admin/editor/misc.php:26
+msgid "Shuffle choices order"
+msgstr "ترتيب الاختيارات عشوائياً"
+
+#: ../includes/admin/editor/misc.php:32
+msgid "Results are shown as"
+msgstr "عرض النتائج ك"
+
+#: ../includes/admin/editor/misc.php:36
+msgid "Number"
+msgstr "رقم"
+
+#: ../includes/admin/editor/misc.php:39
+msgid "Percentage"
+msgstr "نسبة مئوية"
+
+#: ../includes/admin/editor/misc.php:42
+msgid "Both"
+msgstr "كليهما"
+
+#: ../includes/admin/editor/misc.php:45
+msgid "Nothing"
+msgstr "لا شيء"
+
+#: ../includes/admin/editor/preview.php:59
+msgid "Please wait."
+msgstr "يرجى الإنتظار."
+
+#: ../includes/admin/editor/preview.php:72
+msgid "To preview this poll, please save it."
+msgstr "لمعاينة التصويت، يرجى حفظه."
+
+#: ../includes/admin/editor/question.php:5
+#: ../includes/admin/editor/question.php:8
+#: ../includes/admin/editor/sharing.php:26
+msgid "Question"
+msgstr "السؤال"
+
+#: ../includes/admin/editor/reset.php:2
+msgid "Logs has been reset!"
+msgstr "تم إعادة تعيين السجلات!"
+
+#: ../includes/admin/editor/sharing.php:5
+msgid "Sharing"
+msgstr "المشاركة"
+
+#: ../includes/admin/editor/sharing.php:10
+msgid "Show share icons"
+msgstr "عرض إيقونات المشاركة"
+
+#: ../includes/admin/editor/sharing.php:19
+msgid "Variable"
+msgstr "المتغير"
+
+#: ../includes/admin/editor/sharing.php:20
+msgid "Value"
+msgstr "القيمة"
+
+#: ../includes/admin/editor/sharing.php:30
+msgid "Current link"
+msgstr "الرابط الحالي"
+
+#: ../includes/admin/editor/sharing.php:38
+msgid "Twitter expression"
+msgstr "تعبير تويتر"
+
+#: ../includes/admin/editor/sharing.php:45
+msgid "Facebook expression"
+msgstr "تعبير فيسبوك"
+
+#: ../includes/admin/editor/sharing.php:52
+msgid "Google+ expression"
+msgstr "تعبير جوجل+"
+
+#: ../includes/admin/editor/shortcode.php:5
+msgid "Shortcode"
+msgstr ""
+
+#: ../includes/admin/store.php:9 ../includes/class-admin.php:143
+msgid "Templates"
+msgstr "القوالب"
+
+#: ../includes/admin/store.php:10
+msgid "Available templates"
+msgstr "القوالب المتوفرة"
+
+#: ../includes/admin/templates.php:3
+msgid "Install Templates"
+msgstr "تنصيب القوالب"
+
+#: ../includes/admin/templates.php:10
+msgid "Install a template in .zip format"
+msgstr "اتصيب قالب بصيغة .zip"
+
+#: ../includes/admin/templates.php:11
+msgid ""
+"If you have a template in a .zip format, you may install it by uploading it "
+"here."
+msgstr "إذا كنت تملك قالب بصيغة .zip، يمكنك تنصيبه عبر رفعه هنا."
+
+#: ../includes/admin/templates.php:15
+msgid "Template zip file"
+msgstr "ملف zip للقالب"
+
+#: ../includes/admin/templates.php:22
+msgid "Available Templates"
+msgstr "القوالب المتوفرة"
+
+#: ../includes/admin/templates.php:23
+msgid "Available installed templates"
+msgstr "القوالب المنصّبة"
+
+#: ../includes/admin/templates.php:48
+msgid "Unknown"
+msgstr "مجهول"
+
+#: ../includes/admin/tools.php:6 ../includes/class-admin.php:147
+msgid "TotalPoll Tools"
+msgstr "أدوات TotalPoll"
+
+#: ../includes/admin/tools.php:10
+msgid "Backup current polls."
+msgstr "أخذ نسخة احتياطية للتصويتات"
+
+#: ../includes/admin/tools.php:13
+msgid "Download backup"
+msgstr "تحميل النسخة الاحتياطية"
+
+#: ../includes/admin/tools.php:25
+msgid "Check all"
+msgstr "تحديد الكل"
+
+#: ../includes/admin/tools.php:43
+msgid "Upgrade"
+msgstr "ترقية"
+
+#: ../includes/admin/tools.php:49
+msgid "All polls are compatible with the current version!"
+msgstr "جميع التصويتات متوافقة مع النسخة الحالية!"
+
+#: ../includes/admin/tools.php:52
+msgid "Browse polls"
+msgstr "تصفح التصويتات"
+
+#: ../includes/admin/update-notification.php:3
+msgid "There is an new update for TotalPoll plugin."
+msgstr "هناك تحديث جديد لإضافة TotalPoll."
+
+#: ../includes/admin/update-notification.php:4
+msgid "Check it out!"
+msgstr "اطلع على المزيد!"
+
+#: ../includes/admin/update-notification.php:6
+msgid "Dismiss"
+msgstr "تجاهل"
+
+#: ../includes/class-addons.php:145
+msgid "Upload Addon"
+msgstr "تحديث الملحق"
+
+#: ../includes/class-addons.php:150
+#, php-format
+msgid "Installing Addon from uploaded file: %s"
+msgstr "تنصيب الملحق من الملف المرفوع: %s"
+
+#: ../includes/class-addons.php:219 ../includes/class-template.php:617
+msgid "Could not access filesystem."
+msgstr "لا يمكن الوصول إلى ملفات النظام."
+
+#: ../includes/class-addons.php:222 ../includes/class-template.php:620
+msgid "Filesystem error."
+msgstr "خطأ في ملفات النظام."
+
+#: ../includes/class-addons.php:227
+msgid "Unable to locate TotalPoll addons directory."
+msgstr "غير قادر على تحديد مجلد ملحقات TotalPoll."
+
+#: ../includes/class-addons.php:238
+#, php-format
+msgid "Could not fully remove the addon %s."
+msgstr "لا يمكن إزالة الملحق %s بشكل كامل."
+
+#: ../includes/class-admin.php:141
+msgid "Addons Manager"
+msgstr "مدير الملحقات"
+
+#: ../includes/class-admin.php:141
+msgid "Addons"
+msgstr "الملحقات"
+
+#: ../includes/class-admin.php:143
+msgid "Templates Manager"
+msgstr "مدير القوالب"
+
+#: ../includes/class-admin.php:145
+msgid "Templates & Addons Store"
+msgstr "متجر القوالب والملحقات"
+
+#: ../includes/class-admin.php:145
+msgid "Store"
+msgstr "المتجر"
+
+#: ../includes/class-admin.php:147
+msgid "Tools"
+msgstr "أدوات"
+
+#: ../includes/class-admin.php:149
+msgid "About TotalPoll"
+msgstr "عن TotalPoll"
+
+#: ../includes/class-admin.php:149
+msgid "About"
+msgstr "حول الاضافة"
+
+#: ../includes/class-installer-skin.php:23
+msgid "Return to Templates"
+msgstr "العودة إلى القوالب"
+
+#: ../includes/class-installer-skin.php:25
+msgid "Return to Addons"
+msgstr "العودة إلى الملحقات"
+
+#: ../includes/class-installer.php:51 ../includes/class-installer.php:62
+msgid "Install package not available."
+msgstr "حزمة التنصيب غير متوفرة."
+
+#: ../includes/class-installer.php:52 ../includes/class-installer.php:63
+msgid "Unpacking the package&#8230;"
+msgstr "جاري فك ضغط الحزمة&#8230;"
+
+#: ../includes/class-installer.php:53
+msgid "Installing the template&#8230;"
+msgstr "جاري تنصيب القالب&#8230;"
+
+#: ../includes/class-installer.php:54
+msgid "The template contains no files."
+msgstr "القالب لا يحوي ملفات."
+
+#: ../includes/class-installer.php:55
+msgid "Template install failed."
+msgstr "فشل تنصيب القالب."
+
+#: ../includes/class-installer.php:56
+msgid "Template installed successfully."
+msgstr "تم تنصيب القالب بنجاح."
+
+#. translators: 1: template name, 2: version
+#: ../includes/class-installer.php:58
+#, php-format
+msgid "Successfully installed the template <strong>%1$s %2$s</strong>."
+msgstr "تم تنصيب القالب <strong>%1$s %2$s</strong> بنجاح."
+
+#. translators: 1: template name, 2: version
+#: ../includes/class-installer.php:60 ../includes/class-installer.php:71
+#, php-format
+msgid "Preparing to install <strong>%1$s %2$s</strong>&#8230;"
+msgstr "جاري التجهيز للتنصيب <strong>%1$s %2$s</strong>&#8230;"
+
+#: ../includes/class-installer.php:64
+msgid "Installing the addon&#8230;"
+msgstr "جاري تنصيب الملحق&#8230;"
+
+#: ../includes/class-installer.php:65
+msgid "The addon contains no files."
+msgstr "الملحق لا يحوي ملفات."
+
+#: ../includes/class-installer.php:66
+msgid "Addon install failed."
+msgstr "فشل تنصيب الملحق."
+
+#: ../includes/class-installer.php:67
+msgid "Addon installed successfully."
+msgstr "تم تنصيب الملحق بنجاح."
+
+#. translators: 1: template name, 2: version
+#: ../includes/class-installer.php:69
+#, php-format
+msgid "Successfully installed the addon <strong>%1$s %2$s</strong>."
+msgstr "تم تنصيب الملحق <strong>%1$s %2$s</strong> بنجاح."
+
+#: ../includes/class-installer.php:141
+msgid "The template is missing the <code>style.css</code> stylesheet."
+msgstr "القالب لا يحوي ملف <code>style.css</code>."
+
+#: ../includes/class-installer.php:147
+msgid ""
+"The <code>style.css</code> stylesheet doesn't contain a valid template "
+"header."
+msgstr "ملف <code>style.css</code> لا يحوي ترويسة صحيحة لقالب."
+
+#: ../includes/class-installer.php:152
+msgid ""
+"The template is missing the <code>vote.php</code> or <code>results.php</"
+"code> file."
+msgstr "القالب لا يحوي ملف <code>vote.php</code> أو <code>results.php</code>."
+
+#: ../includes/class-installer.php:159
+msgid "The addon is missing the <code>addon.php</code> essential file."
+msgstr "الملحق لا يحوي ملف <code>addon.php</code> الأساسي."
+
+#: ../includes/class-installer.php:165
+msgid "The <code>addon.php</code> file doesn't contain a valid addon header."
+msgstr "ملف <code>addon.php</code> لا يحوي ترويسة صالحة."
+
+#: ../includes/class-installer.php:169
+msgid ""
+"The <code>addon.php</code> file doesn't contain a minimum required version."
+msgstr "ملف <code>addon.php</code> لا يحوي رقم الإصدارة الأدنى."
+
+#: ../includes/class-installer.php:173
+#, php-format
+msgid "This addon require TotalPoll version %s or higher"
+msgstr "هذا الملحق يتطلب TotalPoll الإصدار %s أو أعلى."
+
+#: ../includes/class-logs.php:138
+msgid "\"Date\";\"Time\";\"Status\";\"Choice\";\"IP\";\"User Agent\";\"Extra\""
+msgstr ""
+"\"التاريخ\";\"الوقت\";\"الحالة\";\"الخيار\";\"IP\";\"المتصفح\";\"أخرى\""
+
+#: ../includes/class-poll-editor.php:127 ../includes/class-poll-editor.php:217
+#: ../includes/class-poll-editor.php:299
+msgid "Choice sample"
+msgstr "عينة اختيار"
+
+#: ../includes/class-poll-editor.php:216
+msgid "A question"
+msgstr "سؤال ما"
+
+#: ../includes/class-request.php:60
+msgid "You cannot preview this poll. Login first."
+msgstr "لا يمكن معاينة هذا التصويت. قم بتسجيل الدخول أولا."
+
+#: ../includes/class-request.php:101
+msgid "Accepted"
+msgstr "مقبول"
+
+#: ../includes/class-request.php:103 ../includes/class-request.php:108
+msgid "Denied"
+msgstr "مرفوض"
+
+#: ../includes/class-template.php:554
+msgid "Upload Template"
+msgstr "تحديث القالب"
+
+#: ../includes/class-template.php:558
+#, php-format
+msgid "Installing Template from uploaded file: %s"
+msgstr "جاري تنصيب القالب من الملف المرفوع: %s"
+
+#: ../includes/class-template.php:625
+msgid "Unable to locate TotalPoll templates directory."
+msgstr "غير قادر على تحديد مجلد قوالب TotalPoll."
+
+#: ../includes/class-template.php:632
+#, php-format
+msgid "Could not fully remove the template %s."
+msgstr "لا يمكن إزالة القالب %s بشكل كامل."
+
+#: ../includes/class-widget.php:24
+msgid "Poll - TotalPoll"
+msgstr "تصويت - TotalPoll"
+
+#: ../includes/class-widget.php:25
+msgid "Poll widget"
+msgstr "مربع TotalPoll الجانبي"
+
+#: ../includes/class-widget.php:119 ../includes/class-widget.php:139
+#: ../includes/post-type.php:19
+msgid "Poll"
+msgstr "تصويت"
+
+#: ../includes/class-widget.php:134
+msgid "Title:"
+msgstr "العنوان:"
+
+#: ../includes/post-type.php:18 ../includes/post-type.php:30
+msgid "Polls"
+msgstr "التصويتات"
+
+#: ../includes/post-type.php:20
+msgid "Add New"
+msgstr "إضافة جديد"
+
+#: ../includes/post-type.php:21
+msgid "Add New Poll"
+msgstr "إضافة تصويت جديد"
+
+#: ../includes/post-type.php:22
+msgid "Edit Poll"
+msgstr "تعديل التصويت"
+
+#: ../includes/post-type.php:23
+msgid "New Poll"
+msgstr "تصويت جديد"
+
+#: ../includes/post-type.php:24
+msgid "All Polls"
+msgstr "جميع التصويتات"
+
+#: ../includes/post-type.php:25
+msgid "View Poll"
+msgstr "عرض التصويت"
+
+#: ../includes/post-type.php:26
+msgid "Search Polls"
+msgstr "البحث عن تصويت"
+
+#: ../includes/post-type.php:27
+msgid "No polls found"
+msgstr "لم يتم العثور على تصويتات"
+
+#: ../includes/post-type.php:28
+msgid "No polls found in Trash"
+msgstr "لم يتم العثور على تصويتات في سلة المهملات"
+
+#: ../includes/post-type.php:73
+#, php-format
+msgid "Poll updated. <a href=\"%s\">View poll</a>"
+msgstr "تم تحديث التصويت. <a href=\"%s\">عرض التصويت</a>"
+
+#: ../includes/post-type.php:74
+msgid "Custom field updated."
+msgstr "تم تحديث الحقل المخصص."
+
+#: ../includes/post-type.php:75
+msgid "Custom field deleted."
+msgstr "تم إزالة الحقل المخصص."
+
+#: ../includes/post-type.php:76
+msgid "Poll updated."
+msgstr "تم تحديث التصويت."
+
+#: ../includes/post-type.php:77
+#, php-format
+msgid "Poll restored to revision from %s"
+msgstr "تم إرسال التصويت للمراجعة من %s"
+
+#: ../includes/post-type.php:78
+#, php-format
+msgid "Poll published. <a href=\"%s\">View poll</a>"
+msgstr "تم نشر التصويت. <a href=\"%s\">عرض التصويت</a>"
+
+#: ../includes/post-type.php:79
+msgid "Poll saved."
+msgstr "تم حفظ التصويت."
+
+#: ../includes/post-type.php:80
+#, php-format
+msgid "Poll submitted. <a target=\"_blank\" href=\"%s\">Preview poll</a>"
+msgstr "تم إرسال التصويت. <a target=\"_blank\" href=\"%s\">معاينة التصويت</a>"
+
+#: ../includes/post-type.php:81
+#, php-format
+msgid ""
+"Poll scheduled for: <strong>%1$s</strong>. <a target=\"_blank\" href=\"%2$s"
+"\">Preview poll</a>"
+msgstr ""
+"تم جدولة التصويت إلى: <strong>%1$s</strong>. <a target=\"_blank\" href=\"%2$s"
+"\">معاينة التصويت</a>"
+
+#: ../includes/post-type.php:81
+msgid "M j, Y @ G:i"
+msgstr ""
+
+#: ../includes/post-type.php:82
+#, php-format
+msgid "Poll draft updated. <a target=\"_blank\" href=\"%s\">Preview poll</a>"
+msgstr ""
+"تم تحديث مسودة التصويت. <a target=\"_blank\" href=\"%s\">معاينة التصويت</a>"
+
+#: ../templates/chartify/header.php:3 ../templates/default/header.php:3
+msgid "Closed due to the exceeded votes quota"
+msgstr "تم إغلاقه بسبب اكتمال حصة التصويت"
+
+#: ../templates/chartify/header.php:7 ../templates/default/header.php:7
+msgid "This poll isn't started yet."
+msgstr "هذا التصويت لم يبدأ بعد."
+
+#: ../templates/chartify/header.php:11 ../templates/default/header.php:11
+msgid "This poll has been closed."
+msgstr "هذا التصويت قد تم إغلاقه."
+
+#: ../templates/chartify/results.php:21 ../templates/default/results.php:47
+msgid "Back"
+msgstr "العودة"
+
+#: ../templates/chartify/results.php:37 ../templates/default/results.php:24
+#: ../templates/default/results.php:28
+#, php-format
+msgid "%s Vote"
+msgid_plural "%s Votes"
+msgstr[0] "بدون تصويتات"
+msgstr[1] "تصويت واحد"
+msgstr[2] "تصويتان"
+msgstr[3] "%s تصويتات"
+msgstr[4] "%s تصويت"
+msgstr[5] "%s تصويت"
+
+#: ../templates/chartify/settings.php:7 ../templates/default/settings.php:9
+msgid "General settings"
+msgstr "الإعدادات العامة"
+
+#: ../templates/chartify/settings.php:11 ../templates/default/settings.php:13
+msgid "Container border"
+msgstr "حدود الحاوية"
+
+#: ../templates/chartify/settings.php:16 ../templates/default/settings.php:18
+msgid "Container background"
+msgstr "حاوي الخلفية"
+
+#: ../templates/chartify/settings.php:21 ../templates/default/settings.php:23
+msgid "Warning messages background"
+msgstr "خلفية رسالة التحذير"
+
+#: ../templates/chartify/settings.php:26 ../templates/default/settings.php:28
+msgid "Warning messages border"
+msgstr "حدود رسالة التحذير"
+
+#: ../templates/chartify/settings.php:31 ../templates/default/settings.php:33
+msgid "Warning messages text color"
+msgstr "لون نص رسالة التحذير"
+
+#: ../templates/chartify/settings.php:36 ../templates/default/settings.php:38
+msgid "Question background"
+msgstr "خلفية السؤال"
+
+#: ../templates/chartify/settings.php:41 ../templates/default/settings.php:43
+msgid "Question color"
+msgstr "لون السؤال"
+
+#: ../templates/chartify/settings.php:46 ../templates/default/settings.php:48
+msgid "Choice color"
+msgstr "لون الاختيار"
+
+#: ../templates/chartify/settings.php:51 ../templates/default/settings.php:53
+msgid "Checkbox background"
+msgstr "خلفية مربع التحديد"
+
+#: ../templates/chartify/settings.php:56 ../templates/default/settings.php:58
+msgid "Animation duration (ms)"
+msgstr "مدة التحريك (بالميلي ثانية)"
+
+#: ../templates/chartify/settings.php:61 ../templates/default/settings.php:63
+msgid "Border radius (px)"
+msgstr "إستدارة الحدود (بالبيكسل)"
+
+#: ../templates/chartify/settings.php:67 ../templates/default/settings.php:69
+msgid "Buttons"
+msgstr "الأزرار"
+
+#: ../templates/chartify/settings.php:71 ../templates/default/settings.php:73
+#: ../templates/default/settings.php:114
+msgid "Background"
+msgstr "الخلفية"
+
+#: ../templates/chartify/settings.php:77 ../templates/default/settings.php:79
+msgid "Primary background"
+msgstr "الخلفية الأساسية"
+
+#: ../templates/chartify/settings.php:83 ../templates/default/settings.php:85
+msgid "Default color"
+msgstr "اللون الافتراضي"
+
+#: ../templates/chartify/settings.php:89 ../templates/default/settings.php:91
+msgid "Primary color"
+msgstr "اللون الأساسي"
+
+#: ../templates/chartify/settings.php:95
+#: ../templates/chartify/settings.php:101 ../templates/default/settings.php:97
+#: ../templates/default/settings.php:103
+msgid "Border color"
+msgstr "لون الحدود"
+
+#: ../templates/chartify/settings.php:108
+msgid "Charts"
+msgstr ""
+
+#: ../templates/chartify/settings.php:112
+msgid "Chart Type"
+msgstr ""
+
+#: ../templates/chartify/settings.php:117
+msgid "Pie"
+msgstr ""
+
+#: ../templates/chartify/settings.php:121
+msgid "Doughnut"
+msgstr ""
+
+#: ../templates/chartify/settings.php:125
+msgid "Polar Area"
+msgstr ""
+
+#: ../templates/chartify/settings.php:131
+msgid "Canvas Height (px)"
+msgstr ""
+
+#: ../templates/chartify/settings.php:136
+msgid "Chart Animation"
+msgstr ""
+
+#: ../templates/chartify/settings.php:141
+msgid "Enabled"
+msgstr ""
+
+#: ../templates/chartify/settings.php:145
+msgid "Disabled"
+msgstr ""
+
+#: ../templates/chartify/settings.php:151
+msgid "Animation Easing"
+msgstr ""
+
+#: ../templates/chartify/settings.php:156
+msgid "linear"
+msgstr ""
+
+#: ../templates/chartify/settings.php:159
+msgid "swing"
+msgstr ""
+
+#: ../templates/chartify/settings.php:162
+msgid "easeOutQuad"
+msgstr ""
+
+#: ../templates/chartify/settings.php:165
+msgid "easeOutCubic"
+msgstr ""
+
+#: ../templates/chartify/settings.php:168
+msgid "easeOutQuart"
+msgstr ""
+
+#: ../templates/chartify/settings.php:171
+msgid "easeOutQuint"
+msgstr ""
+
+#: ../templates/chartify/settings.php:174
+msgid "easeOutExpo"
+msgstr ""
+
+#: ../templates/chartify/settings.php:177
+msgid "easeOutSine"
+msgstr ""
+
+#: ../templates/chartify/settings.php:180
+msgid "easeOutCirc"
+msgstr ""
+
+#: ../templates/chartify/settings.php:183
+msgid "easeOutElastic"
+msgstr ""
+
+#: ../templates/chartify/settings.php:186
+msgid "easeOutBack"
+msgstr ""
+
+#: ../templates/chartify/settings.php:189
+msgid "easeOutBounce"
+msgstr ""
+
+#: ../templates/chartify/settings.php:195
+msgid "Legend Map"
+msgstr ""
+
+#: ../templates/chartify/settings.php:200
+msgid "Labels On Tooltip"
+msgstr ""
+
+#: ../templates/chartify/settings.php:204
+msgid "Below"
+msgstr ""
+
+#: ../templates/chartify/settings.php:208
+msgid "Float"
+msgstr ""
+
+#: ../templates/chartify/settings.php:214
+msgid "Map Backround"
+msgstr ""
+
+#: ../templates/chartify/settings.php:216
+msgid "Hover"
+msgstr ""
+
+#: ../templates/chartify/settings.php:220
+msgid "Map Hover Border"
+msgstr ""
+
+#: ../templates/chartify/settings.php:226
+msgid "Chart Colors"
+msgstr ""
+
+#: ../templates/chartify/settings.php:230
+#, php-format
+msgid "Color for choice #%s"
+msgstr ""
+
+#: ../templates/chartify/settings.php:231
+#, php-format
+msgid "Highlight color for choice #%s"
+msgstr ""
+
+#: ../templates/chartify/settings.php:237
+#: ../templates/default/settings.php:130
+msgid "Typography"
+msgstr "الخط"
+
+#: ../templates/chartify/settings.php:241
+#: ../templates/default/settings.php:134
+msgid "Line height"
+msgstr "ارتفاع السطر"
+
+#: ../templates/chartify/settings.php:246
+#: ../templates/default/settings.php:139
+msgid "Font Family"
+msgstr "الخط"
+
+#: ../templates/chartify/settings.php:251
+#: ../templates/default/settings.php:144
+msgid "Font Size"
+msgstr "حجم الخط"
+
+#: ../templates/chartify/vote.php:35 ../templates/default/vote.php:35
+msgid "Vote to see results"
+msgstr "صوّت لترى النتائج"
+
+#: ../templates/chartify/vote.php:37 ../templates/default/vote.php:37
+msgid "Results"
+msgstr "النتائج"
+
+#: ../templates/chartify/vote.php:39 ../templates/default/vote.php:39
+msgid "Vote"
+msgstr "صوّت"
+
+#: ../templates/default/settings.php:110
+msgid "Votes bar"
+msgstr "شريط الاختيارات"
+
+#: ../templates/default/settings.php:120
+msgid "Bar color"
+msgstr "لون الشريط"
+
+#~ msgid "[%s] vote for %s from %s using %s"
+#~ msgstr "[%s] تصويت ل %s من %s باستخدام %s"

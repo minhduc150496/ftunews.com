@@ -1,0 +1,1126 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: TotalPoll\n"
+"POT-Creation-Date: 2014-12-25 22:34+0100\n"
+"PO-Revision-Date: 2015-04-26 12:49+0100\n"
+"Last-Translator: WPStore <translation@wpsto.re>\n"
+"Language-Team: WPStore <translate@wpsto.re>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.1\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: _e;__;_n:1,2\n"
+"X-Poedit-SearchPath-0: ../includes\n"
+"X-Poedit-SearchPath-1: ../assets\n"
+"X-Poedit-SearchPath-2: ../templates/default\n"
+"X-Poedit-SearchPath-3: ../templates/chartify\n"
+
+#: ../includes/admin/addons.php:4
+msgid "Install Addons"
+msgstr "Installa Addons"
+
+#: ../includes/admin/addons.php:7 ../includes/admin/templates.php:6
+msgid "Changes has been saved."
+msgstr "Le modifiche sono state salvate"
+
+#: ../includes/admin/addons.php:10
+msgid "Install an addon in .zip format"
+msgstr "Installa "
+
+#: ../includes/admin/addons.php:11
+msgid ""
+"If you have an addon in a .zip format, you may install it by uploading it "
+"here."
+msgstr "Se hai un addon in formato .zip, puoi installarlo facendo l'upload qui"
+
+#: ../includes/admin/addons.php:15
+msgid "Addon zip file"
+msgstr "Addon file zip"
+
+#: ../includes/admin/addons.php:17 ../includes/admin/templates.php:17
+msgid "Install Now"
+msgstr "Installa ora"
+
+#: ../includes/admin/addons.php:22
+msgid "Available Addons"
+msgstr "Addons disponibili"
+
+#: ../includes/admin/addons.php:23
+msgid "Available installed addons"
+msgstr "Addons disponibili installati"
+
+#: ../includes/admin/addons.php:31
+msgid "Status"
+msgstr "Stato"
+
+#: ../includes/admin/addons.php:32 ../includes/admin/templates.php:31
+msgid "Name"
+msgstr "Nome"
+
+#: ../includes/admin/addons.php:33 ../includes/admin/templates.php:32
+msgid "Description"
+msgstr "Descrizione"
+
+#: ../includes/admin/addons.php:34 ../includes/admin/templates.php:33
+msgid "Author"
+msgstr "Autore"
+
+#: ../includes/admin/addons.php:35 ../includes/admin/templates.php:34
+msgid "Version"
+msgstr "Versione"
+
+#: ../includes/admin/addons.php:36
+msgid "Compatiblity"
+msgstr "Compatibilità"
+
+#: ../includes/admin/addons.php:46
+msgid "Active"
+msgstr "Attivo"
+
+#: ../includes/admin/addons.php:46
+msgid "Inactive"
+msgstr "Inattivo"
+
+#: ../includes/admin/addons.php:69
+msgid "Compatible"
+msgstr "Compatibile"
+
+#: ../includes/admin/addons.php:69
+msgid "Incompatible"
+msgstr "Incompatibile"
+
+#: ../includes/admin/addons.php:75
+msgid "Nothing. Seriously."
+msgstr "Niente. Sul serio."
+
+#: ../includes/admin/addons.php:81
+msgid "Activate"
+msgstr "Attiva"
+
+#: ../includes/admin/addons.php:83
+msgid "Deactivate"
+msgstr "Disattiva"
+
+#: ../includes/admin/addons.php:85 ../includes/admin/templates.php:74
+msgid "Are you sure?"
+msgstr "Sei sicuro?"
+
+#: ../includes/admin/addons.php:85 ../includes/admin/editor/design.php:47
+#: ../includes/admin/templates.php:74
+msgid "Delete"
+msgstr "Cancella"
+
+#: ../includes/admin/editor/choices.php:5
+msgid "Choices"
+msgstr "Scelte"
+
+#: ../includes/admin/editor/choices.php:10
+msgid "Override votes"
+msgstr "Sovrascrivi voti"
+
+#: ../includes/admin/editor/choices.php:14
+#: ../includes/admin/editor/choices.php:30
+#: ../includes/admin/editor/choices.php:31
+#: ../includes/admin/editor/footer.php:9
+#: ../includes/admin/editor/footer.php:10
+msgid "Text"
+msgstr "Testo"
+
+#: ../includes/admin/editor/choices.php:15
+msgid "Link"
+msgstr "Link"
+
+#: ../includes/admin/editor/choices.php:16
+#: ../includes/admin/editor/choices.php:62
+#: ../includes/admin/editor/choices.php:63
+#: ../includes/admin/editor/footer.php:43
+#: ../includes/admin/editor/footer.php:44
+msgid "Image"
+msgstr "Immagine"
+
+#: ../includes/admin/editor/choices.php:17
+msgid "Video"
+msgstr "Video"
+
+#: ../includes/admin/editor/choices.php:18
+msgid "HTML"
+msgstr "HTML"
+
+#: ../includes/admin/editor/choices.php:28
+#: ../includes/admin/editor/choices.php:29
+#: ../includes/admin/editor/choices.php:43
+#: ../includes/admin/editor/choices.php:44
+#: ../includes/admin/editor/choices.php:60
+#: ../includes/admin/editor/choices.php:61
+#: ../includes/admin/editor/choices.php:80
+#: ../includes/admin/editor/choices.php:81
+#: ../includes/admin/editor/choices.php:100
+#: ../includes/admin/editor/choices.php:101
+#: ../includes/admin/editor/choices.php:116
+#: ../includes/admin/editor/choices.php:117
+#: ../includes/admin/editor/footer.php:7 ../includes/admin/editor/footer.php:8
+#: ../includes/admin/editor/footer.php:23
+#: ../includes/admin/editor/footer.php:24
+#: ../includes/admin/editor/footer.php:41
+#: ../includes/admin/editor/footer.php:42
+#: ../includes/admin/editor/footer.php:62
+#: ../includes/admin/editor/footer.php:63
+#: ../includes/admin/editor/footer.php:83
+#: ../includes/admin/editor/footer.php:84
+msgid "Votes"
+msgstr "Voti"
+
+#: ../includes/admin/editor/choices.php:45
+#: ../includes/admin/editor/choices.php:46
+#: ../includes/admin/editor/footer.php:25
+#: ../includes/admin/editor/footer.php:26
+msgid "URL"
+msgstr "URL"
+
+#: ../includes/admin/editor/choices.php:47
+#: ../includes/admin/editor/choices.php:48
+#: ../includes/admin/editor/choices.php:66
+#: ../includes/admin/editor/choices.php:67
+#: ../includes/admin/editor/choices.php:86
+#: ../includes/admin/editor/choices.php:87
+#: ../includes/admin/editor/footer.php:27
+#: ../includes/admin/editor/footer.php:28
+#: ../includes/admin/editor/footer.php:47
+#: ../includes/admin/editor/footer.php:48
+#: ../includes/admin/editor/footer.php:68
+#: ../includes/admin/editor/footer.php:69
+msgid "Label"
+msgstr "Etichetta"
+
+#: ../includes/admin/editor/choices.php:64
+#: ../includes/admin/editor/footer.php:45
+msgid "Full"
+msgstr "Intera"
+
+#: ../includes/admin/editor/choices.php:65
+#: ../includes/admin/editor/footer.php:46
+msgid "Full Size URL"
+msgstr "Dimensione intera URL"
+
+#: ../includes/admin/editor/choices.php:71
+#: ../includes/admin/editor/choices.php:91
+#: ../includes/admin/editor/footer.php:51
+#: ../includes/admin/editor/footer.php:72
+msgid "upload"
+msgstr "carica"
+
+#: ../includes/admin/editor/choices.php:82
+#: ../includes/admin/editor/choices.php:83
+#: ../includes/admin/editor/footer.php:64
+#: ../includes/admin/editor/footer.php:65
+msgid "Thumbnail"
+msgstr "Thumbnail"
+
+#: ../includes/admin/editor/choices.php:84
+#: ../includes/admin/editor/footer.php:66
+msgid "Embed"
+msgstr "Embed"
+
+#: ../includes/admin/editor/choices.php:85
+#: ../includes/admin/editor/footer.php:67
+msgid "Video embed code"
+msgstr "Video embed code"
+
+#: ../includes/admin/editor/choices.php:102
+#: ../includes/admin/editor/footer.php:85
+msgid "Code"
+msgstr "Codice"
+
+#: ../includes/admin/editor/choices.php:103
+#: ../includes/admin/editor/footer.php:86
+msgid "HTML Code"
+msgstr "Codice HTML"
+
+#: ../includes/admin/editor/design.php:5
+msgid "Design"
+msgstr "Design"
+
+#: ../includes/admin/editor/design.php:23
+msgid "Presets"
+msgstr "Presets"
+
+#: ../includes/admin/editor/design.php:40
+msgid "Save as"
+msgstr "Salva con nome"
+
+#: ../includes/admin/editor/design.php:45
+msgid "Reset"
+msgstr "Reset"
+
+#: ../includes/admin/editor/design.php:55
+msgid "Preview Background"
+msgstr "Anteprima Sfondo"
+
+#: ../includes/admin/editor/design.php:60
+msgid "Preview Container Background"
+msgstr "Anteprima Sfondo Container"
+
+#: ../includes/admin/editor/incompatible.php:2
+#, php-format
+msgid ""
+"This poll isn't compatible with your current version of TotalPoll. Please <a "
+"href=\"%s\">upgrade your polls</a>."
+msgstr ""
+"Questo sondaggio non è compatibile con la tua versione attuale di TotalPoll. "
+"Per favore <a href=\"%s\">aggiorna i tuoi sondaggi</a>."
+
+#: ../includes/admin/editor/limitations.php:5
+msgid "Limitations"
+msgstr "Limitazioni"
+
+#: ../includes/admin/editor/limitations.php:9
+msgid "Prevent re-vote using"
+msgstr "Previeni di ri-votare usando"
+
+#: ../includes/admin/editor/limitations.php:12
+msgid "Sessions"
+msgstr "Sessioni"
+
+#: ../includes/admin/editor/limitations.php:15
+msgid "Cookies"
+msgstr "Cookies"
+
+#: ../includes/admin/editor/limitations.php:18
+msgid "IP"
+msgstr "IP"
+
+#: ../includes/admin/editor/limitations.php:21
+msgid "IP Range (IPv4 only)"
+msgstr "IP Range (IPv4 only)"
+
+#: ../includes/admin/editor/limitations.php:27
+msgid "Cookies timeout (minutes)"
+msgstr "Cookies timeout (minuti)"
+
+#: ../includes/admin/editor/limitations.php:34
+msgid "IP timeout (minutes)"
+msgstr "IP timeout (minuti)"
+
+#: ../includes/admin/editor/limitations.php:41
+msgid "IP range width (1 to 10)"
+msgstr "IP range width (da 1 a 10)"
+
+#: ../includes/admin/editor/limitations.php:45
+msgid "IP range limits (votes per range)"
+msgstr "IP range limits (voti per range)"
+
+#: ../includes/admin/editor/limitations.php:55
+msgid "User must vote to see results"
+msgstr "L'utente deve votare per vedere i risultati"
+
+#: ../includes/admin/editor/limitations.php:63
+msgid "User can give multiple answers"
+msgstr "L'utente può dare risposte multiple"
+
+#: ../includes/admin/editor/limitations.php:71
+msgid "Close poll when votes quota exceed"
+msgstr "Chiudi il sondaggio quando si supera la quota voti"
+
+#: ../includes/admin/editor/limitations.php:77
+msgid "Votes quota"
+msgstr "Quota voti"
+
+#: ../includes/admin/editor/limitations.php:86
+msgid "Date limited"
+msgstr "Limitato per data"
+
+#: ../includes/admin/editor/limitations.php:92
+msgid "Start date"
+msgstr "Data di inizio"
+
+#: ../includes/admin/editor/limitations.php:96
+msgid "End date"
+msgstr "Data di fine"
+
+#: ../includes/admin/editor/logs.php:5
+msgid "Logs"
+msgstr "Rapporti"
+
+#: ../includes/admin/editor/logs.php:10
+msgid "Save logs"
+msgstr "Salva rapporti"
+
+#: ../includes/admin/editor/logs.php:17
+msgid "Download logs"
+msgstr "Scarica rapporti"
+
+#: ../includes/admin/editor/logs.php:18
+msgid "Download old logs (deprecated)"
+msgstr "Scarica i vecchi rapporti (deprecato)"
+
+#: ../includes/admin/editor/logs.php:19
+msgid "Reset logs"
+msgstr "Reset dei rapporti"
+
+#: ../includes/admin/editor/misc.php:5
+msgid "Misc"
+msgstr "Varie"
+
+#: ../includes/admin/editor/misc.php:10
+msgid "Order results by votes"
+msgstr "Ordina i risultati per voto"
+
+#: ../includes/admin/editor/misc.php:15
+msgid "Ascending"
+msgstr "Ascendente"
+
+#: ../includes/admin/editor/misc.php:18
+msgid "Descending"
+msgstr "Discendente"
+
+#: ../includes/admin/editor/misc.php:26
+msgid "Shuffle choices order"
+msgstr "Mescola l'ordine delle scelte"
+
+#: ../includes/admin/editor/misc.php:32
+msgid "Results are shown as"
+msgstr "I risultati sono mostrati come"
+
+#: ../includes/admin/editor/misc.php:36
+msgid "Number"
+msgstr "Numero"
+
+#: ../includes/admin/editor/misc.php:39
+msgid "Percentage"
+msgstr "Percentuale"
+
+#: ../includes/admin/editor/misc.php:42
+msgid "Both"
+msgstr "Entrambi"
+
+#: ../includes/admin/editor/misc.php:45
+msgid "Nothing"
+msgstr "Nessuno"
+
+#: ../includes/admin/editor/preview.php:59
+msgid "Please wait."
+msgstr "Per favore attendi."
+
+#: ../includes/admin/editor/preview.php:72
+msgid "To preview this poll, please save it."
+msgstr "Per visualizzare l'anteprima di questo sondaggio, per favore salvalo."
+
+#: ../includes/admin/editor/question.php:5
+#: ../includes/admin/editor/question.php:8
+#: ../includes/admin/editor/sharing.php:26
+msgid "Question"
+msgstr "Domanda"
+
+#: ../includes/admin/editor/reset.php:2
+msgid "Logs has been reset!"
+msgstr "I rapporti sono stati resettati!"
+
+#: ../includes/admin/editor/sharing.php:5
+msgid "Sharing"
+msgstr "Condivisione"
+
+#: ../includes/admin/editor/sharing.php:10
+msgid "Show share icons"
+msgstr "Mostra icone di condivisione"
+
+#: ../includes/admin/editor/sharing.php:19
+msgid "Variable"
+msgstr "Variabile"
+
+#: ../includes/admin/editor/sharing.php:20
+msgid "Value"
+msgstr "Valore"
+
+#: ../includes/admin/editor/sharing.php:30
+msgid "Current link"
+msgstr "Link corrente"
+
+#: ../includes/admin/editor/sharing.php:38
+msgid "Twitter expression"
+msgstr "Espressione Twitter"
+
+#: ../includes/admin/editor/sharing.php:45
+msgid "Facebook expression"
+msgstr "Espressione Facebook"
+
+#: ../includes/admin/editor/sharing.php:52
+msgid "Google+ expression"
+msgstr "Espressione Google+"
+
+#: ../includes/admin/editor/shortcode.php:5
+msgid "Shortcode"
+msgstr "Shortcode"
+
+#: ../includes/admin/store.php:9 ../includes/class-admin.php:143
+msgid "Templates"
+msgstr "Templates"
+
+#: ../includes/admin/store.php:10
+msgid "Available templates"
+msgstr "Templates disponibili"
+
+#: ../includes/admin/templates.php:3
+msgid "Install Templates"
+msgstr "Installa Templates"
+
+#: ../includes/admin/templates.php:10
+msgid "Install a template in .zip format"
+msgstr "Installa template in formato .zip"
+
+#: ../includes/admin/templates.php:11
+msgid ""
+"If you have a template in a .zip format, you may install it by uploading it "
+"here."
+msgstr ""
+"Se hai un template in formato .zip, lo puoi installare caricandolo qui."
+
+#: ../includes/admin/templates.php:15
+msgid "Template zip file"
+msgstr "File zip Template"
+
+#: ../includes/admin/templates.php:22
+msgid "Available Templates"
+msgstr "Templates disponibili"
+
+#: ../includes/admin/templates.php:23
+msgid "Available installed templates"
+msgstr "Templates disponibili installati"
+
+#: ../includes/admin/templates.php:48
+msgid "Unknown"
+msgstr "Sconosciuto"
+
+#: ../includes/admin/tools.php:6 ../includes/class-admin.php:147
+msgid "TotalPoll Tools"
+msgstr "TotalPoll Tools"
+
+#: ../includes/admin/tools.php:10
+msgid "Backup current polls."
+msgstr "Backup dei correnti sondaggi."
+
+#: ../includes/admin/tools.php:13
+msgid "Download backup"
+msgstr "Scarica backup"
+
+#: ../includes/admin/tools.php:25
+msgid "Check all"
+msgstr "Controlla tutto"
+
+#: ../includes/admin/tools.php:43
+msgid "Upgrade"
+msgstr "Aggiorna"
+
+#: ../includes/admin/tools.php:49
+msgid "All polls are compatible with the current version!"
+msgstr "Tutti i sondaggi sono compatibili con la versione corrente"
+
+#: ../includes/admin/tools.php:52
+msgid "Browse polls"
+msgstr "Sfoglia sondaggi"
+
+#: ../includes/admin/update-notification.php:3
+msgid "There is an new update for TotalPoll plugin."
+msgstr "C'è un aggiornamento per il plugin TotalPoll."
+
+#: ../includes/admin/update-notification.php:4
+msgid "Check it out!"
+msgstr "Scopri!"
+
+#: ../includes/admin/update-notification.php:6
+msgid "Dismiss"
+msgstr "Chiudi"
+
+#: ../includes/class-addons.php:145
+msgid "Upload Addon"
+msgstr "Carica Addon"
+
+#: ../includes/class-addons.php:150
+#, php-format
+msgid "Installing Addon from uploaded file: %s"
+msgstr "Sto installando l'Addon dal file caricato: %s"
+
+#: ../includes/class-addons.php:219 ../includes/class-template.php:617
+msgid "Could not access filesystem."
+msgstr "Non posso accedere al filesystem."
+
+#: ../includes/class-addons.php:222 ../includes/class-template.php:620
+msgid "Filesystem error."
+msgstr "Errore di filesystem."
+
+#: ../includes/class-addons.php:227
+msgid "Unable to locate TotalPoll addons directory."
+msgstr "Non riesco a trovare la cartella degli addon di TotalPoll"
+
+#: ../includes/class-addons.php:238
+#, php-format
+msgid "Could not fully remove the addon %s."
+msgstr "Non ho potuto rimuovere completamente l'addon %s."
+
+#: ../includes/class-admin.php:141
+msgid "Addons Manager"
+msgstr "Manager degli Addon"
+
+#: ../includes/class-admin.php:141
+msgid "Addons"
+msgstr "Addons"
+
+#: ../includes/class-admin.php:143
+msgid "Templates Manager"
+msgstr "Manager dei Template"
+
+#: ../includes/class-admin.php:145
+msgid "Templates & Addons Store"
+msgstr "Store di Template & Addons"
+
+#: ../includes/class-admin.php:145
+msgid "Store"
+msgstr "Store"
+
+#: ../includes/class-admin.php:147
+msgid "Tools"
+msgstr "Strumenti"
+
+#: ../includes/class-admin.php:149
+msgid "About TotalPoll"
+msgstr "A proposito di TotalPoll"
+
+#: ../includes/class-admin.php:149
+msgid "About"
+msgstr "A proposito"
+
+#: ../includes/class-installer-skin.php:23
+msgid "Return to Templates"
+msgstr "Ritorna ai Templates"
+
+#: ../includes/class-installer-skin.php:25
+msgid "Return to Addons"
+msgstr "Ritorna agli Addons"
+
+#: ../includes/class-installer.php:51 ../includes/class-installer.php:62
+msgid "Install package not available."
+msgstr "Pacchetto di installazione non disponibile."
+
+#: ../includes/class-installer.php:52 ../includes/class-installer.php:63
+msgid "Unpacking the package&#8230;"
+msgstr "Scompattando il pacchetto&#8230;"
+
+#: ../includes/class-installer.php:53
+msgid "Installing the template&#8230;"
+msgstr "Installando il template&#8230;"
+
+#: ../includes/class-installer.php:54
+msgid "The template contains no files."
+msgstr "Il template non contiene file."
+
+#: ../includes/class-installer.php:55
+msgid "Template install failed."
+msgstr "Installazione del Template fallita."
+
+#: ../includes/class-installer.php:56
+msgid "Template installed successfully."
+msgstr "Template installato con successo."
+
+#. translators: 1: template name, 2: version
+#: ../includes/class-installer.php:58
+#, php-format
+msgid "Successfully installed the template <strong>%1$s %2$s</strong>."
+msgstr "Installato con successo il template <strong>%1$s %2$s</strong>."
+
+#. translators: 1: template name, 2: version
+#: ../includes/class-installer.php:60 ../includes/class-installer.php:71
+#, php-format
+msgid "Preparing to install <strong>%1$s %2$s</strong>&#8230;"
+msgstr "Preparando ad installare <strong>%1$s %2$s</strong> &#8230;"
+
+#: ../includes/class-installer.php:64
+msgid "Installing the addon&#8230;"
+msgstr "Installando l'addon&#8230;"
+
+#: ../includes/class-installer.php:65
+msgid "The addon contains no files."
+msgstr "L'addon non contiene file."
+
+#: ../includes/class-installer.php:66
+msgid "Addon install failed."
+msgstr "Installazione dell'Addon fallita."
+
+#: ../includes/class-installer.php:67
+msgid "Addon installed successfully."
+msgstr "Addon installato con successo."
+
+#. translators: 1: template name, 2: version
+#: ../includes/class-installer.php:69
+#, php-format
+msgid "Successfully installed the addon <strong>%1$s %2$s</strong>."
+msgstr "Installato con successo l'addon <strong>%1$s %2$s</strong>."
+
+#: ../includes/class-installer.php:141
+msgid "The template is missing the <code>style.css</code> stylesheet."
+msgstr "Il Template non ha il foglio di stile <code>style.css</code>."
+
+#: ../includes/class-installer.php:147
+msgid ""
+"The <code>style.css</code> stylesheet doesn't contain a valid template "
+"header."
+msgstr ""
+"Il foglio di stile <code>style.css</code> non contiene un valido template "
+"header."
+
+#: ../includes/class-installer.php:152
+msgid ""
+"The template is missing the <code>vote.php</code> or <code>results.php</"
+"code> file."
+msgstr ""
+"Nel template manca il file <code>vote.php</code> o <code>results.php</code>."
+
+#: ../includes/class-installer.php:159
+msgid "The addon is missing the <code>addon.php</code> essential file."
+msgstr "Nell'addon manca il file essenziale <code>addon.php</code>."
+
+#: ../includes/class-installer.php:165
+msgid "The <code>addon.php</code> file doesn't contain a valid addon header."
+msgstr "Il file <code>addon.php</code>non contiene un valido addon header."
+
+#: ../includes/class-installer.php:169
+msgid ""
+"The <code>addon.php</code> file doesn't contain a minimum required version."
+msgstr ""
+"Il file <code>addon.php</code> non contiene la minima versione richiesta."
+
+#: ../includes/class-installer.php:173
+#, php-format
+msgid "This addon require TotalPoll version %s or higher"
+msgstr "Questo addon richiede la versione TotalPoll %s o superiore"
+
+#: ../includes/class-logs.php:138
+msgid "\"Date\";\"Time\";\"Status\";\"Choice\";\"IP\";\"User Agent\";\"Extra\""
+msgstr ""
+"\"Date\";\"Time\";\"Status\";\"Choice\";\"IP\";\"User Agent\";\"Extra\""
+
+#: ../includes/class-poll-editor.php:127 ../includes/class-poll-editor.php:217
+#: ../includes/class-poll-editor.php:299
+msgid "Choice sample"
+msgstr "Esempio di scelta"
+
+#: ../includes/class-poll-editor.php:216
+msgid "A question"
+msgstr "Una domanda"
+
+#: ../includes/class-request.php:60
+msgid "You cannot preview this poll. Login first."
+msgstr ""
+"Non puoi visualizzare l'anteprima di questo sondaggio. Fai prima il login"
+
+#: ../includes/class-request.php:101
+msgid "Accepted"
+msgstr "Accettato"
+
+#: ../includes/class-request.php:103 ../includes/class-request.php:108
+msgid "Denied"
+msgstr "Negato"
+
+#: ../includes/class-template.php:554
+msgid "Upload Template"
+msgstr "Carica Template"
+
+#: ../includes/class-template.php:558
+#, php-format
+msgid "Installing Template from uploaded file: %s"
+msgstr "Installando il Template dal file caricato: %s"
+
+#: ../includes/class-template.php:625
+msgid "Unable to locate TotalPoll templates directory."
+msgstr "Non riesco a trovare la cartella dei template di TotalPoll"
+
+#: ../includes/class-template.php:632
+#, php-format
+msgid "Could not fully remove the template %s."
+msgstr "Non ho potuto rimuovere completamente il template %s."
+
+#: ../includes/class-widget.php:24
+msgid "Poll - TotalPoll"
+msgstr "Sondaggio - TotalPoll"
+
+#: ../includes/class-widget.php:25
+msgid "Poll widget"
+msgstr "Sondaggio widget"
+
+#: ../includes/class-widget.php:119 ../includes/class-widget.php:139
+#: ../includes/post-type.php:19
+msgid "Poll"
+msgstr "Sondaggio"
+
+#: ../includes/class-widget.php:134
+msgid "Title:"
+msgstr "Titolo:"
+
+#: ../includes/post-type.php:18 ../includes/post-type.php:30
+msgid "Polls"
+msgstr "Sondaggi"
+
+#: ../includes/post-type.php:20
+msgid "Add New"
+msgstr "Aggiungi Nuovo"
+
+#: ../includes/post-type.php:21
+msgid "Add New Poll"
+msgstr "Aggiungi Nuovo Sondaggio"
+
+#: ../includes/post-type.php:22
+msgid "Edit Poll"
+msgstr "Modifica Sondaggio"
+
+#: ../includes/post-type.php:23
+msgid "New Poll"
+msgstr "Nuovo Sondaggio"
+
+#: ../includes/post-type.php:24
+msgid "All Polls"
+msgstr "Tutti i Sondaggi"
+
+#: ../includes/post-type.php:25
+msgid "View Poll"
+msgstr "Vedi Sondaggio"
+
+#: ../includes/post-type.php:26
+msgid "Search Polls"
+msgstr "Cerca Sondaggi"
+
+#: ../includes/post-type.php:27
+msgid "No polls found"
+msgstr "Nessun sondaggio trovato"
+
+#: ../includes/post-type.php:28
+msgid "No polls found in Trash"
+msgstr "Nessun sondaggio trovato nel Cestino"
+
+#: ../includes/post-type.php:73
+#, php-format
+msgid "Poll updated. <a href=\"%s\">View poll</a>"
+msgstr "Sondaggio aggiornato. <a href=\"%s\">Vedi sondaggio</a>"
+
+#: ../includes/post-type.php:74
+msgid "Custom field updated."
+msgstr "Campo personalizzato aggiornato."
+
+#: ../includes/post-type.php:75
+msgid "Custom field deleted."
+msgstr "Campo personalizzato cancellato."
+
+#: ../includes/post-type.php:76
+msgid "Poll updated."
+msgstr "Sondaggio aggiornato."
+
+#: ../includes/post-type.php:77
+#, php-format
+msgid "Poll restored to revision from %s"
+msgstr "Sondaggio ripristinato alla revisione del %s"
+
+#: ../includes/post-type.php:78
+#, php-format
+msgid "Poll published. <a href=\"%s\">View poll</a>"
+msgstr "Sondaggio pubblicato. <a href=\"%s\">Vedi sondaggio</a>"
+
+#: ../includes/post-type.php:79
+msgid "Poll saved."
+msgstr "Sondaggio salvato."
+
+#: ../includes/post-type.php:80
+#, php-format
+msgid "Poll submitted. <a target=\"_blank\" href=\"%s\">Preview poll</a>"
+msgstr ""
+"Sondaggio inviato. <a target=\"_blank\" href=\"%s\">Anteprima sondaggio</a>"
+
+#: ../includes/post-type.php:81
+#, php-format
+msgid ""
+"Poll scheduled for: <strong>%1$s</strong>. <a target=\"_blank\" href=\"%2$s"
+"\">Preview poll</a>"
+msgstr ""
+"Sondaggio programmato per: <strong>%1$s</strong>. <a target=\"_blank\" href="
+"\"%2$s\">Anteprima sondaggio</a>"
+
+#: ../includes/post-type.php:81
+msgid "M j, Y @ G:i"
+msgstr "M j, Y @ G:i"
+
+#: ../includes/post-type.php:82
+#, php-format
+msgid "Poll draft updated. <a target=\"_blank\" href=\"%s\">Preview poll</a>"
+msgstr ""
+"Bozza del sondaggio aggiornata. <a target=\"_blank\" href=\"%s\">Anteprima "
+"sondaggio</a>"
+
+#: ../templates/chartify/header.php:3 ../templates/default/header.php:3
+msgid "Closed due to the exceeded votes quota"
+msgstr "Chiuso per superamento della quota voti"
+
+#: ../templates/chartify/header.php:7 ../templates/default/header.php:7
+msgid "This poll isn't started yet."
+msgstr "La votazione non è ancora iniziata."
+
+#: ../templates/chartify/header.php:11 ../templates/default/header.php:11
+msgid "This poll has been closed."
+msgstr "La votazione è stata chiusa."
+
+#: ../templates/chartify/results.php:21 ../templates/default/results.php:47
+msgid "Back"
+msgstr "Indietro"
+
+#: ../templates/chartify/results.php:37 ../templates/default/results.php:24
+#: ../templates/default/results.php:28
+#, php-format
+msgid "%s Vote"
+msgid_plural "%s Votes"
+msgstr[0] "%s Voto"
+msgstr[1] "%s Voti"
+msgstr[2] "%s Voti"
+msgstr[3] "%s Voti"
+
+#: ../templates/chartify/settings.php:7 ../templates/default/settings.php:9
+msgid "General settings"
+msgstr "Impostazioni generali"
+
+#: ../templates/chartify/settings.php:11 ../templates/default/settings.php:13
+msgid "Container border"
+msgstr "Bordo del Container"
+
+#: ../templates/chartify/settings.php:16 ../templates/default/settings.php:18
+msgid "Container background"
+msgstr "Sfondo del Container"
+
+#: ../templates/chartify/settings.php:21 ../templates/default/settings.php:23
+msgid "Warning messages background"
+msgstr "Sfondo del messaggio di avviso "
+
+#: ../templates/chartify/settings.php:26 ../templates/default/settings.php:28
+msgid "Warning messages border"
+msgstr "Bordo del messaggio di avviso "
+
+#: ../templates/chartify/settings.php:31 ../templates/default/settings.php:33
+msgid "Warning messages text color"
+msgstr "Colore del Testo del messaggio di avviso "
+
+#: ../templates/chartify/settings.php:36 ../templates/default/settings.php:38
+msgid "Question background"
+msgstr "Sfondo della domanda"
+
+#: ../templates/chartify/settings.php:41 ../templates/default/settings.php:43
+msgid "Question color"
+msgstr "Colore della domanda"
+
+#: ../templates/chartify/settings.php:46 ../templates/default/settings.php:48
+msgid "Choice color"
+msgstr "Colore delle scelte"
+
+#: ../templates/chartify/settings.php:51 ../templates/default/settings.php:53
+msgid "Checkbox background"
+msgstr "Sfondo Checkbox"
+
+#: ../templates/chartify/settings.php:56 ../templates/default/settings.php:58
+msgid "Animation duration (ms)"
+msgstr "Durata animazione (ms)"
+
+#: ../templates/chartify/settings.php:61 ../templates/default/settings.php:63
+msgid "Border radius (px)"
+msgstr "Bordo arrotondato (px)"
+
+#: ../templates/chartify/settings.php:67 ../templates/default/settings.php:69
+msgid "Buttons"
+msgstr "Bottoni"
+
+#: ../templates/chartify/settings.php:71 ../templates/default/settings.php:73
+#: ../templates/default/settings.php:114
+msgid "Background"
+msgstr "Sfondo"
+
+#: ../templates/chartify/settings.php:77 ../templates/default/settings.php:79
+msgid "Primary background"
+msgstr "Sfondo primario"
+
+#: ../templates/chartify/settings.php:83 ../templates/default/settings.php:85
+msgid "Default color"
+msgstr "Colore di default"
+
+#: ../templates/chartify/settings.php:89 ../templates/default/settings.php:91
+msgid "Primary color"
+msgstr "Colore primario"
+
+#: ../templates/chartify/settings.php:95
+#: ../templates/chartify/settings.php:101 ../templates/default/settings.php:97
+#: ../templates/default/settings.php:103
+msgid "Border color"
+msgstr "Colore bordo"
+
+#: ../templates/chartify/settings.php:108
+msgid "Charts"
+msgstr "Grafici"
+
+#: ../templates/chartify/settings.php:112
+msgid "Chart Type"
+msgstr "Tipo di grafico"
+
+#: ../templates/chartify/settings.php:117
+msgid "Pie"
+msgstr "Torta"
+
+#: ../templates/chartify/settings.php:121
+msgid "Doughnut"
+msgstr "Ciambella"
+
+#: ../templates/chartify/settings.php:125
+msgid "Polar Area"
+msgstr "Area polare"
+
+#: ../templates/chartify/settings.php:131
+msgid "Canvas Height (px)"
+msgstr "Altezza canvas (px)"
+
+#: ../templates/chartify/settings.php:136
+msgid "Chart Animation"
+msgstr "Animazione Grafico"
+
+#: ../templates/chartify/settings.php:141
+msgid "Enabled"
+msgstr "Attivata"
+
+#: ../templates/chartify/settings.php:145
+msgid "Disabled"
+msgstr "Disattivata"
+
+#: ../templates/chartify/settings.php:151
+msgid "Animation Easing"
+msgstr "Easing animazione"
+
+#: ../templates/chartify/settings.php:156
+msgid "linear"
+msgstr "lineare"
+
+#: ../templates/chartify/settings.php:159
+msgid "swing"
+msgstr "swing"
+
+#: ../templates/chartify/settings.php:162
+msgid "easeOutQuad"
+msgstr "easeOutQuad"
+
+#: ../templates/chartify/settings.php:165
+msgid "easeOutCubic"
+msgstr "easeOutCubic"
+
+#: ../templates/chartify/settings.php:168
+msgid "easeOutQuart"
+msgstr "easeOutQuart"
+
+#: ../templates/chartify/settings.php:171
+msgid "easeOutQuint"
+msgstr "easeOutQuint"
+
+#: ../templates/chartify/settings.php:174
+msgid "easeOutExpo"
+msgstr "easeOutExpo"
+
+#: ../templates/chartify/settings.php:177
+msgid "easeOutSine"
+msgstr "easeOutSine"
+
+#: ../templates/chartify/settings.php:180
+msgid "easeOutCirc"
+msgstr "easeOutCirc"
+
+#: ../templates/chartify/settings.php:183
+msgid "easeOutElastic"
+msgstr "easeOutElastic"
+
+#: ../templates/chartify/settings.php:186
+msgid "easeOutBack"
+msgstr "easeOutBack"
+
+#: ../templates/chartify/settings.php:189
+msgid "easeOutBounce"
+msgstr "easeOutBounce"
+
+#: ../templates/chartify/settings.php:195
+msgid "Legend Map"
+msgstr "Legenda"
+
+#: ../templates/chartify/settings.php:200
+msgid "Labels On Tooltip"
+msgstr "Etichette su Tooltip"
+
+#: ../templates/chartify/settings.php:204
+msgid "Below"
+msgstr "Sotto"
+
+#: ../templates/chartify/settings.php:208
+msgid "Float"
+msgstr "Float"
+
+#: ../templates/chartify/settings.php:214
+msgid "Map Backround"
+msgstr "Sfondo Mappa"
+
+#: ../templates/chartify/settings.php:216
+msgid "Hover"
+msgstr "Hover"
+
+#: ../templates/chartify/settings.php:220
+msgid "Map Hover Border"
+msgstr "Bordo Mappa Hover"
+
+#: ../templates/chartify/settings.php:226
+msgid "Chart Colors"
+msgstr "Colori Grafico"
+
+#: ../templates/chartify/settings.php:230
+#, php-format
+msgid "Color for choice #%s"
+msgstr "Colore per la scelta #%s"
+
+#: ../templates/chartify/settings.php:231
+#, php-format
+msgid "Highlight color for choice #%s"
+msgstr "Evidenzia colore per la scelta #%s"
+
+#: ../templates/chartify/settings.php:237
+#: ../templates/default/settings.php:130
+msgid "Typography"
+msgstr "Tipografia"
+
+#: ../templates/chartify/settings.php:241
+#: ../templates/default/settings.php:134
+msgid "Line height"
+msgstr "Interlinea (line height)"
+
+#: ../templates/chartify/settings.php:246
+#: ../templates/default/settings.php:139
+msgid "Font Family"
+msgstr "Famiglia Font (font family)"
+
+#: ../templates/chartify/settings.php:251
+#: ../templates/default/settings.php:144
+msgid "Font Size"
+msgstr "Grandezza Font (font size)"
+
+#: ../templates/chartify/vote.php:35 ../templates/default/vote.php:35
+msgid "Vote to see results"
+msgstr "Vota per vedere i risultati"
+
+#: ../templates/chartify/vote.php:37 ../templates/default/vote.php:37
+msgid "Results"
+msgstr "Risultati"
+
+#: ../templates/chartify/vote.php:39 ../templates/default/vote.php:39
+msgid "Vote"
+msgstr "Vota"
+
+#: ../templates/default/settings.php:110
+msgid "Votes bar"
+msgstr "Barra dei voti"
+
+#: ../templates/default/settings.php:120
+msgid "Bar color"
+msgstr "Colore barra"
