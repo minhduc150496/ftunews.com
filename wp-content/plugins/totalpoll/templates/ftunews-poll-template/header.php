@@ -58,7 +58,7 @@
         color: rgb(144, 0, 183);
     }
 
-    .rule p {
+    .rule div {
         font-size: 16px !important;
     }
 
@@ -67,44 +67,103 @@
         color: white;
     }
 
-    .poll-result {
-        text-align: center;
-        font-size: 26px;
-        color: white;
+    .poll-body .choice-content .name {
+        text-transform: uppercase;
+    }
+    .poll-result i.fa {
+        position: relative;
+        top: 10px;
+        margin-right: 15px;
+    }
+    .poll-result i.fa,
+    .poll-body .choice-content i.fa {
+        font-size: 40px;
     }
 
     .tp-choices > li:not(:first-child) {
         margin-top: 80px;
     }
 
-    .tp-choices .choice-content img.active {
-        /*border: solid 5px rgb(144,0,183);*/
+    .choice-info {
+        text-align: left;
     }
-
     label {
-        width: 100%;
+        display:inline-block;
+        width: 40px;
+        position: relative;
+        top: 10px;
+        margin-right: 15px;
     }
 
     label > input {
         display: none;
     }
-
-    label > img {
+    label > button {
+        height: 0;
+    }
+    label .fa:hover {
         cursor: pointer;
-        border: 5px solid transparent;
+    }
+    label .fa.fa-heart {
+        color: rgb(254, 0, 60);
+        position: absolute;
+        top: 0;
+        left: 0;
+        visibility: hidden;
     }
 
-    label > input:checked + img {
-        border-color: rgb(144, 0, 183);
+    label > input:checked ~ .fa-heart-o {
+        visibility: hidden;
+    }
+    label > input:checked ~ .fa-heart {
+        visibility: visible;
     }
 
+    .btn-vote {
+        width: 53px;
+        background: none;
+        border: none;
+        outline: none;
+    }
+    .modal button.btn-link {
+        font-weight: bold;
+        color: black;
+    }
+    .modal-dialog {
+        max-width: 480px;
+        max-height: 250px;
+        margin: 10px auto;
+    }
+    .modal-content {
+        color: black;
+        text-align: left;
+        padding-left: 25px;
+        padding-right: 25px;
+        font-size: 16px;
+    }
+    .modal-body {
+        padding: 0;
+        margin-top: 50px;
+        margin-bottom: 20px;
+    }
+    .modal-footer {
+        padding: 0;
+        padding-bottom: 10px;
+        border: none;
+    }
+    .modal-footer .btn-link {
+        font-size: 18px;
+    }
     .tp-buttons {
         margin-top: 60px;
         text-align: center;
     }
 
-    .tp-buttons .btn:not(:first-child) {
+    .modal-footer .btn:not(:first-child) {
         margin-left: 15px;
+    }
+    .modal-footer .btn:last-child {
+        padding-right: 0;
     }
 </style>
 
@@ -117,7 +176,7 @@
     </div>
     <div class="rule">
         <h2>BÌNH CHỌN NỮ SINH DUYÊN DÁNG NHẤT ĐẠI HỌC NGOẠI THƯƠNG</h2>
-        <p>
+        <div>
             Thể lệ:<br>
             Trải qua hai vòng thi sơ kết và bán kết cùng chuỗi hoạt động bên lề, cuộc thi đã tìm ra 16 gương mặt xinh
             xắn nhất sẽ khoe sắc, tranh tài trong đêm chung kết tại nhà hát Bến Thành vào ngày 3/5 sắp tới. Tuy vậy ngay
@@ -125,7 +184,7 @@
             chọn sẽ bắt đầu từ hôm nay 26/4 đến 17h ngày 3/5/2012 teen nhé. Thí sinh nhận được nhiều vote nhất từ chính
             các bạn sẽ được trao danh hiệu Hoa khôi được yêu thích nhất trong đêm chung kết đấy! Duyên dáng Ngoại thương
             2012 được trang tin iOne.net và trang ftunews.com của trường Ngoại Thương bảo trợ thông tin.
-        </p>
+        </div>
     </div>
     <img class="separator-2" src="<?php echo TP_ASSETS_URL ?>images/separator-2.svg">
 </div>
