@@ -21,8 +21,8 @@ get_header();
         <!-- News -->
         <div class="container news">
 
-            <!-- choice -->
-            <div class="col-md-4 col-md-push-8 choice">
+            <!-- sidebar -->
+            <div class="col-md-4 col-md-push-8 sidebar">
                 <div class="inner">
                     <?php get_sidebar() ?>
                 </div>

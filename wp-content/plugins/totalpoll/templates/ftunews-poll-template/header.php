@@ -5,7 +5,11 @@
     <div class="ratio-wrapper">
         <div class="ratio-content top-image">
             <img width="100%" src="<?php echo TP_ASSETS_URL ?>images/girl.jpg">
-            <img class="separator-1" src="<?php echo TP_ASSETS_URL ?>images/separator-1.svg">
+            <div class="separator-1" style="width: 100%; overflow: hidden">
+                <div style="margin: -5px;">
+                    <img width="100%" height="auto" src="<?php echo TP_ASSETS_URL ?>images/separator-1.svg">
+                </div>
+            </div>
         </div>
     </div>
     <div class="rule">
@@ -38,7 +42,9 @@
         </div>
         <?php endif;?>
     </div>
-    <div style="overflow: hidden">
-        <img class="separator-2" src="<?php echo TP_ASSETS_URL ?>images/separator-2.svg">
+    <div style="width: 100%; overflow: hidden">
+        <div style="margin: -5px;">
+            <img width="100%" height="auto" class="separator-2" src="<?php echo TP_ASSETS_URL ?>images/separator-2.svg">
+        </div>
     </div>
 </div>

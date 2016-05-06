@@ -125,6 +125,7 @@ label > input:checked ~ .fa-heart {
     max-width: 480px;
     max-height: 250px;
     margin: 10px auto;
+    margin-top: 10%;
 }
 .modal-content {
     color: black;

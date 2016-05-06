@@ -3,7 +3,6 @@
  * @package WordPress
  * @subpackage HTML5_Boilerplate
  * @file functions.php
-
  */
 
 // Custom HTML5 Comment Markup
@@ -169,13 +168,14 @@ function the_grid_cell_inner()
 /**
  * The Load More Pattern
  */
-function the_load_more_pattern() {
+function the_load_more_pattern()
+{
     if (have_posts()):
         ?>
         <div style="display:none">
             <div class="load-more-item">
                 <?php
-                for ($i=1; $i<=10; $i++)
+                for ($i = 1; $i <= 10; $i++)
                     if (have_posts()) {
                         the_post();
                         the_news_section();
@@ -194,7 +194,7 @@ function the_load_more_pattern() {
 function the_news_section()
 {
     ?>
-    <section>
+    <section class="section">
         <div class="cate"><a
                 href="<?php echo get_last_category_url(get_the_ID()) ?>"><?php echo get_last_category_name(get_the_ID()) ?></a>
         </div>
@@ -204,13 +204,16 @@ function the_news_section()
             </h3>
         </header>
         <div class="row">
-            <div class="col-sm-6">
-                <a href="<?php the_permalink() ?>" class="ratio-wrapper">
-                    <div class="ratio-content img"
-                         style="background-image: url(<?php echo get_thumbnail_photo_url(get_the_ID()) ?>)">
-                    </div>
-                </a>
-            </div>
+            <?php $thumb_url = get_thumbnail_photo_url(get_the_ID());
+            if ($thumb_url): ?>
+                <div class="col-sm-6 image">
+                    <a href="<?php the_permalink() ?>" class="ratio-wrapper">
+                        <div class="ratio-content img"
+                             style="background-image: url(<?php echo $thumb_url ?>)">
+                        </div>
+                    </a>
+                </div>
+            <?php endif ?>
             <div class="col-sm-6 text">
                 <p class="detail">
                     BY <span class="author"><?php the_author_posts_link() ?></span>
@@ -240,11 +243,14 @@ function the_news_section_1()
                 <a href="<?php the_permalink() ?>"><?php the_title() ?></a>
             </h3>
         </header>
+        <?php $thumb_url = get_thumbnail_photo_url(get_the_ID());
+        if ($thumb_url): ?>
         <a href="<?php the_permalink() ?>" class="ratio-wrapper">
             <div class="ratio-content img"
-                 style="background-image: url(<?php echo get_thumbnail_photo_url(get_the_ID()) ?>)">
+                 style="background-image: url(<?php echo $thumb_url ?>)">
             </div>
         </a>
+        <?php endif ?>
         <p class="detail">
             BY <span class="author"><?php the_author_posts_link() ?></span>
             | <?php the_time('j \t\h\á\n\g n, Y') ?>
@@ -363,7 +369,7 @@ function get_children_categories($ID)
 function catch_that_image($p = null)
 {
     global $post, $posts;
-    if ($p==null) $p = $post;
+    if ($p == null) $p = $post;
     $first_img = '';
     ob_start();
     ob_end_clean();
