@@ -2,11 +2,9 @@
 /**
  * @package WordPress
  * @subpackage HTML5_Boilerplate
- * @file: category.php
+ * @file: archive.php
  */
-
 get_header();
-
 ?>
 
     <!-- BODY -->
@@ -32,21 +30,28 @@ get_header();
             <!-- /choice -->
 
             <!-- main -->
-            <div class="col-md-8 col-md-pull-4">
-                <?php if (have_posts()):
+            <div class="col-md-8 col-md-pull-4 load-more-container">
+                <?php
+                the_load_more_pattern();
+                if (have_posts()):
                     the_post();
                     the_news_section_1();
-                    while (have_posts()): the_post();
+                    for($i=1; $i<=9; $i++):
                         ?>
                         <hr>
-
                         <?php
-                        the_news_section();
-                    endwhile;
+                        if (have_posts()) {
+                            the_post();
+                            the_news_section();
+                        } else break;
+                    endfor;
                 else: echo "No Posts.";
                 endif;
                 ?>
-
+<!--
+                <div style="padding: 0 15px;">
+                    <button id="wp-load-more-btn" class="btn btn-default btn-load-more">XEM THÊM</button>
+                </div>-->
             </div>
             <!-- /main -->
 

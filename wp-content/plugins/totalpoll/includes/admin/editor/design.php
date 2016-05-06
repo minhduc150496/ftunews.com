@@ -56,7 +56,6 @@
                     </p>
                     <hr>
 
-                    <!--
                     <div class="settings-field-container need-refresh">
                         <label><?php _e('Preview Background', TP_TD); ?></label>
                         <input type="text" name="tp_preview_background" value="#dddddd" class="tp-color-field">
@@ -66,11 +65,10 @@
                         <input type="text" name="tp_preview_container_background" value="#ffffff"
                                class="tp-color-field">
                     </div>
-                    --->
 
                 </div>
 
-                <!-- <?php if (isset($poll->template->settings['sections'])):
+                <?php if (isset($poll->template->settings['sections'])):
                     foreach ($poll->template->settings['sections'] as $section_id => $section): ?>
                         <a href="#" class=""
                            data-toggler="section-<?php echo $section_id; ?>-fields"><?php echo $section['label']; ?></a>
@@ -100,13 +98,12 @@
                         <?php
                     endforeach;
                 endif;
-                ?> -->
+                ?>
             </div>
-            <!---
             <div class="preview-pane">
                 <iframe height="100%" width="100%"
                         src="<?php echo home_url('?tp_action=preview&tp_poll_id=' . get_the_ID()); ?>"></iframe>
-            </div>---->
+            </div>
         </div>
 
         <?php do_tp_action('tp_admin_editor_after_design_content', $options); ?>

@@ -11,20 +11,6 @@
                       class="override-votes"><?php _e('Override votes', TP_TD); ?></label>
         <hr>
         <ul class="choice-types">
-            <!--
-            <li>
-                <button type="button" class="button" data-template="choice-text"><?php _e('Text', TP_TD); ?></button>
-            </li>
-            <li>
-                <button type="button" class="button" data-template="choice-link"><?php _e('Link', TP_TD); ?></button>
-            </li>
-            <li>
-                <button type="button" class="button" data-template="choice-video"><?php _e('Video', TP_TD); ?></button>
-            </li>
-            <li>
-                <button type="button" class="button" data-template="choice-html"><?php _e('HTML', TP_TD); ?></button>
-            </li>
-            -->
             <li>
                 <button type="button" class="button" data-template="choice-image"><?php _e('Add', TP_TD); ?></button>
             </li>
@@ -34,116 +20,7 @@
             <?php if (isset($options->choices)): ?>
                 <?php foreach ($options->choices as $index => $choice): ?>
 
-                    <?php if ($choice->type == 'text'): ?>
-                        <div class="choice choice-text">
-                            <input type="hidden" name="tp_options[choices][<?php echo $index; ?>][type]" value="text">
-                            <label class="horizontal-label votes-label"><?php _e('Votes', TP_TD); ?>:</label>
-                            <input type="text" placeholder="<?php _e('Votes', TP_TD); ?>"
-                                   name="tp_options[choices][<?php echo $index; ?>][votes]"
-                                   value="<?php echo esc_attr($choice->votes) ?>" class="votes-counter widefat">
-                            <label class="horizontal-label"><?php _e('Text', TP_TD); ?>:</label>
-                            <input type="text" placeholder="<?php _e('Text', TP_TD); ?>"
-                                   name="tp_options[choices][<?php echo $index; ?>][text]"
-                                   value="<?php echo esc_attr($choice->text) ?>" class="widefat">
-                            <?php do_tp_action("tp_admin_editor_text_choice_fields", $choice, $index); ?>
-                            <input type="hidden" name="tp_options[choices][<?php echo $index; ?>][last_index]"
-                                   value="<?php echo $index; ?>">
-                            <ul class="choice-controllers">
-                                <li>
-                                    <button type="button" class="move">&equiv;</button>
-                                </li>
-                                <li>
-                                    <button type="button" class="delete">&#10006;</button>
-                                </li>
-                                <?php do_tp_action("tp_admin_editor_text_choice_buttons", $choice, $index); ?>
-                            </ul>
-                        </div>
-                    <?php elseif ($choice->type == 'link'): ?>
-                        <div class="choice choice-link">
-                            <input type="hidden" name="tp_options[choices][<?php echo $index; ?>][type]" value="link">
-                            <label class="horizontal-label votes-label"><?php _e('Votes', TP_TD); ?>:</label>
-                            <input type="text" placeholder="<?php _e('Votes', TP_TD); ?>"
-                                   name="tp_options[choices][<?php echo $index; ?>][votes]"
-                                   value="<?php echo esc_attr($choice->votes) ?>" class="votes-counter widefat">
-                            <label class="horizontal-label"><?php _e('URL', TP_TD); ?>:</label>
-                            <input type="text" placeholder="<?php _e('URL', TP_TD); ?>"
-                                   name="tp_options[choices][<?php echo $index; ?>][url]"
-                                   value="<?php echo esc_attr($choice->url) ?>" class="widefat">
-                            <label class="horizontal-label"><?php _e('Label', TP_TD); ?>:</label>
-                            <input type="text" placeholder="<?php _e('Label', TP_TD); ?>"
-                                   name="tp_options[choices][<?php echo $index; ?>][label]"
-                                   value="<?php echo esc_attr($choice->label) ?>" class="widefat">
-                            <?php do_tp_action("tp_admin_editor_link_choice_fields", $choice, $index); ?>
-                            <input type="hidden" name="tp_options[choices][<?php echo $index; ?>][last_index]"
-                                   value="<?php echo $index; ?>">
-                            <ul class="choice-controllers">
-                                <li>
-                                    <button type="button" class="move">&equiv;</button>
-                                </li>
-                                <li>
-                                    <button type="button" class="delete">&#10006;</button>
-                                </li>
-                                <?php do_tp_action("tp_admin_editor_text_choice_buttons", $choice, $index); ?>
-                            </ul>
-                        </div>
-                    <?php elseif ($choice->type == 'video'): ?>
-                        <div class="choice choice-video">
-                            <input type="hidden" name="tp_options[choices][<?php echo $index; ?>][type]" value="video">
-                            <label class="horizontal-label votes-label"><?php _e('Votes', TP_TD); ?>:</label>
-                            <input type="text" placeholder="<?php _e('Votes', TP_TD); ?>"
-                                   name="tp_options[choices][<?php echo $index; ?>][votes]"
-                                   value="<?php echo esc_attr($choice->votes) ?>" class="votes-counter widefat">
-                            <label class="horizontal-label"><?php _e('Thumbnail', TP_TD); ?>:</label>
-                            <input type="text" placeholder="<?php _e('Thumbnail', TP_TD); ?>"
-                                   name="tp_options[choices][<?php echo $index; ?>][image]"
-                                   value="<?php echo esc_attr($choice->image) ?>" class="widefat upload-holder">
-                            <label class="horizontal-label"><?php _e('Embed', TP_TD); ?>:</label>
-                            <input type="text" placeholder="<?php _e('Video embed code', TP_TD); ?>"
-                                   name="tp_options[choices][<?php echo $index; ?>][video]"
-                                   value="<?php echo esc_attr($choice->video) ?>" class="widefat">
-                            <label class="horizontal-label"><?php _e('Label', TP_TD); ?>:</label>
-                            <input type="text" placeholder="<?php _e('Label', TP_TD); ?>"
-                                   name="tp_options[choices][<?php echo $index; ?>][label]"
-                                   value="<?php echo esc_attr($choice->label) ?>" class="widefat">
-                            <?php do_tp_action("tp_admin_editor_video_choice_fields", $choice, $index); ?>
-                            <input type="hidden" name="tp_options[choices][<?php echo $index; ?>][last_index]"
-                                   value="<?php echo $index; ?>">
-                            <ul class="choice-controllers">
-                                <li>
-                                    <button type="button" class="upload"><?php _e('upload', TP_TD); ?></button>
-                                </li>
-                                <li>
-                                    <button type="button" class="move">&equiv;</button>
-                                </li>
-                                <li>
-                                    <button type="button" class="delete">&#10006;</button>
-                                </li>
-                                <?php do_tp_action("tp_admin_editor_video_choice_buttons", $choice, $index); ?>
-                            </ul>
-                        </div>
-                    <?php elseif ($choice->type == 'html'): ?>
-                        <div class="choice choice-html">
-                            <input type="hidden" name="tp_options[choices][<?php echo $index; ?>][type]" value="html">
-                            <label class="horizontal-label votes-label"><?php _e('Votes', TP_TD); ?>:</label>
-                            <input type="text" placeholder="<?php _e('Votes', TP_TD); ?>"
-                                   name="tp_options[choices][<?php echo $index; ?>][votes]"
-                                   value="<?php echo esc_attr($choice->votes) ?>" class="votes-counter widefat">
-                            <label class="horizontal-label"><?php _e('Code', TP_TD); ?>:</label>
-                            <?php wp_editor($choice->html, "tp-html-tinymce-$index-content", array('textarea_name' => "tp_options[choices][$index][html]", 'textarea_rows' => 2)); ?>
-                            <?php do_tp_action("tp_admin_editor_html_choice_fields", $choice, $index); ?>
-                            <input type="hidden" name="tp_options[choices][<?php echo $index; ?>][last_index]"
-                                   value="<?php echo $index; ?>">
-                            <ul class="choice-controllers">
-                                <li>
-                                    <button type="button" class="move">&equiv;</button>
-                                </li>
-                                <li>
-                                    <button type="button" class="delete">&#10006;</button>
-                                </li>
-                                <?php do_tp_action("tp_admin_editor_video_choice_buttons", $choice, $index); ?>
-                            </ul>
-                        </div>
-                    <?php elseif ($choice->type == 'image'): ?>
+                    <?php if ($choice->type == 'image'): ?>
                         <div class="choice choice-image">
                             <input type="hidden" name="tp_options[choices][<?php echo $index; ?>][type]" value="image">
                             <label class="horizontal-label votes-label"><?php _e('Votes', TP_TD); ?>:</label>
@@ -162,7 +39,7 @@
                             <input type="text" placeholder="<?php _e('Name', TP_TD); ?>"
                                    name="tp_options[choices][<?php echo $index; ?>][label]"
                                    value="<?php echo esc_attr($choice->label) ?>" class="widefat">
-                            <label class="horizontal-label"><?php _e('About', TP_TD); ?>:</label>
+                            <label class="horizontal-label"><?php _e('Code', TP_TD); ?>:</label>
                             <?php wp_editor($choice->html, "tp-html-tinymce-$index-content", array('textarea_name' => "tp_options[choices][$index][html]", 'textarea_rows' => 2)); ?>
 
                             <?php do_tp_action("tp_admin_editor_image_choice_fields", $choice, $index); ?>

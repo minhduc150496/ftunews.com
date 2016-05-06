@@ -6,7 +6,7 @@
  */
 
 get_header();
-
+the_load_more_pattern();
 if (have_posts()):
     ?>
 
@@ -85,7 +85,7 @@ if (have_posts()):
 
                 <?php if (have_posts()): ?>
                     <!-- main -->
-                    <div class="col-md-8 col-md-pull-4 main-news">
+                    <div id="load-more-container" class="col-md-8 col-md-pull-4 main-news load-more-container">
                         <?php
                         the_post();
                         the_news_section_1();
@@ -104,7 +104,7 @@ if (have_posts()):
         </div>
         <!-- /News -->
 
-
+    <input type="button" id="wp-load-more-btn" class="btn-load-more" value="xem them">
     </div>
     <!-- /BODY -->
 

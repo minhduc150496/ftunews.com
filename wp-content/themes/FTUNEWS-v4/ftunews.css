@@ -4,7 +4,21 @@ body {
     font-family: "Open Sans", sans-serif;
 }
 * {
+    /* These are technically the same, but use both */
+    overflow-wrap: break-word;
     word-wrap: break-word;
+
+    -ms-word-break: break-all;
+    /* This is the dangerous one in WebKit, as it breaks things wherever */
+    word-break: break-all;
+    /* Instead use this non-standard one: */
+    word-break: break-word;
+
+    /* Adds a hyphen where the word breaks, if supported (No Blink) */
+    -ms-hyphens: auto;
+    -moz-hyphens: auto;
+    -webkit-hyphens: auto;
+    hyphens: auto;
 }
 a,
 a:hover,
@@ -78,6 +92,7 @@ input:link
     overflow: hidden;
     text-overflow: ellipsis;
 }
+a:hover .three-dots,
 a.three-dots:hover {
     max-height: initial;
     border-color: orange;
@@ -258,11 +273,12 @@ a.three-dots:hover {
     display: inline-block;
 }
 .slick-mega .title {
-    height: 46px;
+    height: 51px;
     white-space: normal;
     font-size: 13px;
-    line-height: 15px;
+    line-height: 17px;
     font-weight: bold;
+    overflow: hidden;
     -webkit-line-clamp: 3; /* number of lines */
 }
 
@@ -646,7 +662,14 @@ a.three-dots:hover {
     padding-bottom: 5px;
     border-bottom: solid 1px rgb(225,225,225);
 }
-
+.btn-load-more {
+    width: 100%;
+    border: solid 1px lightgrey;
+    border-radius: 0;
+    padding: 10px 0;
+    margin-top: 40px;
+    background: white;
+}
 
 /*===== SINGLE =====*/
 .single-banner::before {

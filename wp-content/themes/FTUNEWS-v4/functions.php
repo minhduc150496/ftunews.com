@@ -3,6 +3,7 @@
  * @package WordPress
  * @subpackage HTML5_Boilerplate
  * @file functions.php
+
  */
 
 // Custom HTML5 Comment Markup
@@ -166,6 +167,28 @@ function the_grid_cell_inner()
 }
 
 /**
+ * The Load More Pattern
+ */
+function the_load_more_pattern() {
+    if (have_posts()):
+        ?>
+        <div style="display:none">
+            <div class="load-more-item">
+                <?php
+                for ($i=1; $i<=10; $i++)
+                    if (have_posts()) {
+                        the_post();
+                        the_news_section();
+                    } else break;
+                ?>
+            </div>
+        </div>
+        <?php
+        rewind_posts();
+    endif;
+}
+
+/**
  * The normal news section
  */
 function the_news_section()
@@ -190,7 +213,7 @@ function the_news_section()
             </div>
             <div class="col-sm-6 text">
                 <p class="detail">
-                    BY <span class="author"><?php the_author_link() ?></span>
+                    BY <span class="author"><?php the_author_posts_link() ?></span>
                     | <?php the_time('j \t\h\á\n\g n, Y') ?>
                 </p>
                 <p class="three-dots excerpt">
@@ -223,7 +246,7 @@ function the_news_section_1()
             </div>
         </a>
         <p class="detail">
-            BY <span class="author"><?php the_author_link() ?></span>
+            BY <span class="author"><?php the_author_posts_link() ?></span>
             | <?php the_time('j \t\h\á\n\g n, Y') ?>
         </p>
         <p class="three-dots excerpt">
@@ -334,36 +357,17 @@ function get_children_categories($ID)
 }
 
 /**
- * Load more pattern
- */
-function the_load_more_pattern()
-{
-    if (have_posts()):
-        ?>
-        <div style="display:none">
-            <div class="load-more-item">
-                <?php
-                the_vertical_thumbnail_rows(false, 3);
-                ?>
-            </div>
-        </div>
-        <?php
-        rewind_posts();
-    endif;
-}
-
-
-/**
  * Get the first image in a post
  * @return string
  */
-function catch_that_image()
+function catch_that_image($p = null)
 {
     global $post, $posts;
+    if ($p==null) $p = $post;
     $first_img = '';
     ob_start();
     ob_end_clean();
-    $output = preg_match_all('/<img.+src=[\'"]([^\'"]+)[\'"].*>/i', $post->post_content, $matches);
+    $output = preg_match_all('/<img.+src=[\'"]([^\'"]+)[\'"].*>/i', $p->post_content, $matches);
     $first_img = $matches[1][0];
     /*
         if(empty($first_img)) {
@@ -376,17 +380,13 @@ function catch_that_image()
 /**
  * Get the thumb url from post id
  * @param $ID
- * @return bool|false|string
+ * @return bool|""|string
  */
 function get_thumbnail_photo_url($ID)
 {
-    $thumb_url = false; // thumb url
+    $thumb_url = ""; // thumb url
     if (has_post_thumbnail($ID)) $thumb_url = get_the_post_thumbnail_url($ID, 'large');
-    else {
-        $tmp = catch_that_image();
-        if (empty($tmp)) return false;
-        else $thumb_url = $tmp;
-    }
+    else $thumb_url = catch_that_image(get_post($ID));
     return $thumb_url;
 }
 

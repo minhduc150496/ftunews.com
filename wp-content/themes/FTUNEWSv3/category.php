@@ -49,7 +49,7 @@ if (have_posts()):
         <?php  endif; ?>
         <!-- vertical thumbnails -->
         <?php
-        the_vertical_thumbnail_rows(false, 3);
+        the_vertical_thumbnail_rows(false, 1);
 
 else: echo "no posts.";
 endif;

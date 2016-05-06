@@ -55,7 +55,7 @@
 
     <link href="<?php echo get_template_directory_uri() ?>/html5-boilerplate/slick/slick.css" rel="stylesheet">
     <link href="<?php echo get_template_directory_uri() ?>/css/WP-default.css" rel="stylesheet"/>
-    <link href="<?php echo get_template_directory_uri() ?>/css/ftunews.css" rel="stylesheet"/>
+    <link href="<?php echo get_template_directory_uri() ?>/ftunews.css" rel="stylesheet"/>
 
 </head>
 <body <?php body_class(); ?>>
@@ -117,8 +117,7 @@ foreach ($cats as $cat) {
             <ul>
                 <?php
                 $cats = get_root_categories();
-                foreach ($cats as $cat):
-                    ?>
+                foreach ($cats as $cat): ?>
                     <li class="menu-item">
                         <a href="<?php echo get_category_link($cat->cat_ID) ?>"><?php echo $cat->cat_name ?></a>
                         <div class="mega-menu clear">
@@ -148,15 +147,16 @@ foreach ($cats as $cat) {
                                         'order' => 'DESC',
                                     );
                                     $ps = get_posts($args);
-                                    foreach ($ps as $p):
-
-                                    ?>
+                                    foreach ($ps as $p): ?>
                                     <a href="<?php echo get_permalink($p->ID) ?>" class="item">
+                                        <?php $thumb_url = get_thumbnail_photo_url($p->ID);
+                                        if ($thumb_url):?>
                                         <div class="ratio-wrapper">
                                             <div class="ratio-content img"
-                                                 style="background-image: url(<?php echo get_thumbnail_photo_url($p->ID)?>)">
+                                                 style="background-image: url(<?php echo $thumb_url?>)">
                                             </div>
                                         </div>
+                                        <?php endif ?>
                                         <h5 class="three-dots title"><?php echo $p->post_title ?></h5>
                                     </a>
                                     <?php endforeach; ?>

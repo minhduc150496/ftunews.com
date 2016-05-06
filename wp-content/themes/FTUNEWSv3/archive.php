@@ -21,7 +21,7 @@ get_header();
     <?php
     the_load_more_pattern();
     if (have_posts()):
-      the_vertical_thumbnail_rows(false, 3);
+      the_vertical_thumbnail_rows(false, 1);
 
     else: echo "no posts.";
     endif;
