@@ -2,11 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="615dc396-7daf-4725-9003-ff1cd9be92eb" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/totalpoll/assets/css/ftunews-poll.css" afterPath="$PROJECT_DIR$/wp-content/plugins/totalpoll/assets/css/ftunews-poll.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/totalpoll/templates/ftunews-poll-template/header.php" afterPath="$PROJECT_DIR$/wp-content/plugins/totalpoll/templates/ftunews-poll-template/header.php" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/FTUNEWS-v4/category.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/FTUNEWS-v4/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/FTUNEWS-v4/single.html" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/wp-content/themes/FTUNEWS-v4/poll.html" afterPath="$PROJECT_DIR$/static/poll.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/totalpoll.zip" afterPath="$PROJECT_DIR$/wp-content/plugins/totalpoll.zip" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/FTUNEWS-v4.zip" afterPath="$PROJECT_DIR$/wp-content/themes/FTUNEWS-v4.zip" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/category.html" afterPath="$PROJECT_DIR$/static/category.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/index.html" afterPath="$PROJECT_DIR$/static/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/single.html" afterPath="$PROJECT_DIR$/static/single.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/flexible-posts-widget/views/ftunews-fp-template.php" afterPath="$PROJECT_DIR$/wp-content/plugins/flexible-posts-widget/views/ftunews-fp-template.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/FTUNEWS-v4/archive.php" afterPath="$PROJECT_DIR$/wp-content/themes/FTUNEWS-v4/archive.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/FTUNEWS-v4/ftunews.css" afterPath="$PROJECT_DIR$/wp-content/themes/FTUNEWS-v4/ftunews.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/FTUNEWS-v4/functions.php" afterPath="$PROJECT_DIR$/wp-content/themes/FTUNEWS-v4/functions.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/FTUNEWS-v4/index.php" afterPath="$PROJECT_DIR$/wp-content/themes/FTUNEWS-v4/index.php" />
     </list>
     <ignored path="ftunews.com.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,23 +40,30 @@
       <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/plugins/totalpoll/templates/ftunews-poll-template/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.8461537">
-              <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+            <state vertical-scroll-proportion="-8.5">
+              <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ftunews-fp-template.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/plugins/flexible-posts-widget/views/ftunews-fp-template.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-13.076923">
+              <caret line="36" column="42" selection-start-line="36" selection-start-column="42" selection-end-line="36" selection-end-column="42" />
               <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#2;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#!!top" expanded="true" />
+                <element signature="e#908#990#0#HTML" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ftunews-poll.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ftunews-poll.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/plugins/totalpoll/assets/css/ftunews-poll.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3469388">
-              <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -56,9 +72,27 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/FTUNEWS-v4/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="30.076923">
-              <caret line="26" column="27" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
-              <folding />
+            <state vertical-scroll-proportion="-14.384615">
+              <caret line="108" column="9" selection-start-line="108" selection-start-column="9" selection-end-line="108" selection-end-column="9" />
+              <folding>
+                <marker date="1462579170393" expanded="true" signature="194:3622" placeholder="..." />
+                <marker date="1462579170393" expanded="false" signature="309:2436" placeholder="..." />
+                <marker date="1462579170393" expanded="true" signature="339:2421" placeholder="..." />
+                <marker date="1462579170393" expanded="true" signature="496:570" placeholder="..." />
+                <marker date="1462579170393" expanded="true" signature="760:834" placeholder="..." />
+                <marker date="1462579170393" expanded="true" signature="1024:1098" placeholder="..." />
+                <marker date="1462579170393" expanded="false" signature="1180:1190" placeholder="..." />
+                <marker date="1462579170393" expanded="true" signature="1191:2402" placeholder="..." />
+                <marker date="1462579170393" expanded="true" signature="1369:1451" placeholder="..." />
+                <marker date="1462579170393" expanded="true" signature="1666:1748" placeholder="..." />
+                <marker date="1462579170393" expanded="true" signature="1963:2045" placeholder="..." />
+                <marker date="1462579170393" expanded="true" signature="2260:2342" placeholder="..." />
+                <marker date="1462579170393" expanded="false" signature="2543:3588" placeholder="..." />
+                <marker date="1462579170393" expanded="true" signature="2573:3573" placeholder="..." />
+                <marker date="1462579170393" expanded="true" signature="2667:2804" placeholder="..." />
+                <marker date="1462579170393" expanded="true" signature="2707:2781" placeholder="..." />
+                <marker date="1462579170393" expanded="true" signature="3029:3487" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -66,8 +100,18 @@
       <file leaf-file-name="ftunews.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/FTUNEWS-v4/ftunews.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.181818">
-              <caret line="228" column="18" selection-start-line="228" selection-start-column="18" selection-end-line="228" selection-end-column="18" />
+            <state vertical-scroll-proportion="-3.8727272">
+              <caret line="76" column="27" selection-start-line="76" selection-start-column="27" selection-end-line="76" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="single.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/FTUNEWS-v4/single.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-11.5">
+              <caret line="32" column="48" selection-start-line="32" selection-start-column="48" selection-end-line="32" selection-end-column="48" />
               <folding />
             </state>
           </provider>
@@ -76,8 +120,32 @@
       <file leaf-file-name="footer.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/FTUNEWS-v4/footer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.8461537">
-              <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+            <state vertical-scroll-proportion="-1.9615384">
+              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/FTUNEWS-v4/header.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-16.615385">
+              <caret line="198" column="6" selection-start-line="198" selection-start-column="6" selection-end-line="198" selection-end-column="6" />
+              <folding>
+                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <marker date="1462529178784" expanded="true" signature="2737:2974" placeholder="..." />
+                <marker date="1462529178784" expanded="true" signature="2806:2840" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="archive.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/FTUNEWS-v4/archive.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.44894367">
+              <caret line="37" column="45" selection-start-line="37" selection-start-column="45" selection-end-line="37" selection-end-column="45" />
               <folding />
             </state>
           </provider>
@@ -106,7 +174,6 @@
         <option value="$PROJECT_DIR$/wp-content/themes/FTUNEWS-v4/static/single.html" />
         <option value="$PROJECT_DIR$/wp-content/themes/FTUNEWS-v4/static/css/ftunews.css" />
         <option value="$PROJECT_DIR$/wp-content/themes/FTUNEWS-v4/category.html" />
-        <option value="$PROJECT_DIR$/wp-content/themes/FTUNEWS-v4/footer.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/FTUNEWS-v4/search.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/totalpoll/templates/default/style.css" />
         <option value="$PROJECT_DIR$/wp-content/plugins/totalpoll/templates/default/vote.php" />
@@ -114,7 +181,6 @@
         <option value="$PROJECT_DIR$/wp-content/themes/FTUNEWS-v4/page.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/FTUNEWS-v4/index.html" />
         <option value="$PROJECT_DIR$/wp-content/plugins/flexible-posts-widget/css/admin.css" />
-        <option value="$PROJECT_DIR$/wp-content/plugins/flexible-posts-widget/views/ftunews-fp-template.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/FTUNEWS-v4/sidebar.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/FTUNEWS-v4/poll.html" />
         <option value="$PROJECT_DIR$/wp-content/plugins/totalpoll/includes/post-type.php" />
@@ -132,14 +198,16 @@
         <option value="$PROJECT_DIR$/wp-content/themes/FTUNEWS-v4/css/ftunews.css" />
         <option value="$PROJECT_DIR$/wp-content/themes/FTUNEWSv3/archive.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/FTUNEWSv3/category.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/FTUNEWS-v4/index.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/FTUNEWS-v4/header.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/totalpoll/includes/admin/editor/choices.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/FTUNEWS-v4/archive.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/FTUNEWS-v4/functions.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/FTUNEWS-v4/ftunews.css" />
         <option value="$PROJECT_DIR$/wp-content/plugins/totalpoll/assets/css/ftunews-poll.css" />
         <option value="$PROJECT_DIR$/wp-content/plugins/totalpoll/templates/ftunews-poll-template/header.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/flexible-posts-widget/views/ftunews-fp-template.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/FTUNEWS-v4/footer.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/FTUNEWS-v4/index.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/FTUNEWS-v4/ftunews.css" />
+        <option value="$PROJECT_DIR$/wp-content/themes/FTUNEWS-v4/archive.php" />
       </list>
     </option>
   </component>
@@ -183,6 +251,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -291,7 +360,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="totalpoll" />
+              <option name="myItemId" value="flexible-posts-widget" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -313,41 +382,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="totalpoll" />
+              <option name="myItemId" value="flexible-posts-widget" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ftunews.com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ftunews.com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wp-content" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="plugins" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="totalpoll" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ftunews-poll-template" />
+              <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -361,56 +400,13 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="wp-content" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="plugins" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="totalpoll" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ftunews.com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ftunews.com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wp-content" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="plugins" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="totalpoll" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
+              <option name="myItemId" value="static" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -423,6 +419,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\ftunews.com\static" />
       <recent name="C:\xampp\htdocs\ftunews.com\wp-content\themes\FTUNEWS-v4" />
       <recent name="C:\xampp\htdocs\ftunews.com\wp-content\plugins\totalpoll\assets\css" />
       <recent name="C:\xampp\htdocs\ftunews.com\wp-content\plugins\totalpoll\assets\images" />
@@ -476,7 +473,7 @@
     <frame x="-8" y="-8" width="1382" height="754" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25945538" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2632375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -513,13 +510,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/totalpoll/includes/admin/update-notification.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.27091634">
-          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/totalpoll/includes/admin/tools.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.13545817">
@@ -681,13 +671,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/category.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3996479">
-          <caret line="726" column="14" selection-start-line="726" selection-start-column="14" selection-end-line="729" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/FTUNEWSv3/functions.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-2.6363637">
@@ -716,20 +699,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/flexible-posts-widget/flexible-posts-widget.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.1971831">
-          <caret line="35" column="34" selection-start-line="35" selection-start-column="34" selection-end-line="35" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/flexible-posts-widget/views/ftunews-fp-template.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6883803">
-          <caret line="31" column="64" selection-start-line="31" selection-start-column="64" selection-end-line="31" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/FTUNEWSv3/archive.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.32922536">
@@ -744,17 +713,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/FTUNEWS-v4/single.html">
+    <entry file="file://$PROJECT_DIR$/static/single.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/FTUNEWS-v4/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.230769">
-          <caret line="158" column="54" selection-start-line="158" selection-start-column="54" selection-end-line="158" selection-end-column="54" />
         </state>
       </provider>
     </entry>
@@ -762,13 +724,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6584507">
           <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/FTUNEWS-v4/single.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.38732395">
-          <caret line="29" column="22" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -797,7 +752,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -805,7 +759,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="32" column="22" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -813,31 +766,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-2.6153846">
           <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/FTUNEWS-v4/archive.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.692307">
-          <caret line="35" column="34" selection-start-line="35" selection-start-column="34" selection-end-line="35" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/FTUNEWS-v4/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.8461537">
-          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/FTUNEWS-v4/ftunews.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.181818">
-          <caret line="228" column="18" selection-start-line="228" selection-start-column="18" selection-end-line="228" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -857,31 +785,114 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/totalpoll/assets/css/ftunews-poll.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/flexible-posts-widget/flexible-posts-widget.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.50880283">
+          <caret line="51" column="6" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/flexible-posts-widget/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/totalpoll/templates/ftunews-poll-template/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.8461537">
-          <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+        <state vertical-scroll-proportion="-8.5">
+          <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/flexible-posts-widget/views/ftunews-fp-template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.076923">
+          <caret line="36" column="42" selection-start-line="36" selection-start-column="42" selection-end-line="36" selection-end-column="42" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#!!top" expanded="true" />
+            <element signature="e#908#990#0#HTML" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/FTUNEWS-v4/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-16.615385">
+          <caret line="198" column="6" selection-start-line="198" selection-start-column="6" selection-end-line="198" selection-end-column="6" />
+          <folding>
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <marker date="1462529178784" expanded="true" signature="2737:2974" placeholder="..." />
+            <marker date="1462529178784" expanded="true" signature="2806:2840" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/FTUNEWS-v4/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.9615384">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/FTUNEWS-v4/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="30.076923">
-          <caret line="26" column="27" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
+        <state vertical-scroll-proportion="-14.384615">
+          <caret line="108" column="9" selection-start-line="108" selection-start-column="9" selection-end-line="108" selection-end-column="9" />
+          <folding>
+            <marker date="1462579170393" expanded="true" signature="194:3622" placeholder="..." />
+            <marker date="1462579170393" expanded="false" signature="309:2436" placeholder="..." />
+            <marker date="1462579170393" expanded="true" signature="339:2421" placeholder="..." />
+            <marker date="1462579170393" expanded="true" signature="496:570" placeholder="..." />
+            <marker date="1462579170393" expanded="true" signature="760:834" placeholder="..." />
+            <marker date="1462579170393" expanded="true" signature="1024:1098" placeholder="..." />
+            <marker date="1462579170393" expanded="false" signature="1180:1190" placeholder="..." />
+            <marker date="1462579170393" expanded="true" signature="1191:2402" placeholder="..." />
+            <marker date="1462579170393" expanded="true" signature="1369:1451" placeholder="..." />
+            <marker date="1462579170393" expanded="true" signature="1666:1748" placeholder="..." />
+            <marker date="1462579170393" expanded="true" signature="1963:2045" placeholder="..." />
+            <marker date="1462579170393" expanded="true" signature="2260:2342" placeholder="..." />
+            <marker date="1462579170393" expanded="false" signature="2543:3588" placeholder="..." />
+            <marker date="1462579170393" expanded="true" signature="2573:3573" placeholder="..." />
+            <marker date="1462579170393" expanded="true" signature="2667:2804" placeholder="..." />
+            <marker date="1462579170393" expanded="true" signature="2707:2781" placeholder="..." />
+            <marker date="1462579170393" expanded="true" signature="3029:3487" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/FTUNEWS-v4/single.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.5">
+          <caret line="32" column="48" selection-start-line="32" selection-start-column="48" selection-end-line="32" selection-end-column="48" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/totalpoll/assets/css/ftunews-poll.css">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/FTUNEWS-v4/ftunews.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3469388">
-          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+        <state vertical-scroll-proportion="-3.8727272">
+          <caret line="76" column="27" selection-start-line="76" selection-start-column="27" selection-end-line="76" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/FTUNEWS-v4/archive.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.44894367">
+          <caret line="37" column="45" selection-start-line="37" selection-start-column="45" selection-end-line="37" selection-end-column="45" />
           <folding />
         </state>
       </provider>

@@ -34,8 +34,9 @@ if ($flexible_posts->have_posts()):
                         </div>
                     </div>
                     <div class="col-xs-7 text">
-                        <a class="cate"
-                           href="<?php echo get_last_category_url(get_the_ID()) ?>"><?php echo get_last_category_name(get_the_ID()) ?></a>
+                        <div class="cate">
+                        <a href="<?php echo get_last_category_url(get_the_ID()) ?>"><?php echo get_last_category_name(get_the_ID()) ?></a>
+                        </div>
                         <a class="three-dots title" href="<?php the_permalink() ?>"><?php the_title() ?></a>
                     </div>
                 </div>

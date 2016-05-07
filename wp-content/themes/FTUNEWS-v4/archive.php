@@ -20,41 +20,37 @@ get_header();
 
         <!-- News -->
         <div class="container news">
-
-            <!-- sidebar -->
-            <div class="col-md-4 col-md-push-8 sidebar">
-                <div class="inner">
-                    <?php get_sidebar() ?>
+            <div class="row">
+                <!-- sidebar -->
+                <div class="col-md-4 col-md-push-8 sidebar">
+                    <div class="inner">
+                        <?php get_sidebar() ?>
+                    </div>
                 </div>
-            </div>
-            <!-- /choice -->
+                <!-- /choice -->
 
-            <!-- main -->
-            <div class="col-md-8 col-md-pull-4 load-more-container">
-                <?php
-                the_load_more_pattern();
-                if (have_posts()):
-                    the_post();
-                    the_news_section_1();
-                    for($i=1; $i<=9; $i++):
-                        ?>
-                        <hr>
-                        <?php
-                        if (have_posts()) {
-                            the_post();
-                            the_news_section();
-                        } else break;
-                    endfor;
-                else: echo "No Posts.";
-                endif;
-                ?>
-<!--
-                <div style="padding: 0 15px;">
-                    <button id="wp-load-more-btn" class="btn btn-default btn-load-more">XEM THÊM</button>
-                </div>-->
+                <!-- main -->
+                <div class="col-md-8 col-md-pull-4 load-more-container">
+                    <?php
+                    the_load_more_pattern();
+                    if (have_posts()):
+                        the_post();
+                        the_news_section_1();
+                        for ($i = 1; $i <= 9; $i++):
+                            ?>
+                            <hr>
+                            <?php
+                            if (have_posts()) {
+                                the_post();
+                                the_news_section();
+                            } else break;
+                        endfor;
+                    else: echo "No Posts.";
+                    endif;
+                    ?>
+                </div>
+                <!-- /main -->
             </div>
-            <!-- /main -->
-
         </div>
         <!-- /News -->
 

@@ -103,8 +103,6 @@ if (have_posts()):
             </div>
         </div>
         <!-- /News -->
-
-    <input type="button" id="wp-load-more-btn" class="btn-load-more" value="xem them">
     </div>
     <!-- /BODY -->
 
