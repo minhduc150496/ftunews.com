@@ -12,9 +12,7 @@ get_header();
 
         <!-- archive title -->
         <div class="container">
-            <div class="col-xs-12">
-                <h1 class="archive-title"><?php single_cat_title(); ?></h1>
-            </div>
+            <h1 class="archive-title"><?php single_cat_title(); ?></h1>
         </div>
         <!-- /archive title -->
 

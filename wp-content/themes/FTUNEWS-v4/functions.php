@@ -220,7 +220,7 @@ function the_news_section()
                     | <?php the_time('j \t\h\á\n\g n, Y') ?>
                 </p>
                 <p class="three-dots excerpt">
-                    <?php echo get_the_excerpt() ?>
+                    <?php echo remove_image_tags(get_the_excerpt()) ?>
                 </p>
             </div>
         </div>
@@ -256,7 +256,7 @@ function the_news_section_1()
             | <?php the_time('j \t\h\á\n\g n, Y') ?>
         </p>
         <p class="three-dots excerpt">
-            <?php echo get_the_excerpt() ?>
+            <?php echo remove_image_tags(get_the_excerpt()) ?>
         </p>
     </section>
     <?php
@@ -401,7 +401,7 @@ function get_thumbnail_photo_url($ID)
  * @param string $s : input html
  * @return string
  */
-function removeImageTags($s = "")
+function remove_image_tags($s = "")
 {
     $res = "";
     $add = true;

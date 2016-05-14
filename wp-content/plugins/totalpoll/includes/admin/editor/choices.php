@@ -19,8 +19,22 @@
         <div class="choices-container show-votes-field">
             <?php if (isset($options->choices)): ?>
                 <?php foreach ($options->choices as $index => $choice): ?>
-
-                    <?php if ($choice->type == 'image'): ?>
+                <?php if ( $choice->type == 'text' ): ?>
+                    <div class="choice choice-text">
+                        <input type="hidden" name="tp_options[choices][<?php echo $index; ?>][type]" value="text">
+                        <label class="horizontal-label votes-label"><?php _e('Votes', TP_TD); ?>:</label>
+                        <input type="text" placeholder="<?php _e('Votes', TP_TD); ?>" name="tp_options[choices][<?php echo $index; ?>][votes]" value="<?php echo esc_attr($choice->votes) ?>" class="votes-counter widefat">
+                        <label class="horizontal-label"><?php _e('Text', TP_TD); ?>:</label>
+                        <input type="text" placeholder="<?php _e('Text', TP_TD); ?>" name="tp_options[choices][<?php echo $index; ?>][text]" value="<?php echo esc_attr($choice->text) ?>" class="widefat">
+                        <?php do_tp_action("tp_admin_editor_text_choice_fields", $choice, $index); ?>
+                        <input type="hidden" name="tp_options[choices][<?php echo $index; ?>][last_index]" value="<?php echo $index; ?>">
+                        <ul class="choice-controllers">
+                            <li><button type="button" class="move">&equiv;</button></li>
+                            <li><button type="button" class="delete">&#10006;</button></li>
+                            <?php do_tp_action("tp_admin_editor_text_choice_buttons", $choice, $index); ?>
+                        </ul>
+                    </div>
+                <?php elseif ($choice->type == 'image'): ?>
                         <div class="choice choice-image">
                             <input type="hidden" name="tp_options[choices][<?php echo $index; ?>][type]" value="image">
                             <label class="horizontal-label votes-label"><?php _e('Votes', TP_TD); ?>:</label>
@@ -39,7 +53,7 @@
                             <input type="text" placeholder="<?php _e('Name', TP_TD); ?>"
                                    name="tp_options[choices][<?php echo $index; ?>][label]"
                                    value="<?php echo esc_attr($choice->label) ?>" class="widefat">
-                            <label class="horizontal-label"><?php _e('Code', TP_TD); ?>:</label>
+                            <label class="horizontal-label"><?php _e('About', TP_TD); ?>:</label>
                             <?php wp_editor($choice->html, "tp-html-tinymce-$index-content", array('textarea_name' => "tp_options[choices][$index][html]", 'textarea_rows' => 2)); ?>
 
                             <?php do_tp_action("tp_admin_editor_image_choice_fields", $choice, $index); ?>
