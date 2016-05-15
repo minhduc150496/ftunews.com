@@ -20,12 +20,12 @@
         endif; ?>
 
         <?php if (!is_poll_started()): ?>
-            <div><?php _e("This poll isn't started yet.", TP_TD); ?></div>
+            <div><?php _e("Cuộc bình chọn chưa bắt đầu.", TP_TD); ?></div>
             <?php $running = false;
         endif; ?>
 
         <?php if (is_poll_finished()): ?>
-            <div><?php _e('This poll has been closed.', TP_TD); ?></div>
+            <div><?php _e('Cuộc bình chọn đã kết thúc.', TP_TD); ?></div>
             <?php $running = false;
         endif; ?>
 
