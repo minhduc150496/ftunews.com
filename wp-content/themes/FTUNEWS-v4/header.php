@@ -24,8 +24,13 @@
     <title><?php wp_title('&laquo;', true, 'right'); ?><?php bloginfo('name'); ?></title>
 
     <meta name="viewport" content="width=device-width">
-
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+    <meta property="og:url"                content="http://ftunews.com/poll/ftucharm-2016/" />
+    <meta property="og:type"               content="article" />
+    <meta property="og:title"              content="FTUCHARM 2016" />
+    <meta property="og:description"        content="Nhằm tìm ra và tôn vinh gương mặt Top 15 nhận được sự quan tâm và yêu thích nhất..." />
+    <meta property="og:image"              content="http://ftunews.com/wp-content/plugins/totalpoll/assets/images/girl.jpg" />
 
     <?php versioned_stylesheet($GLOBALS["TEMPLATE_RELATIVE_URL"] . "html5-boilerplate/css/normalize.css") ?>
     <?php versioned_stylesheet($GLOBALS["TEMPLATE_RELATIVE_URL"] . "html5-boilerplate/css/main.css") ?>
@@ -40,7 +45,7 @@
     <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>"/>
 
     <?php wp_head(); ?>
-
+    <link rel="image_src" href='<?php echo get_template_directory_uri()?>/images/girl.jpg'/>
     <link href="<?php echo get_template_directory_uri() ?>/images/Logo%20ftunews%20tron.png" rel="shortcut icon"
           type="image/x-icon"/>
     <link href="<?php echo get_template_directory_uri() ?>/html5-boilerplate/css/bootstrap.min.css" rel="stylesheet">

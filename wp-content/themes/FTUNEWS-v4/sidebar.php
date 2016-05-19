@@ -102,6 +102,14 @@
     </nav>
 
 
+    <!-- banner Loreal -->
+    <div class="section row">
+        <div class="col-md-12 banner-fk">
+            <a href="http://tiki.vn/kem-duong-trang-sang-l-oreal-white-perfect-p102234.html"><img
+                    src="<?php echo get_template_directory_uri() ?>/images/Banner-350x340.png" alt=""></a>
+        </div>
+    </div>
+
     <!-- banner FK -->
     <div class="section row">
         <div class="col-md-12 banner-fk">
@@ -109,17 +117,6 @@
                     src="<?php echo get_template_directory_uri() ?>/images/FK%20banner%20FTU2.jpg" alt=""></a>
         </div>
     </div>
-    <!-- /banner FK -->
-
-    <!-- banner Dr Thanh -->
-    <div class="section row">
-        <div class="col-md-12">
-            <div class="banner-drthanh" onmouseup="document.location='http://tradrthanh.com/pho-hang-nong/'">
-                <embed src="<?php echo get_template_directory_uri() ?>/flash/PHN_350x340.swf">
-            </div>
-        </div>
-    </div>
-    <!-- /banner Dr Thanh -->
 
 
 </aside>

@@ -7,7 +7,7 @@
                     <div class="choice-content row">
                         <div class="col-md-8">
                             <img width="100%" class="active"
-                                 src="<?php echo $choice->full ?>">
+                                 src="<?php echo $choice->image ?>">
                         </div>
                         <div class="col-md-4">
                             <div class="choice-info">
