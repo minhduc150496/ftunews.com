@@ -26,11 +26,6 @@
     <meta name="viewport" content="width=device-width">
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
-    <meta property="og:url"                content="http://ftunews.com/poll/ftucharm-2016/" />
-    <meta property="og:type"               content="article" />
-    <meta property="og:title"              content="FTUCHARM 2016" />
-    <meta property="og:description"        content="Nhằm tìm ra và tôn vinh gương mặt Top 15 nhận được sự quan tâm và yêu thích nhất..." />
-    <meta property="og:image"              content="http://ftunews.com/wp-content/plugins/totalpoll/assets/images/girl.jpg" />
 
     <?php versioned_stylesheet($GLOBALS["TEMPLATE_RELATIVE_URL"] . "html5-boilerplate/css/normalize.css") ?>
     <?php versioned_stylesheet($GLOBALS["TEMPLATE_RELATIVE_URL"] . "html5-boilerplate/css/main.css") ?>

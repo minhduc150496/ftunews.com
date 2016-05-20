@@ -108,8 +108,11 @@ add_action( 'init', 'register_my_menu' );
 function get_last_category($ID)
 {
     $cats = get_the_category($ID);
-    if (!empty($cats)) return $cats[count($cats) - 1];
-    return null;
+    $n = count($cats);
+    if ($n==0) return null;
+    $cat = $cats[$n - 1];
+    if ($n>1 && $cat->cat_name=='Uncategorized') $cat = $cats[$n - 2];
+    return $cat;
 }
 
 /**
