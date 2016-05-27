@@ -104,6 +104,18 @@ function is_poll_quota_exceeded()
 }
 
 /**
+ * Check remaining time (secs) to end.
+ * Author: Bach Minh Duc
+ * @return int
+ */
+function get_remaining_time_to_end() {
+    global $poll;
+    $end_time = $poll->limitations->date->end_timestamp - 7*60*60 - 20*60 +  17*60*60;
+    $result = $end_time - time();
+    return $result;
+}
+
+/**
  * Check poll end date.
  * modified: time: 7.00 -> 17.00
  * 
@@ -114,12 +126,11 @@ function is_poll_quota_exceeded()
  */
 function is_poll_finished()
 {
-    $delta_hour = 10;
     global $poll;
     return isset($poll->limitations->revote->date) &&
 	    isset($poll->limitations->date->end_timestamp) &&
 	    !empty($poll->limitations->date->end_timestamp) &&
-	    time() > $poll->limitations->date->end_timestamp + $delta_hour*60*60;
+	    get_remaining_time_to_end() <= 0; // depend on time of ftunews.com server
 }
 
 /**
@@ -133,13 +144,12 @@ function is_poll_finished()
  */
 function is_poll_started()
 {
-    $delta_hour = 14;
     global $poll;
     return !isset($poll->limitations->revote->date) ||
 	    empty($poll->limitations->date->start_timestamp) ||
 	    ( isset($poll->limitations->date->start_timestamp) &&
 	    !empty($poll->limitations->date->start_timestamp) &&
-	    time() > $poll->limitations->date->start_timestamp + $delta_hour*60*60);
+	    time() > $poll->limitations->date->start_timestamp - 7*60*60 - 20*60 +  21*60*60);
 }
 
 /**

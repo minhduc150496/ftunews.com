@@ -8,6 +8,11 @@
     background: #111111;
 }
 
+.text-red {
+    color: red;
+    font-weight: bold;
+    font-size: 16px;
+}
 .poll-header {
     background: white;
 }

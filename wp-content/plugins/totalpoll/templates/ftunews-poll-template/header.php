@@ -14,24 +14,8 @@
         </div>
     </div>
     <div class="rule">
-        <?php $running = true;?>
-        <?php if (is_poll_quota_exceeded()): ?>
-            <div><?php _e('Closed due to the exceeded votes quota', TP_TD); ?></div>
-        <?php $running = false;
-        endif; ?>
 
-        <?php if (!is_poll_started()): ?>
-            <div><?php _e("Cuộc bình chọn chưa bắt đầu.", TP_TD); ?></div>
-            <?php $running = false;
-        endif; ?>
 
-        <?php if (is_poll_finished()): ?>
-            <div><?php _e('Cuộc bình chọn đã kết thúc.', TP_TD); ?></div>
-            <?php $running = false;
-        endif; ?>
-
-        <?php
-        if ($running):?>
         <h2>BÌNH CHỌN HOA KHÔI ĐƯỢC YÊU THÍCH NHẤT FTUCHARM 2016</h2>
         <div style='text-align: justify;'>
             <p>Nhằm tìm ra và tôn vinh gương mặt Top 15 nhận được sự quan tâm và yêu thích nhất,
@@ -45,8 +29,24 @@
             <p>Kết quả bình chọn sẽ được công bố vào đêm Chung kết FTUCharm 2016,
                 diễn ra tại Hội trường A5 Đại học Bách Khoa TP.HCM ngày 28/5/2016.</p>
             <p><b>Lưu ý:</b> Khi có bất cứ thắc mắc, khiếu nại nào xảy ra, BTC sẽ là người đưa ra quyết định cuối cùng.</p>
+            <p class="text-red">Ban tổ chức đã tiến hành kiểm tra và loại các bình chọn gian lận.</p>
+            <?php if (!is_poll_finished()):?>
+                <p class="text-red" id="remaining-time-box">Còn <span id="remaining-time"></span> nữa.</p>
+            <?php endif ?>
         </div>
-        <?php endif;?>
+
+        <?php if (is_poll_quota_exceeded()): ?>
+            <p class="text-red"><?php _e('Closed due to the exceeded votes quota', TP_TD); ?></p>
+        <?php endif; ?>
+
+        <?php if (!is_poll_started()): ?>
+            <p class="text-red"><?php _e("Cuộc bình chọn chưa bắt đầu.", TP_TD); ?></p>
+        <?php endif; ?>
+
+        <?php if (is_poll_finished()): ?>
+            <p class="text-red"><?php _e('Cuộc bình chọn đã kết thúc!', TP_TD); ?></p>
+        <?php endif; ?>
+
     </div>
     <div style="width: 100%; overflow: hidden">
         <div style="margin: -5px;">
