@@ -1,4 +1,6 @@
 <?php if (!defined('ABSPATH')) exit; // Shhh     ?>
+
+<?php if (!is_poll_finished()): ?>
 <div class="poll-body poll-result">
     <div class="container">
         <ul class="row tp-choices">
@@ -49,5 +51,8 @@
                 -->
                 </li>
             <?php endforeach; ?>
-        </ul>    </div>
+        </ul>
+    </div>
 </div>
+
+<?php endif ?>

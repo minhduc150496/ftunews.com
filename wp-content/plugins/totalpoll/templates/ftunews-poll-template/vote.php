@@ -1,5 +1,5 @@
 <?php if (!defined('ABSPATH')) exit; // Shhh      ?>
-
+<?php if (!is_poll_finished()): ?>
 <div class="poll-body">
     <div class="container">
         <form method="post" id="myForm">
@@ -87,3 +87,4 @@
         </form>
     </div>
 </div>
+<?php endif ?>

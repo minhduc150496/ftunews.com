@@ -67,7 +67,7 @@
     <nav role="navigation">
         <?php wp_list_pages('title_li=<h2>Pages</h2>'); ?>
 
-        <h2>Archives</h2>
+        <h2>Archives</h2>ưw
         <ul>
             <?php wp_get_archives('type=monthly'); ?>
         </ul>
@@ -100,23 +100,6 @@
             <?php endif; ?>
         </ul>
     </nav>
-
-
-    <!-- banner Loreal -->
-    <div class="section row">
-        <div class="col-md-12 banner-fk">
-            <a href="http://tiki.vn/kem-duong-trang-sang-l-oreal-white-perfect-p102234.html"><img
-                    src="<?php echo get_template_directory_uri() ?>/images/Banner-350x340.png" alt=""></a>
-        </div>
-    </div>
-
-    <!-- banner FK -->
-    <div class="section row">
-        <div class="col-md-12 banner-fk">
-            <a href="http://freshkon.com/"><img
-                    src="<?php echo get_template_directory_uri() ?>/images/FK%20banner%20FTU2.jpg" alt=""></a>
-        </div>
-    </div>
 
 
 </aside>
