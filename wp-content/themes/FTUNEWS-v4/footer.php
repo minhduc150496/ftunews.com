@@ -13,18 +13,15 @@
             <img class="logo" width="30" height="30" src="<?php echo get_template_directory_uri()?>/images/Logo%20ftunews%20tron.png" alt="">
             <a class="title" href="<?php echo get_site_url()?>">FTUNEWS</a>
         </li>
-        <li>
-            <a href="#">contact us</a>
-        </li>
-        <li>
-            <a href="#">advertise</a>
-        </li>
-        <li>
-            <a href="#">privacy</a>
-        </li>
-        <li>
-            <a href="#">privacy</a>
-        </li>
+        <?php foreach (get_pages() as $page) {
+            ?>
+            <li>
+                <a href="<?php echo get_page_link($page->ID) ?>">
+                    <?php echo $page->post_title ?>
+                </a>
+            </li>
+            <?php
+        } ?>
         <li>
             &copy; FTUNEWS 2016
         </li>
