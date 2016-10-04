@@ -46,6 +46,7 @@
     <link href="<?php echo get_template_directory_uri() ?>/html5-boilerplate/css/bootstrap.min.css" rel="stylesheet">
     <link href="<?php echo get_template_directory_uri() ?>/html5-boilerplate/css/font-awesome.min.css" rel="stylesheet">
 
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i&subset=vietnamese" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Roboto&subset=latin,vietnamese' rel='stylesheet'
           type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Noto+Serif&subset=latin,vietnamese' rel='stylesheet'
