@@ -61,8 +61,8 @@
 
 <?php wp_footer(); ?>
 
-<script src="<?php echo get_template_directory_uri(); ?>/html5-boilerplate/slick/slick.min.js"></script>
-<script src="<?php echo get_template_directory_uri(); ?>/ftunews.js"></script>
+<!-- <script src="<?php echo get_template_directory_uri(); ?>/html5-boilerplate/slick/slick.min.js"></script> -->
+<!-- <script src="<?php echo get_template_directory_uri(); ?>/ftunews.js"></script> -->
 
 </body>
 </html>
